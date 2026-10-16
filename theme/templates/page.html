@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block main %}
+<article class="wrap page">
+  <header class="page__head">
+    <h1 class="post__title">{{ page.title }}</h1>
+    {% if page.dek %}<p class="post__dek">{{ page.dek }}</p>{% endif %}
+  </header>
+  <div class="prose">
+{{ body }}
+    {% if page.slug == 'about' and site.contact_email %}
+    <p>Questions, tips or corrections: <span class="email">{{ site.contact_email }}</span></p>
+    {% endif %}
+  </div>
+</article>
+{% endblock %}

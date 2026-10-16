@@ -1,0 +1,76 @@
+{% if not bare %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1{% if preview %}, viewport-fit=cover{% endif %}">
+{% endif %}
+<title>{{ meta.title_tag }}</title>
+{% if preview %}
+<meta name="claude:viewport-fit-sides" content="cover">
+{% endif %}
+<meta name="description" content="{{ meta.description }}">
+<link rel="canonical" href="{{ meta.canonical }}">
+<meta name="robots" content="{{ meta.robots }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:type" content="{{ meta.og_type }}">
+<meta property="og:title" content="{{ og_title or meta.title_tag }}">
+<meta property="og:description" content="{{ meta.description }}">
+<meta property="og:url" content="{{ meta.canonical }}">
+<meta property="og:image" content="{{ meta.og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ meta.og_image_alt }}">
+{% if meta.article %}
+<meta property="article:published_time" content="{{ meta.article.published }}">
+<meta property="article:modified_time" content="{{ meta.article.modified }}">
+<meta property="article:section" content="{{ meta.article.section }}">
+{% for t in meta.article.tags %}
+<meta property="article:tag" content="{{ t }}">
+{% endfor %}
+{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+{% if site.twitter %}
+<meta name="twitter:site" content="{{ site.twitter }}">
+{% endif %}
+<meta name="twitter:title" content="{{ og_title or meta.title_tag }}">
+<meta name="twitter:description" content="{{ meta.description }}">
+<meta name="twitter:image" content="{{ meta.og_image }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ u('feed.xml') }}">
+<link rel="icon" href="{{ u('assets/img/favicon.svg') }}" type="image/svg+xml">
+<link rel="icon" href="{{ u('assets/img/favicon-32.png') }}" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{ u('assets/img/apple-touch-icon.png') }}">
+<meta name="theme-color" content="#F3F5F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1019" media="(prefers-color-scheme: dark)">
+{% if site.google_site_verification and not preview %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{{ fonts_href }}">
+<link rel="stylesheet" href="{{ u('assets/css/site.css') }}{% if not preview %}?v={{ css_v }}{% endif %}">
+{% if meta.jsonld %}
+<script type="application/ld+json">{{ meta.jsonld }}</script>
+{% endif %}
+{% if site.ga4_id and not preview %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga4_id }}');</script>
+{% endif %}
+{% if site.adsense_client and not preview %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_client }}" crossorigin="anonymous"></script>
+{% endif %}
+{% if not bare %}
+</head>
+<body>
+{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+{% include "_header.html" %}
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+{% include "_footer.html" %}
+<script src="{{ u('assets/js/site.js') }}{% if not preview %}?v={{ js_v }}{% endif %}" defer></script>
+{% if not bare %}
+</body>
+</html>
+{% endif %}

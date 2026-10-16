@@ -1,0 +1,64 @@
+# Uptick site settings. Edit these, then run: python3 tools/build.py
+
+name: Uptick
+tagline: Why the world is talking about it
+description: >-
+  Uptick explains the stories everyone is searching for, from breaking news and sports
+  to tech, health and culture, in clear, sourced explainers updated as they change.
+
+# The live address of the site, with no trailing slash. Canonical links, the sitemap,
+# share cards and the RSS feed all use it.
+#   GitHub Pages user site:   https://YOUR-USERNAME.github.io
+#   GitHub Pages project:     https://YOUR-USERNAME.github.io/REPO-NAME
+#   Your own domain:          https://www.example.com
+base_url: https://example.github.io
+
+# Set this only when the site runs on your own domain (writes the CNAME file GitHub Pages needs).
+custom_domain: ""
+
+language: en
+locale: en_US
+author_name: Uptick Desk
+
+# Optional. Leave blank to switch off.
+contact_email: ""            # shown on the About page
+twitter: ""                  # e.g. @uptick, for share cards
+google_site_verification: "" # the content="..." code from Google Search Console's HTML tag method
+ga4_id: ""                   # Google Analytics 4 measurement ID, e.g. G-XXXXXXX
+adsense_client: ""           # e.g. ca-pub-1234567890123456 (also writes ads.txt)
+
+posts_per_page: 12
+
+# Topics. Posts must use one of these names in their `category:` field.
+# `color` tints each post's artwork and topic marker.
+categories:
+  - name: World
+    color: "#0F6E78"
+    blurb: Wars, diplomacy, disasters and the global stories everyone is searching for, explained with context and sources.
+  - name: US
+    color: "#2747C9"
+    blurb: The American stories trending right now, from court rulings to policy changes, and what they mean for you.
+  - name: Politics
+    color: "#55607A"
+    blurb: Campaigns, elections and government, covered with the facts and the competing arguments laid out fairly.
+  - name: Business
+    color: "#B4650A"
+    blurb: Prices, markets, jobs and the economy. What the numbers say and why they're moving.
+  - name: Tech
+    color: "#6A40D4"
+    blurb: Chips, AI, gadgets and the companies behind them, explained without the jargon.
+  - name: Sports
+    color: "#13845B"
+    blurb: The games, trades and moments fans are talking about, with the context behind the scores.
+  - name: Health
+    color: "#C23A4E"
+    blurb: Outbreaks, medical news and public-health updates, explained clearly and backed by official sources.
+  - name: Entertainment
+    color: "#B52A7E"
+    blurb: Movies, TV, music and celebrity news that has everyone searching, without the rumor mill.
+  - name: Science
+    color: "#0C7DB2"
+    blurb: Discoveries, space and climate news, explained for curious people.
+  - name: Culture
+    color: "#C9551F"
+    blurb: Viral moments, internet trends and the cultural conversations of the day.

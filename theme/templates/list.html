@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "_macros.html" import card, pager with context %}
+{% block main %}
+<div class="wrap listing">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="{{ u('') }}">Home</a></li>
+    </ol>
+  </nav>
+  <header class="listing__head">
+    <p class="kicker"><span class="cat cat--plain"{% if color %} style="--c: {{ color }}"{% endif %}>{{ kind }}</span></p>
+    <h1 class="listing__title">{{ heading }}</h1>
+    {% if blurb %}<p class="listing__blurb">{{ blurb }}</p>{% endif %}
+  </header>
+  <div class="grid">
+    {% for p in items %}
+    {{ card(p) }}
+    {% endfor %}
+  </div>
+  {{ pager(page_num, total_pages, base_path) }}
+</div>
+{% endblock %}

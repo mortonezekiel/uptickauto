@@ -1,0 +1,17 @@
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <p class="footer__name">{{ site.name }}</p>
+      <p class="footer__tag">{{ site.tagline }}.</p>
+    </div>
+    <nav class="footer__nav" aria-label="About {{ site.name }}">
+      <ul>
+        {% for pg in nav_pages %}
+        <li><a href="{{ u(pg.path) }}">{{ pg.nav_label }}</a></li>
+        {% endfor %}
+        <li><a href="{{ u('feed.xml') }}">RSS feed</a></li>
+      </ul>
+    </nav>
+    <p class="footer__small">Explainers are researched across multiple sources and written with AI assistance. &copy; {{ year }} {{ site.name }}.</p>
+  </div>
+</footer>

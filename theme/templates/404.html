@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% from "_macros.html" import card with context %}
+{% block main %}
+<div class="wrap listing">
+  <header class="listing__head">
+    <p class="kicker"><span class="cat cat--plain">404</span></p>
+    <h1 class="listing__title">This page isn't here.</h1>
+    <p class="listing__blurb">The link may be old, or the story may have moved. Here's what's trending instead.</p>
+  </header>
+  <div class="grid">
+    {% for p in latest %}
+    {{ card(p) }}
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
