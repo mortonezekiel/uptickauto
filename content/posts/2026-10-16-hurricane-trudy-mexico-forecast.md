@@ -1,108 +1,104 @@
 ---
-title: "Hurricane Trudy: Major Storm Heads for Mexico's Pacific Coast"
+title: "Hurricane Trudy Skirts Mexico's Coast, Expected to Weaken Fast"
 slug: hurricane-trudy-mexico-forecast
-description: "Hurricane Trudy is a Category 3 storm aiming at Mexico's Pacific coast. The forecast track, which areas are under watches and how much rain to expect."
-dek: "Trudy went from a tropical storm to a major hurricane in about a day, and it's headed for a stretch of coast that storms have already soaked this month."
+description: "Hurricane Trudy stayed offshore as a Category 2 storm, soaking Jalisco and Colima. Where it's headed now, which warnings remain and how much rain is left."
+dek: "Trudy never made landfall, but its rain is falling on ground that earlier storms already saturated. The bigger danger now is flooding, not wind."
 category: World
-tags: [Hurricane Trudy, Mexico, hurricane, Manzanillo, Puerto Vallarta, weather]
+tags: [Hurricane Trudy, Mexico, hurricane, Jalisco, Puerto Vallarta, weather]
 published: 2026-10-16T13:17:00Z
-updated: 2026-10-16T13:17:00Z
-trend_score: 70
-why_trending: "Trudy rapidly strengthened into a major hurricane early Oct. 16, and Mexico issued a hurricane watch for the coast from Michoacán to Jalisco."
+updated: 2026-10-18T22:10:00Z
+trend_score: 62
+why_trending: "Trudy brushed Mexico's Pacific coast on Oct. 18 as a Category 2 hurricane, closing ports and prompting flood and mudslide warnings."
 key_points:
-  - "As of 5 a.m. ET Oct. 16, Trudy was a Category 3 hurricane with 120 mph winds, about 355 miles south-southeast of Manzanillo."
-  - "A hurricane watch covers the coast from north of Punta San Telmo to Cabo Corrientes; a tropical storm warning runs from Manzanillo to Zihuatanejo."
-  - "The National Hurricane Center expects Trudy to peak near 145 mph, Category 4, on Saturday and pass near the coast Saturday night into Sunday."
-  - "Michoacán, Colima and Jalisco could get 4 to 8 inches of rain, with isolated totals near 12 inches."
+  - "At 8 a.m. MST Oct. 18, Trudy was a Category 2 hurricane with 100 mph winds, about 115 miles southwest of Cabo Corrientes."
+  - "The center stayed offshore; Mexico downgraded its hurricane warning and dropped all warnings south of Playa Pérula."
+  - "The National Hurricane Center expects rapid weakening starting Sunday night and says Trudy could become a post-tropical low by Tuesday night."
+  - "Jalisco could see 2 to 6 more inches of rain, with isolated storm totals near 12 inches."
 sources:
-  - title: "Hurricane Trudy Public Advisory Number 12"
-    publisher: National Hurricane Center
-    url: "https://www.nhc.noaa.gov/text/refresh/MIATCPEP1+shtml/160851.shtml"
-    date: 2026-10-16
-  - title: "Hurricane Trudy Intermediate Advisory Number 9A"
-    publisher: National Hurricane Center
-    url: "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP1+html/151739.shtml"
-    date: 2026-10-15
-  - title: "Hurricane Trudy strengthens off Mexico's Pacific coast"
-    publisher: KIRO 7 (AP)
-    url: "https://www.kiro7.com/news/trudy-strengthens/S7MSEKDH2427XKDKBID35Y3D6M/?outputType=amp"
-    date: 2026-10-15
-  - title: "Tropical Storm Simon impacts are lingering; new threat brewing from Trudy in Mexico"
-    publisher: AccuWeather
-    url: "https://www.accuweather.com/en/hurricane/tropical-storm-simon-impacts-are-lingering-new-threat-brewing-from-trudy-in-mexico/1946224"
-    date: 2026-10-16
-  - title: "Hurricane Trudy Reaches Category 3 as Mexico Issues Watch"
-    publisher: The Rio Times
-    url: "https://www.riotimesonline.com/hurricane-trudy-category-3-mexico-2026/"
-    date: 2026-10-16
-  - title: "Monster storms brewing in the Pacific as Champi eyes rare Guam landfall while Trudy targets Mexico"
+  - title: "Hurricane Trudy Threatens Mexico With Deadly Flooding, Mudslides"
+    publisher: Newsweek
+    url: "https://www.newsweek.com/hurricane-trudy-threatens-mexico-with-life-threatening-flooding-mudslides-12585660"
+    date: 2026-10-18
+  - title: "Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight"
+    publisher: Reuters (via AOL)
+    url: "https://www.aol.com/articles/hurricane-trudy-lashes-mexicos-pacific-135358000.html"
+    date: 2026-10-18
+  - title: "Hurricane Trudy brings heavy rain and strong winds to Mexico's Pacific coast"
+    publisher: ABC News (AP)
+    url: "https://abcnews.com/International/wireStory/hurricane-trudy-brings-heavy-rain-strong-winds-mexicos-137357719"
+    date: 2026-10-18
+  - title: "Hurricane Trudy Lashes Mexico's Pacific Coast as Category 2"
+    publisher: HNGN
+    url: "https://www.hngn.com/articles/273542/20261018/hurricane-trudy-lashes-mexicos-pacific-coast-category-2.htm"
+    date: 2026-10-18
+  - title: "Champi slams Guam after rapidly intensifying into violent typhoon, bringing life-threatening conditions"
     publisher: FOX Weather
-    url: "https://www.foxweather.com/weather-news/tropical-storm-trudy-forms-pacific-intesify-monster-hurricane"
-    date: 2026-10-15
+    url: "https://www.foxweather.com/weather-news/typhoon-champi-could-make-rare-landfall-guam-after-rapidly-intensifying-el-nino-enhances-pacific-storms"
+    date: 2026-10-17
 ---
 
 ## What happened
 
-Hurricane Trudy became a major hurricane overnight and is heading toward Mexico's Pacific coast. As of 5 a.m. ET Friday, Oct. 16, it had maximum sustained winds of 120 mph, making it a Category 3 storm, according to the [National Hurricane Center](https://www.nhc.noaa.gov/text/refresh/MIATCPEP1+shtml/160851.shtml). It was about 250 miles southwest of Acapulco and 355 miles south-southeast of the port city of Manzanillo, moving northwest at 6 mph.
+Hurricane Trudy spent Sunday, Oct. 18, running parallel to Mexico's Pacific coast without coming ashore. At 8 a.m. MST (11 a.m. ET), the National Hurricane Center had it as a Category 2 storm with 100 mph sustained winds, centered about 115 miles southwest of Cabo Corrientes in Jalisco and 165 miles west of Manzanillo, [Newsweek reports](https://www.newsweek.com/hurricane-trudy-threatens-mexico-with-life-threatening-flooding-mudslides-12585660). It was drifting northwest at about 8 mph.
 
-Mexico has issued a hurricane watch for the coast from just north of Punta San Telmo in Michoacán to Cabo Corrientes in Jalisco, south of Puerto Vallarta. A tropical storm warning covers the coast from Manzanillo south to Zihuatanejo.
+Even without a landfall, Trudy pushed heavy rain and strong gusts into Jalisco, Colima and Michoacán. The Mexican navy shut the ports of Puerto Vallarta, Manzanillo, Lázaro Cárdenas and Puerto Escondido to all ship traffic and closed several others to small boats.
 
-The storm is expected to near the coast Saturday and pass close to it Saturday night into Sunday, still as a major hurricane.
+As of Sunday morning, neither Trudy nor Typhoon Champi in the western Pacific had been tied to any deaths, according to [HNGN](https://www.hngn.com/articles/273542/20261018/hurricane-trudy-lashes-mexicos-pacific-coast-category-2.htm). No major damage had been reported in the coverage we reviewed.
 
-## How fast Trudy grew
+## Hurricane Trudy's up-and-down week
 
-Trudy's jump in strength is what put it on everyone's radar. At noon Central time Thursday, it had 90 mph winds, per an [earlier NHC advisory](https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP1+html/151739.shtml). Fifteen hours later it was at 120 mph. That's a gain of 30 mph, and a climb from Category 1 to Category 3, in less than a day.
+When we first wrote about Trudy on Friday, forecasters thought it could grow into a Category 4. It didn't. Here's how the storm actually behaved, based on reporting from HNGN, [FOX Weather](https://www.foxweather.com/weather-news/typhoon-champi-could-make-rare-landfall-guam-after-rapidly-intensifying-el-nino-enhances-pacific-storms), Reuters and Newsweek:
 
-Forecasters expect more. The NHC calls for a peak of about 145 mph on Saturday, which would make it a Category 4, [The Rio Times reports](https://www.riotimesonline.com/hurricane-trudy-category-3-mexico-2026/). Alex DaSilva, AccuWeather's lead hurricane expert, said Trudy could even reach Category 4 or 5.
+| When | What Trudy did |
+|---|---|
+| Thursday, Oct. 15 | Formed south of the coast and became a hurricane the same day |
+| Early Friday, Oct. 16 | Peaked as a Category 3 with 120 mph winds |
+| Later Friday | Dropped to Category 1, reportedly after crossing water cooled by earlier storms |
+| Saturday afternoon | Strengthened again to Category 2 |
+| Sunday, Oct. 18 | Category 2, 100 to 105 mph, passing just offshore |
+| Sunday night (forecast) | Rapid weakening begins |
+| Tuesday night (forecast) | Could become a post-tropical low |
 
-| Time | Max winds | Category |
-|---|---|---|
-| Thursday noon CT | 90 mph | 1 |
-| Friday 3 a.m. CT | 120 mph | 3 |
-| Saturday (forecast peak) | about 145 mph | 4 |
-| Saturday evening (forecast) | about 130 mph | 4 |
-| Sunday evening (forecast) | about 100 mph | 2 |
+FOX Weather noted that satellite data later showed the Friday peak was weaker than first estimated.
 
-Sources: National Hurricane Center advisories and forecast figures reported by The Rio Times.
+## Why rain is the main threat now
 
-## Will it make landfall?
+Trudy's strongest winds are packed close to its center. Hurricane-force winds reach out only about 30 miles, while tropical-storm-force winds stretch up to 105 miles, according to Newsweek's summary of the hurricane center's advisory. With the eye staying offshore, most of the coast felt the weaker outer winds.
 
-That's the big unknown. Most forecast models keep Trudy's center just offshore, though the U.S. GFS model brings it inland, according to The Rio Times. Mexico's National Meteorological Service (SMN) does not expect a landfall and says the storm should be closest to land Sunday near Playa Pérula, in Jalisco.
+Rain is a different story. The hurricane center expects 2 to 6 more inches in Jalisco, with isolated storm totals around 12 inches, and warns of possible life-threatening flooding and mudslides on steep slopes. Outer rain bands could drop 1 to 2 inches on northern Colima and southern Nayarit.
 
-Small shifts matter a lot. [AccuWeather notes](https://www.accuweather.com/en/hurricane/tropical-storm-simon-impacts-are-lingering-new-threat-brewing-from-trudy-in-mexico/1946224) that a track change of 50 to 100 miles could be the difference between hurricane conditions and an eye passing far enough out that the coast gets only tropical storm conditions. A path over land would weaken Trudy quickly, while a path farther out to sea would let it stay stronger.
+The ground was already soaked. Colima officials said the wind risk was low but that rain alone could cause damage because successive Pacific storms have saturated the soil, the [Associated Press reported](https://abcnews.com/International/wireStory/hurricane-trudy-brings-heavy-rain-strong-winds-mexicos-137357719). HNGN lists Hurricane Simon among the earlier storms that drenched the region.
 
-Even if the center stays offshore, the storm is wide. Tropical-storm-force winds reach up to 140 miles from its center.
+Along the shore, the hurricane center warned of storm surge and damaging waves wherever winds blow onshore, plus dangerous surf and rip currents.
 
-## What the coast can expect
+## Which warnings are still up
 
-- **Rain:** 4 to 8 inches in Michoacán, Colima and Jalisco, with isolated spots near 12 inches. The NHC warns of life-threatening flooding and mudslides. Guerrero could get 2 to 4 inches.
-- **Wind:** Tropical storm conditions in the warning area by late Friday night or early Saturday. Hurricane conditions are possible in the watch area by late Saturday.
-- **Ocean:** Large swells are spreading up the coast, bringing life-threatening surf and rip currents. Storm surge and destructive waves are possible where winds blow onshore.
+Mexico scaled back its alerts as Trudy pulled away. The stretch from Playa Pérula to Cabo Corrientes was downgraded from a hurricane warning, and the coast south of Playa Pérula is no longer under any alert, according to Newsweek. A tropical storm warning remains from Playa Pérula north to San Blas, which includes the Puerto Vallarta area, and for the Islas Marías.
 
-AccuWeather singles out Manzanillo as the place likely to see the heaviest rain, strongest winds and greatest flood risk.
+## What happens next
 
-## Why the rain is a special worry
+The hurricane center expects Trudy's center to move away from mainland Mexico, turn west-northwest Sunday night and pass south of Baja California Sur on Monday and Tuesday, Oct. 19 and 20. "Rapid weakening is forecast to begin by tonight," the center said Sunday, [per Reuters](https://www.aol.com/articles/hurricane-trudy-lashes-mexicos-pacific-135358000.html).
 
-The coast between Acapulco and Puerto Vallarta has already been drenched this season, most recently by Tropical Storm Simon earlier this week, according to AccuWeather. Saturated ground can't absorb much more water, so mudslides and flash floods become more likely, especially on steep terrain.
+Things to watch:
 
-It has been an unusually busy year in the eastern Pacific. [FOX Weather reports](https://www.foxweather.com/weather-news/tropical-storm-trudy-forms-pacific-intesify-monster-hurricane) the 2026 season has passed 2018 as the most energetic on record by one common measure of storm activity, which it attributes partly to a strong El Niño.
+- **Flooding and mudslides** in Jalisco and Colima as the last rain bands move through.
+- **Port reopenings** in Puerto Vallarta and Manzanillo once the navy lifts its closures.
+- **A new system:** The hurricane center gives a low expected to form well off southern Mexico an 80% chance of becoming a tropical depression within seven days, possibly around midweek.
 
-## What to watch
+This has been an extraordinarily active eastern Pacific season. FOX Weather reports it has passed 2018 as the most energetic on record, at more than 319 units of accumulated cyclone energy, a measure that adds up storms' strength and duration. The Atlantic is the opposite: Isaias is the lone hurricane among nine named storms so far, and its energy total is 83% below normal, Newsweek reports.
 
-- **More warnings:** The NHC has said Mexico will likely need to expand watches and warnings as Trudy gets closer.
-- **Saturday's peak:** Whether Trudy reaches Category 4 or 5 and how close the eyewall gets to shore.
-- **Travelers:** Anyone on the coast from Zihuatanejo up to Puerto Vallarta should plan for rough seas and possible flight or road delays this weekend. Check with your airline and hotel, listen to Mexico's civil protection officials, and keep out of the ocean while rip current alerts are up.
+Across the Pacific, Guam just had a close call of its own. Read [our explainer on Super Typhoon Champi](/typhoon-champi-guam/).
 
 ## Quick answers
 
-### What's the difference between a hurricane watch and a warning?
+### Did Hurricane Trudy make landfall in Mexico?
 
-A watch means hurricane conditions are possible in the area, usually issued about 48 hours ahead. A warning means they are expected, usually about 36 hours ahead.
+No. Through Sunday, Oct. 18, Trudy's center stayed offshore while tracking parallel to the coast of Colima and Jalisco. It is forecast to move out to sea and pass south of Baja California Sur.
 
-### Will Hurricane Trudy hit Puerto Vallarta?
+### Is Puerto Vallarta safe from Hurricane Trudy?
 
-The current forecast keeps the center near or just off the coast, with the closest pass Saturday night into Sunday. Puerto Vallarta sits just north of the hurricane watch area, so heavy rain and rough surf are possible even without a direct hit.
+The area remains under a tropical storm warning, and the port was closed to ship traffic Sunday. Heavy rain and rough surf are the main risks; follow local civil protection guidance and stay out of the ocean.
 
-### What makes a hurricane "major"?
+### Will Trudy hit Cabo San Lucas or Baja California?
 
-A major hurricane is Category 3 or higher on the Saffir-Simpson scale, meaning sustained winds of at least 111 mph.
+The forecast takes Trudy south of Baja California Sur on Monday and Tuesday while it weakens quickly. It could become a post-tropical low by Tuesday night.
