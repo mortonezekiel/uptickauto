@@ -40,7 +40,8 @@ except Exception:  # pragma: no cover
     LOCAL_TZ = dt.timezone(dt.timedelta(hours=-4), "ET")
 
 UTC = dt.timezone.utc
-RESERVED = {"assets", "media", "category", "tag", "page", "about", "editorial-standards", "privacy", "404", "feed.xml"}
+RESERVED = {"assets", "media", "category", "tag", "page", "about", "editorial-standards", "privacy", "contact", "terms",
+            "search", "404", "feed.xml"}
 FONTS_HREF = ("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500"
               "&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600"
               "&family=Schibsted+Grotesk:wght@500..900&display=swap")
@@ -495,6 +496,12 @@ def build(out: Path, mode: str, now: dt.datetime, include_future: bool = False):
         render("page.html", f"{pg['path']}index.html", {
             "meta": meta(f"{pg['title']} | {cfg['name']}", pg["description"] or cfg["description"], pg["path"]),
             "active": "", "page": pg, "body": Markup(rewrite_internal(pg["html"], linker, pg["slug"]))})
+
+    # on-site search (client-side, no third party; kept out of search results and the sitemap)
+    render("search.html", "search/index.html", {
+        "meta": meta(f"Search | {cfg['name']}", f"Search every {cfg['name']} explainer by topic, name or keyword.",
+                     "search/", robots="noindex, follow"),
+        "active": "", "items": posts})
 
     if not preview:
         render("404.html", "404.html", {

@@ -26,6 +26,11 @@ twitter: ""                  # e.g. @uptick, for share cards
 google_site_verification: "" # the content="..." code from Google Search Console's HTML tag method
 ga4_id: ""                   # Google Analytics 4 measurement ID, e.g. G-XXXXXXX
 adsense_client: ""           # e.g. ca-pub-1234567890123456 (also writes ads.txt)
+adsense_slot_article: ""     # optional: ad unit ID for one labeled ad under each explainer. Blank = Auto ads only
+
+# Who runs the site. AdSense and readers expect this to be clear. Shown on the About page.
+publisher_name: ""           # a person or a business name
+publisher_location: ""       # city and country, e.g. "Austin, Texas, USA"
 
 posts_per_page: 12
 

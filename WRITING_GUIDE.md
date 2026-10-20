@@ -93,6 +93,11 @@ sources:
 - **Real people:** no invented quotes, no gossip about private lives, nothing about private individuals.
 - **Never publish:** sexual content, hate or harassment, rumors, betting picks, or instructions that could
   help someone cause harm.
+- **Ad-safe writing (AdSense):** no gore or graphic descriptions of violence, injury or death; no promoting
+  weapons, drugs, tobacco, alcohol sales, gambling or supplements (explaining news about them is fine); no
+  health claims that go against scientific consensus; no claims that undermine elections or deny that a
+  tragedy happened; never mention ads, never ask readers to click, support or visit anything. Full rules are
+  in `ADSENSE_POLICY.md`.
 
 ## Updating instead of duplicating
 

@@ -9,16 +9,24 @@ share image or single <h1>; structured data that isn't valid JSON; an internal
 link or image that points at a missing file; a broken sitemap or feed.
 Warnings: titles or descriptions outside the lengths search results display,
 and duplicate titles or descriptions.
+
+AdSense compliance (see ADSENSE_POLICY.md): with `adsense_client` set in site.yaml,
+missing trust pages, a missing contact address, a github.io address, a missing
+ads.txt, unlabeled ad slots, or click-begging wording are errors. Thin content
+(few posts, few sources, short posts) is always reported as a warning.
 """
 from __future__ import annotations
 
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
+
+import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -86,6 +94,79 @@ def resolve(base_dir: Path, site: Path, href: str):
     return target
 
 
+# ---------------------------------------------------------------- AdSense compliance
+
+REQUIRED_PAGES = ["about", "contact", "privacy", "terms", "editorial-standards"]
+CLICK_BEGGING = [
+    "click our ads", "click the ads", "click on the ads", "click an ad", "click the ad ", "support us by clicking",
+    "visit these links", "visit our sponsors", "click here to help", "help us by clicking",
+]
+MIN_POSTS, MIN_SOURCES, MIN_WORDS = 30, 3, 500
+
+
+def front_matter(path: Path):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        return {}, text
+    _, fm, body = text.split("---", 2)
+    return yaml.safe_load(fm) or {}, body
+
+
+def adsense_checks(site: Path, errors: list, warns: list):
+    cfg = yaml.safe_load((ROOT / "site.yaml").read_text(encoding="utf-8")) or {}
+    ads_on = bool(cfg.get("adsense_client"))
+    report = errors if ads_on else warns
+    prefix = "AdSense" if ads_on else "before applying to AdSense"
+
+    for slug in REQUIRED_PAGES:
+        if not (site / slug / "index.html").exists():
+            report.append(f"{prefix}: required page /{slug}/ is missing")
+    if not str(cfg.get("contact_email") or "").strip():
+        report.append(f"{prefix}: contact_email is empty in site.yaml, so the Contact page has no way to reach you")
+    if not str(cfg.get("publisher_name") or "").strip():
+        warns.append("site.yaml publisher_name is empty; say who runs the site (a person or business name)")
+    host = urlsplit(str(cfg.get("base_url", ""))).netloc
+    if host.endswith("github.io"):
+        report.append(f"{prefix}: base_url is a github.io address; use your own domain (ads.txt must sit at the domain root)")
+    if not str(cfg.get("custom_domain") or "").strip() and not host.endswith("github.io"):
+        warns.append("custom_domain is empty; GitHub Pages needs it to keep a CNAME for your own domain")
+    if ads_on and not (site / "ads.txt").exists():
+        errors.append("AdSense: ads.txt was not written")
+
+    # content depth (advisory, always a warning)
+    posts = sorted((ROOT / "content" / "posts").glob("*.md"))
+    if len(posts) < MIN_POSTS:
+        warns.append(f"only {len(posts)} explainers published; aim for {MIN_POSTS}+ before applying (rule of thumb, not an official number)")
+    for f in posts:
+        meta, body = front_matter(f)
+        words = len(re.findall(r"\b\w+\b", body))
+        if len(meta.get("sources") or []) < MIN_SOURCES:
+            warns.append(f"{f.name}: fewer than {MIN_SOURCES} sources")
+        if words < MIN_WORDS:
+            warns.append(f"{f.name}: only {words} words (aim for {MIN_WORDS}+)")
+
+    # wording that asks people to click ads, in any content file
+    for f in sorted((ROOT / "content").rglob("*.md")):
+        low = f.read_text(encoding="utf-8").lower()
+        for phrase in CLICK_BEGGING:
+            if phrase in low:
+                errors.append(f"{f.relative_to(ROOT).as_posix()}: wording that urges ad clicks ('{phrase.strip()}') breaks AdSense policy")
+
+    # every ad unit must be labeled and sit inside an .adslot block
+    for f in sorted(site.rglob("*.html")):
+        html = f.read_text(encoding="utf-8")
+        units = len(re.findall(r"<ins[^>]*adsbygoogle", html))
+        if not units:
+            continue
+        rel = f.relative_to(site).as_posix()
+        slots = re.findall(r'<aside class="adslot"[^>]*>(.*?)</aside>', html, flags=re.S)
+        labeled = [x for x in slots if 'class="adslot__label">Advertisement<' in x and "adsbygoogle" in x]
+        if len(labeled) != units:
+            errors.append(f"{rel}: {units} ad unit(s) but {len(labeled)} labeled 'Advertisement' slot(s)")
+        if rel.startswith(("search/", "category/", "tag/", "page/")) or rel in ("index.html", "404.html"):
+            errors.append(f"{rel}: ads on a listing, search or error page break the 'no ads without publisher content' rule")
+
+
 def main():
     site = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / "docs"
     errors, warns = [], []
@@ -147,6 +228,7 @@ def main():
             errors.append(f"{name} is not valid XML ({e})")
     if not (site / "robots.txt").exists():
         errors.append("robots.txt is missing")
+    adsense_checks(site, errors, warns)
     for w in warns:
         print(f"warning: {w}")
     for e in errors:

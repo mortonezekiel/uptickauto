@@ -1,7 +1,8 @@
 # Uptick autopilot runbook
 
 This file is what each scheduled run follows. The scheduled task attaches this repository,
-clones it, and then works through every step below. Read `WRITING_GUIDE.md` before writing.
+clones it, and then works through every step below. Read `WRITING_GUIDE.md` and `ADSENSE_POLICY.md`
+before writing. The site is working toward Google AdSense approval, so every post must stay inside those policies.
 
 **The goal of every run:** publish a small number of genuinely useful explainers about what the
 world is searching for right now. Quality beats volume. Publishing nothing is better than
@@ -41,6 +42,7 @@ Skip a topic when:
 - only one outlet is reporting it, or it's a rumor;
 - it's a breaking tragedy less than about 6 hours old with conflicting reports;
 - it's about a private individual, or gossip, or explicit, or a betting tip;
+- it would need graphic detail, speculation about causes, or naming minors or private people to explain;
 - it's too local or too small to matter to a wide audience.
 
 Pick the **top 2** (a maximum of 3 if several are huge). Spread categories: usually no more than one post
@@ -74,7 +76,10 @@ run's limit.
    If it fails, rewrite the flagged passages in your own words and run it again.
 2. Fact check: reread each post against your notes. Every number, date, name and claim must match a source.
 3. Build: `python3 tools/build.py` (fix anything it reports as an error; read the warnings).
-4. Site check: `python3 tools/check_site.py` must report 0 errors.
+4. Site check: `python3 tools/check_site.py` must report 0 errors. Read every warning; a new warning about
+   sources, word count or wording caused by your post means fix the post.
+5. AdSense gate: walk through section 7 of `ADSENSE_POLICY.md` for each new or edited post. If any item
+   fails and can't be fixed in this run, don't publish that post.
 
 ## 8. Publish
 
@@ -90,7 +95,9 @@ Never force-push.
 ## 9. Report
 
 Finish with a short summary for the owner: the titles you published or updated with their live links,
-and the strongest topics you skipped and why. If you published nothing, say why.
+and the strongest topics you skipped and why. If you published nothing, say why. Mention any
+`check_site.py` warning that still stands, and if the site is still short of 30 explainers, say how many
+remain before the AdSense application.
 
 ---
 

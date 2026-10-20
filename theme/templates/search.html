@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="wrap listing">
+  <header class="listing__head">
+    <p class="kicker"><span class="cat cat--plain">Search</span></p>
+    <h1 class="listing__title">Find an explainer</h1>
+    <p class="listing__blurb">Search every {{ site.name }} explainer by name, topic or keyword.</p>
+  </header>
+  <form class="searchbox" role="search" action="{{ u('search/') }}" method="get" onsubmit="return false">
+    <label for="q">Search explainers</label>
+    <input id="q" name="q" type="search" autocomplete="off" placeholder="Try a name, a place or a topic">
+    <p class="searchstatus" id="searchstatus" role="status" aria-live="polite"></p>
+  </form>
+  <ul class="results" id="results"></ul>
+  <noscript><p class="listing__blurb">Search needs JavaScript. You can browse by <a href="{{ u('') }}">topic from the home page</a> instead.</p></noscript>
+</div>
+<script type="application/json" id="search-data">[{% for p in items %}{"t":{{ p.title|tojson }},"d":{{ p.description|tojson }},"u":{{ u(p.path)|tojson }},"c":{{ p.category.name|tojson }},"g":{{ p.tags|tojson }},"p":{{ ap_date(p.published)|tojson }}}{% if not loop.last %},{% endif %}{% endfor %}]</script>
+{% endblock %}

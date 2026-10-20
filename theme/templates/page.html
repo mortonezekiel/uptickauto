@@ -7,8 +7,15 @@
   </header>
   <div class="prose">
 {{ body }}
-    {% if page.slug == 'about' and site.contact_email %}
-    <p>Questions, tips or corrections: <span class="email">{{ site.contact_email }}</span></p>
+    {% if page.slug == 'about' and site.publisher_name %}
+    <p><strong>Published by</strong> {{ site.publisher_name }}{% if site.publisher_location %}, {{ site.publisher_location }}{% endif %}.</p>
+    {% endif %}
+    {% if page.slug in ('about', 'contact') %}
+    {% if site.contact_email %}
+    <p>{% if page.slug == 'about' %}Questions, tips or corrections:{% else %}Email:{% endif %} <a class="email" href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+    {% elif page.slug == 'contact' %}
+    <p>Our contact address will be listed here shortly.</p>
+    {% endif %}
     {% endif %}
   </div>
 </article>

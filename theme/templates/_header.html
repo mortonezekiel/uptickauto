@@ -4,7 +4,10 @@
       <svg class="brand__mark" viewBox="0 0 32 32" width="34" height="34" aria-hidden="true" focusable="false"><rect class="brand__badge" width="32" height="32" rx="8"/><path class="brand__tick" d="M7 21.5 12.5 16l4 3.5 8-9.5" fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><circle class="brand__dot" cx="24.5" cy="10" r="2.6"/></svg>
       <span class="brand__name">{{ site.name }}</span>
     </a>
-    <p class="masthead__date"><time datetime="{{ iso(updated_at) }}">{{ masthead_date }}</time></p>
+    <div class="masthead__side">
+      <a class="searchlink" href="{{ u('search/') }}"{% if active == 'search' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>Search</span></a>
+      <p class="masthead__date"><time datetime="{{ iso(updated_at) }}">{{ masthead_date }}</time></p>
+    </div>
   </div>
   <nav class="topics" aria-label="Topics">
     <div class="wrap">

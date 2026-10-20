@@ -339,3 +339,32 @@ a.cat:hover { text-decoration: underline; text-underline-offset: 3px; }
   .lead__media img, .card__media img { transition: transform 0.5s ease; }
   .lead__media:hover img, .card__media:hover img { transform: scale(1.02); }
 }
+
+/* ---------- search link + search page */
+.masthead__side { display: flex; align-items: center; gap: 18px; }
+.searchlink {
+  display: inline-flex; align-items: center; gap: 7px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px;
+  font: 600 0.88rem/1 var(--font-display); color: var(--ink-soft); text-decoration: none;
+}
+.searchlink:hover, .searchlink[aria-current="page"] { color: var(--ink); border-color: var(--ink); }
+@media (max-width: 560px) { .masthead__date { display: none; } .searchlink span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } .searchlink { padding: 10px; } }
+.searchbox { display: grid; gap: 10px; max-width: 46rem; padding-bottom: 8px; }
+.searchbox label { font: 500 0.78rem/1 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); }
+.searchbox input {
+  font: 600 1.25rem/1.2 var(--font-display); padding: 14px 16px; border: 2px solid var(--line); border-radius: 10px;
+  background: var(--card); color: var(--ink); width: 100%;
+}
+.searchbox input:focus { outline: none; border-color: var(--focus); }
+.searchstatus { font: 400 var(--step--1)/1.4 var(--font-mono); color: var(--ink-soft); letter-spacing: 0.03em; min-height: 1.4em; }
+.results { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 0; max-width: 46rem; }
+.results li { padding-block: 18px; border-top: 1px solid var(--line); }
+.results a { text-decoration: none; display: grid; gap: 6px; }
+.results__meta { font: 500 var(--step--1)/1.2 var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+.results__title { font: 750 1.3rem/1.2 var(--font-display); letter-spacing: -0.015em; }
+.results a:hover .results__title { text-decoration: underline; text-decoration-color: var(--mark); text-decoration-thickness: 0.14em; text-underline-offset: 0.18em; }
+.results__desc { color: var(--ink-soft); font-size: 1rem; line-height: 1.5; }
+.results mark { background: var(--mark); color: var(--mark-ink); padding: 0 2px; border-radius: 2px; }
+
+/* ---------- advertisement slot (always labeled, always inside the article column, never near navigation) */
+.adslot { margin-block: 32px; padding-block: 14px; border-block: 1px solid var(--line); min-height: 120px; }
+.adslot__label { font: 500 0.72rem/1 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 10px; }

@@ -18,6 +18,7 @@ researches each one across several sources, writes an original explainer, checks
 | `media/` | Generated post artwork (kept so it isn't redrawn every build) |
 | `docs/` | The built website that GitHub Pages serves |
 | `AUTOPILOT.md` | The step-by-step instructions each scheduled run follows |
+| `ADSENSE_POLICY.md` | AdSense and Google Search rules the site and every post must follow |
 | `WRITING_GUIDE.md` | Voice, structure, sourcing, originality and SEO rules |
 
 ## Build it yourself
@@ -47,7 +48,25 @@ python3 tools/check_site.py   # should report 0 errors
 - **Posting frequency:** edit the scheduled task's schedule, or the "Pick the top 2" line in `AUTOPILOT.md`.
 - **Remove a post:** delete its file in `content/posts/` (and its folder in `media/`), rebuild, push.
 - **Rename the blog:** change `name` in `site.yaml`; the artwork redraws itself on the next build.
-- **Ads:** put your AdSense publisher ID in `adsense_client`. AdSense requires a custom domain.
+- **Ads:** see "Getting approved for AdSense" below.
+
+## Getting approved for AdSense
+
+Read `ADSENSE_POLICY.md` first. In order:
+
+1. **Your own domain.** Buy one, set `base_url` and `custom_domain` in `site.yaml`, point the domain at GitHub
+   Pages, and turn on **Enforce HTTPS** in Settings > Pages. `github.io` addresses can't serve `ads.txt` at the root.
+2. **Say who runs the site.** Fill in `contact_email`, `publisher_name` and `publisher_location`.
+3. **Grow the archive.** Aim for 30 or more explainers over several weeks, with `check_site.py` clean.
+4. **Apply** at adsense.google.com with the final address. Don't put ad code anywhere before approval,
+   except the connection snippet AdSense asks for. Put the publisher ID in `adsense_client` when told to.
+5. **Turn on consent.** In AdSense, open Privacy & messaging and publish the European regulations message
+   (EEA, UK, Switzerland) before ads go live.
+6. **After approval,** set `adsense_slot_article` to an ad unit ID for one labeled in-article ad, or use Auto
+   ads. Never click your own ads. Rebuild, run `check_site.py` and push.
+
+The checker enforces the parts it can see: required pages, contact address, labeled ad slots, no ads on
+listing pages, no click-begging wording and no `github.io` address once `adsense_client` is set.
 
 The fonts in `theme/fonts/` (Schibsted Grotesk, DM Mono) are used under the SIL Open Font License; the
 license files sit next to them.
