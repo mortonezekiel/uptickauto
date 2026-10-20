@@ -15,7 +15,7 @@ publishing something thin, unverified or copied.
    workspace. Don't try to install anything.
 3. **Daily cap.** Count what's already published today (UTC):
    `grep -l "^published: $(date -u +%F)" content/posts/*.md | wc -l`
-   The site publishes at most **6 new explainers per day**, spread over four runs. If today's count plus
+   The site publishes at most **6 new explainers per day**, spread over the day's runs. If today's count plus
    what you plan would pass 6, publish fewer or nothing. Updates to existing posts don't count toward the cap.
 4. Check what's already covered in the last 14 days:
    `grep -h "^title:\|^published:" content/posts/*.md | paste - - | sort -k4 | tail -40`
@@ -50,7 +50,7 @@ Skip a topic when:
 - it's too local or too small to matter to a wide audience.
 
 Pick the **top 2** (a maximum of 3 if several are huge), but only topics with a `trend_score` of **60 or
-more**. Four runs a day means some runs will honestly have only one strong topic, or none. That's fine.
+more**. Some runs will honestly have only one strong topic, or none. That's fine.
 Spread categories: usually no more than one post per category in a run, and skip a topic when a post on
 the same story already went out earlier today unless something important changed.
 

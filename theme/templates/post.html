@@ -16,7 +16,7 @@
       <ul class="byline">
         <li>By <a href="{{ u('about/') }}">{{ site.author_name }}</a></li>
         <li>{% if post.updated > post.published %}Updated{% else %}Published{% endif %} <time datetime="{{ iso(post.updated) }}">{{ ap_date(post.updated) }}, {{ ap_time(post.updated) }}</time></li>
-        <li>{{ post.minutes }} min read</li>
+        <li><span class="byline__read">About {{ post.minutes }} min read</span></li>
         {% if post.sources %}<li><a href="#sources">{{ post.sources|length }} sources</a></li>{% endif %}
       </ul>
     </header>
@@ -124,6 +124,11 @@
       {% endif %}
     </div>
   </div>
+
+  <button class="readring" type="button" data-readring data-minutes="{{ post.minutes }}" aria-label="Reading progress 0 percent. Back to top." title="Back to top" hidden>
+    <svg viewBox="0 0 44 44" width="56" height="56" aria-hidden="true" focusable="false"><circle class="readring__track" cx="22" cy="22" r="19"/><circle class="readring__bar" cx="22" cy="22" r="19"/></svg>
+    <span class="readring__pct" aria-hidden="true">0%</span>
+  </button>
 
   {% if related %}
   <section class="wrap related" aria-labelledby="related-h">

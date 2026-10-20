@@ -53,6 +53,8 @@ out what that entails, so expect lower ad fill on breaking tragedies.
   menu, in the header, or where users expect a navigation link.
 - **No ads in pop-ups, pop-unders, emails or floating boxes.** No interstitials that block reading.
 - **No more ads than content** on any page. Ads must not cover content, and content must not cover ads.
+- **No floating element may cover an ad.** The reading-progress ring hides itself while any ad is on screen.
+  Keep it that way, and apply the same rule to any future sticky or floating element.
 - **No redirects, forced downloads, malware or changing browser settings.**
 - **Don't imply Google endorses the site** or use Google logos or trademarks.
 - **Paid or bought traffic** must be real people who can easily find what was promised: no click farms,

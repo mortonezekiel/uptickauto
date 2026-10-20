@@ -87,3 +87,58 @@
   });
   render(input.value);
 })();
+
+// Reading progress ring: fills as you read the explainer, drains if you scroll back up, and a tap returns to
+// the top. It steps aside whenever an ad is on screen so it never covers one.
+(function () {
+  var ring = document.querySelector("[data-readring]");
+  var body = document.querySelector(".post__main .prose");
+  if (!ring || !body) return;
+  var bar = ring.querySelector(".readring__bar");
+  var pct = ring.querySelector(".readring__pct");
+  var total = parseFloat(ring.getAttribute("data-minutes")) || 1;
+  var radius = 19, circ = 2 * Math.PI * radius;
+  bar.style.strokeDasharray = String(circ);
+  bar.style.strokeDashoffset = String(circ);
+  ring.hidden = false;
+  var ticking = false, lastLabel = -1;
+
+  function adOnScreen() {
+    var vh = window.innerHeight;
+    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle");
+    for (var i = 0; i < slots.length; i++) {
+      var r = slots[i].getBoundingClientRect();
+      if (r.bottom > 0 && r.top < vh && r.height > 0) return true;
+    }
+    return !!document.querySelector('ins.adsbygoogle[data-anchor-status="displayed"], ins.adsbygoogle[data-vignette-loaded="true"]');
+  }
+  function update() {
+    ticking = false;
+    var r = body.getBoundingClientRect();
+    var line = window.innerHeight * 0.5;
+    var p = Math.min(1, Math.max(0, (line - r.top) / r.height));
+    var shown = Math.round(p * 100);
+    bar.style.strokeDashoffset = String(circ * (1 - p));
+    pct.textContent = shown + "%";
+    var left = Math.max(0, Math.ceil(total * (1 - p)));
+    var label = Math.floor(shown / 5);
+    if (label !== lastLabel) {
+      lastLabel = label;
+      var text = shown >= 100 ? "You've finished reading. Back to top."
+        : "Reading progress " + shown + " percent, about " + left + (left === 1 ? " minute" : " minutes") + " left. Back to top.";
+      ring.setAttribute("aria-label", text);
+      ring.setAttribute("title", shown >= 100 ? "Back to top" : "About " + left + " min left. Tap for top.");
+    }
+    var on = p > 0 && !adOnScreen();
+    ring.classList.toggle("is-on", on);
+  }
+  function request() { if (!ticking) { ticking = true; window.requestAnimationFrame(update); } }
+  window.addEventListener("scroll", request, { passive: true });
+  window.addEventListener("resize", request);
+  window.addEventListener("load", request);
+  ring.addEventListener("click", function () {
+    var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: calm ? "auto" : "smooth" });
+  });
+  update();
+})();
