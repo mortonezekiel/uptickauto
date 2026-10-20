@@ -23,7 +23,7 @@ author_name: Uptick Desk
 # Optional. Leave blank to switch off.
 contact_email: "support@upticktrends.com"            # shown on the About page
 twitter: ""                  # e.g. @uptick, for share cards
-google_site_verification: "" # the content="..." code from Google Search Console's HTML tag method
+google_site_verification: "y0XJKng0j6N1RypnGrPH_iz6eNpwFdeiZGCADnxXC8o" # the content="..." code from Google Search Console's HTML tag method
 ga4_id: ""                   # Google Analytics 4 measurement ID, e.g. G-XXXXXXX
 adsense_client: ""           # e.g. ca-pub-1234567890123456 (also writes ads.txt)
 adsense_slot_article: ""     # optional: ad unit ID for one labeled ad under each explainer. Blank = Auto ads only
