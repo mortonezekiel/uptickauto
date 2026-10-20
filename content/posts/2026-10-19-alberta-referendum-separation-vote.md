@@ -1,100 +1,87 @@
 ---
-title: "Alberta Referendum: What the Separation Vote Means for Canada"
+title: "Alberta Referendum Results: About 76% Vote to Stay in Canada"
 slug: alberta-referendum-separation-vote
-description: "Alberta votes Oct. 19 on 10 referendum questions, including whether to start a path toward separating from Canada. What's on the ballot and when results come."
-dek: "A vote to leave wouldn't take Alberta out of Canada. It would only start the process toward a second, binding referendum, and polls show most Albertans want to stay."
+description: "Alberta referendum results: about 76% voted to stay in Canada, early counts show. What the result means, who said what, and what comes next."
+dek: "The separation option drew roughly 23%, close to what polls predicted. The other nine questions are still being counted, and separatists say they aren't done."
 category: World
 tags: [Alberta referendum, Alberta separation, Canada, Danielle Smith, Mark Carney, Clarity Act]
 published: 2026-10-19T22:10:00Z
-updated: 2026-10-19T22:10:00Z
-trend_score: 70
-why_trending: "Albertans voted Monday, Oct. 19, in a provincewide referendum whose final question asks whether to begin the legal process toward separating from Canada."
+updated: 2026-10-20T13:10:00Z
+trend_score: 78
+why_trending: "Early results overnight on Oct. 20 showed Albertans rejecting a move toward separation from Canada by roughly three to one."
 key_points:
-  - "The ballot has 10 questions; the last asks whether Alberta should stay in Canada or start the legal process for a binding separation referendum."
-  - "Before election day, 1,356,873 Albertans had already voted by advance poll or mail, 43.1% of about 3.15 million eligible voters."
-  - "An Ipsos poll for Global News found 23% backing the separation option, with about seven in 10 planning to vote to remain."
-  - "Polls close at 8 p.m. MT; the separation result is expected between 1 a.m. and 4 a.m. local time Tuesday, Oct. 20."
+  - "With more than 1 million votes counted, about 76% chose to stay in Canada and about 23% chose to start a path toward separation, AP reports."
+  - "More than 1.35 million Albertans, about 43% of eligible voters, voted early or by special ballot."
+  - "Premier Danielle Smith said there will be no follow-up separation vote during her mandate; she is scheduled to address Albertans Tuesday evening, Oct. 20."
+  - "Results on the other nine questions are expected by Wednesday, Oct. 21."
 sources:
-  - title: "How Alberta separatism went from fringe cause to referendum"
-    publisher: Associated Press (via PBS NewsHour)
-    url: "https://www.pbs.org/newshour/world/how-alberta-separatism-went-from-fringe-cause-to-referendum"
-    date: 2026-10-17
-  - title: "Polls open for Alberta referendum. Live updates here."
-    publisher: CTV News (via CP24)
-    url: "https://www.cp24.com/news/canada/2026/10/19/its-referendum-day-in-alberta-follow-here-for-live-updates/"
-    date: 2026-10-19
-  - title: "Alberta separation referendum 'not very likely' new poll shows"
+  - title: "Alberta voters reject move toward separation from Canada in referendum"
+    publisher: Associated Press (via CBS News)
+    url: "https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/"
+    date: 2026-10-20
+  - title: "Alberta referendum voters reject separatism, choose to stay in Canada"
     publisher: Global News
-    url: "https://globalnews.ca/news/12106419/alberta-separation-referendum-not-likely-poll/"
-    date: 2026-10-18
-  - title: "Alberta holds non-binding separation vote as independence fight grips Canada"
-    publisher: Fox News
-    url: "https://www.foxnews.com/world/alberta-holds-non-binding-separation-vote-independence-fight-grips-canada"
-    date: 2026-10-19
+    url: "https://globalnews.ca/news/12108827/alberta-referendum-result/"
+    date: 2026-10-20
+  - title: "Albertans choose to remain in Canada with emphatic vote, CTV News projects. Live updates."
+    publisher: CTV News Edmonton
+    url: "https://www.ctvnews.ca/edmonton/article/albertans-reject-separation-in-historic-vote-ctv-news-projects-live-updates/"
+    date: 2026-10-20
 ---
 
 ## What happened
 
-Voters in Alberta, Canada's oil-rich western province, are going to the polls Monday, Oct. 19, in a referendum that includes a question on the province's future in the country. The Alberta referendum ballot has 10 questions, and the last one asks whether Alberta should remain a province of Canada or have its government start the legal process to hold a binding vote on separating, according to [CTV News](https://www.cp24.com/news/canada/2026/10/19/its-referendum-day-in-alberta-follow-here-for-live-updates/).
+Albertans have voted decisively to stay in Canada. In the Alberta referendum held Monday, Oct. 19, about 76% of voters chose to remain and about 23% chose to start the legal process toward a binding separation vote, with more than 1 million ballots counted, the [Associated Press](https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/) reports. [CTV News](https://www.ctvnews.ca/edmonton/article/albertans-reject-separation-in-historic-vote-ctv-news-projects-live-updates/) projected an emphatic win for the remain side overnight.
 
-That distinction matters. Even a majority for the second option would not take Alberta out of Canada. It would only open the door to a later, binding referendum, the [Associated Press](https://www.pbs.org/newshour/world/how-alberta-separatism-went-from-fringe-cause-to-referendum) explains.
+Results came later than planned. Polls were set to close at 8 p.m. MT, but more than 100 polling stations opened late and had to stay open longer, which pushed the first numbers back by more than three hours, according to AP and [Global News](https://globalnews.ca/news/12108827/alberta-referendum-result/).
 
-Interest is high. By Sunday afternoon, 1,356,873 people had already voted at advance polls or by mail. That's 43.1% of the roughly 3.15 million eligible voters, compared with 27.5% who voted early or by mail in the 2023 provincial election, CTV reports.
+The separation question was the last of 10 on the ballot. Counts for the other nine, on immigration and the province's powers, were still underway Tuesday morning.
 
-## What's on the ballot
+## The result by the numbers
 
-The separation question gets the headlines, but it's one of 10.
+The outcome landed close to what surveys pointed to all year. Here's the early count at a glance.
 
-| Questions | Topic |
+| Measure | Figure |
 |---|---|
-| 1 to 5 | Immigrants' access to health care, education and citizenship-related rules, including proof of citizenship to vote |
-| 6 to 9 | Constitutional and judicial powers, such as provinces picking judges and provincial laws taking priority over federal ones |
-| 10 | Stay in Canada, or start the legal process toward a binding separation referendum |
+| Remain in Canada | About 76% |
+| Start separation process | About 23% |
+| Support for remaining in polls since early 2026 | About 70% |
+| Votes cast early or by special ballot | More than 1.35 million |
+| Share of eligible voters who voted early | About 43% |
+| Mail-in ballots received | 519,082 |
 
-Premier Danielle Smith, who opposes separation, has urged Albertans to vote yes on the first nine questions to strengthen her hand in talks with Ottawa, [Global News](https://globalnews.ca/news/12106419/alberta-separation-referendum-not-likely-poll/) reports.
+Put another way, for every Albertan who chose the separation path, roughly three chose to stay. Global News reports that the mail-in total was about 10 times as many as in the 2023 provincial election, and that Elections Alberta hired more than 48,000 people to count around the clock.
 
-## What the polls say
+## Who says what
 
-Separation is the minority view in every recent survey, but not a tiny one.
+- **Premier Danielle Smith**, who said she voted to remain, wrote that Albertans "have voted for a stronger Alberta in a united Canada," Global News reports. She had promised a simple majority of 50% plus one would decide the question, and that there would be no follow-up separation vote while she leads the province.
+- **Prime Minister Mark Carney** said Albertans "chose unity," and that the country could now move ahead with "renewed purpose."
+- **Thomas Lukaszuk**, a former deputy premier who led the Forever Canadian campaign, celebrated at an Edmonton watch party. He also told Global News the vote cost $130 million and argued the government could have settled the matter in the legislature.
+- **Jeffrey Rath**, a separatist leader, said "Our movement isn't going anywhere." Separatists told AP they had turned a fringe cause into a lasting movement.
+- **Naheed Nenshi**, leader of the opposition Alberta NDP, posted: "We saved Canada. Now, we save Alberta."
 
-- **Ipsos for Global News (Oct. 13 to 16):** about 7 in 10 plan to vote to remain; 23% back the separation option, up three points from September. Support is higher outside Calgary and Edmonton, at 29%.
-- **Abacus Data:** 74% of decided voters favor remaining and 26% want the binding-referendum process, according to [Fox News](https://www.foxnews.com/world/alberta-holds-non-binding-separation-vote-independence-fight-grips-canada).
-- **Angus Reid Institute:** 62% of Albertans think the separatist movement will never go away, Fox News reports.
+## Why it matters
 
-Ipsos' Darrell Bricker told Global News that even if every undecided respondent and non-voter swung to separation, it wouldn't be enough to win. For context, AP notes that support for Quebec independence sits around 30%, and that former Premier Jason Kenney says separatist parties historically drew only 1% to 2% of the vote.
+The vote was never a direct independence question. A win for the second option would only have started a path toward another, binding referendum, followed by constitutional talks under the federal Clarity Act. A clear "remain" result closes that path for now.
 
-## How we got here
-
-Alberta has long resented federal energy and climate policy, especially the national carbon tax introduced under former Prime Minister Justin Trudeau, AP reports. The province holds the world's fourth-largest proven oil reserves and sends about 90% of its crude exports to the U.S. The pandemic and the 2022 trucker convoy turned a fringe idea into an organized movement with fundraising and political operatives.
-
-A quick timeline of how the question reached the ballot:
-
-- **May 2025:** The provincial government lowered the number of signatures needed to force a citizen-initiated referendum.
-- **Late 2025:** A pro-Canada petition, Forever Canadian, cleared Elections Alberta's review with more than 400,000 verified signatures.
-- **May 13, 2026:** A provincial court struck down a separatist petition, finding Indigenous peoples hadn't been properly consulted, as treaty rights require.
-- **May 21, 2026:** Smith announced in a televised address that a remain-or-separate question would go on the ballot anyway.
-- **Oct. 19, 2026:** Voting day.
-
-There's also a U.S. angle. Separatist leader Jeff Rath told AP his group met State Department officials three times, and Treasury Secretary Scott Bessent has called Alberta a natural partner for the U.S. Prime Minister Mark Carney told a rally in Edmonton on Friday that the vote "comes at the worst possible time," Fox News reports.
+It also matters beyond Alberta. The province holds the world's fourth-largest proven oil reserves, and the vote came during President Trump's trade war and talk of annexation, AP notes.
 
 ## What happens next
 
-Polls close at 8 p.m. MT. Early results are expected soon after, but the separation question will take longer: CTV says its result is expected between 1 a.m. and 4 a.m. local time on Tuesday, Oct. 20. By law, all ballots must be hand-counted within 48 hours.
-
-If most voters choose to stay, Smith has said there won't be a second separation vote while she is premier, according to an interview with CBC cited by Fox News. Independence leaders dispute that the issue would end there. The next provincial election is set for Oct. 18, 2027.
-
-If the separation option wins, it would not be the end of the road. Canada's Constitution has no provision for a province to leave on its own, so separation would require a constitutional amendment and negotiations under the federal Clarity Act. Uptick will update this explainer when results are in.
+- **Tuesday evening, Oct. 20:** Smith is scheduled to address Albertans, according to Global News.
+- **By Wednesday, Oct. 21:** Results on the other nine questions are expected. Smith has asked for "yes" votes on them to strengthen her position in talks with Ottawa. CTV describes early returns on those questions as split.
+- **Inside the governing party:** Rath is pushing for a special general meeting of Smith's United Conservative Party to test her leadership, Global News reports.
 
 ## Quick answers
 
-### Is the Alberta referendum binding?
+### Did Alberta vote to separate from Canada?
 
-No. The separation question asks only whether to begin the process toward a second, binding referendum. A "separate" result would not take Alberta out of Canada.
+No. Early results show about 76% voted to remain in Canada and about 23% voted to start a process that could have led to a separation referendum.
 
-### When will Alberta referendum results be known?
+### What was the voter turnout in the Alberta referendum?
 
-Early results are expected after polls close at 8 p.m. MT on Oct. 19. The separation result is expected between 1 a.m. and 4 a.m. MT on Oct. 20.
+A final turnout figure hasn't been released. More than 1.35 million people, about 43% of eligible voters, voted before election day by advance poll or special ballot.
 
-### How many people support Alberta separation?
+### Will there be another Alberta separation referendum?
 
-Recent polls put support for starting the separation process at roughly 23% to 26%, with about 70% or more planning to vote to stay in Canada.
+Not while Smith is premier, she has said. Separatist leaders say they'll keep organizing.
