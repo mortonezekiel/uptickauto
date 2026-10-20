@@ -30,7 +30,7 @@ adsense_slot_article: ""     # optional: ad unit ID for one labeled ad under eac
 
 # Who runs the site. AdSense and readers expect this to be clear. Shown on the About page.
 publisher_name: "Uptick Trends"           # a person or a business name
-publisher_location: ""       # city and country, e.g. "Austin, Texas, USA"
+publisher_location: "Gainesville, Florida, USA"       # city and country, e.g. "Austin, Texas, USA"
 
 posts_per_page: 12
 
