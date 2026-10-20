@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mortonezekiel.github.io/uptickauto/sitemap.xml
-Sitemap: https://mortonezekiel.github.io/uptickauto/news-sitemap.xml
+Sitemap: https://upticktrends.com/sitemap.xml
+Sitemap: https://upticktrends.com/news-sitemap.xml
