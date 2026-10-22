@@ -1,0 +1,13 @@
+{
+  "name": "uptick-visitor-counter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Counts how many people visited Uptick in the past hour. Runs on Cloudflare Workers.",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

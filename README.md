@@ -50,6 +50,18 @@ python3 tools/check_site.py   # should report 0 errors
 - **Rename the blog:** change `name` in `site.yaml`; the artwork redraws itself on the next build.
 - **Ads:** see "Getting approved for AdSense" below.
 
+## Live visitor count
+
+The notice "2,970 people visited Uptick in the past hour" comes from a small counter in `counter/` that runs free on
+Cloudflare Workers. It counts each person once per rolling hour, without cookies, and skips bots, so the number is real.
+
+1. Deploy it with the button in `counter/README.md` (or open
+   https://deploy.workers.cloudflare.com/?url=https://github.com/mortonezekiel/uptickauto/tree/main/counter).
+2. Copy the address Cloudflare shows, like `https://uptick-visitor-counter.NAME.workers.dev`, into
+   `visitor_counter_url` in `site.yaml`. Rebuild and push.
+3. `visitor_counter_min` (default 25) hides the notice whenever fewer people than that visited in the past hour.
+   Every visit is still counted. See the live number anytime at `<counter address>/count`.
+
 ## Getting approved for AdSense
 
 Read `ADSENSE_POLICY.md` first. In order:

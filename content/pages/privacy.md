@@ -7,7 +7,7 @@ description: What information Uptick collects when you visit, how cookies, analy
 dek: "Short version: we don't ask for your name, email or an account to read anything."
 ---
 
-*Last updated October 20, 2026.*
+*Last updated October 21, 2026.*
 
 ## What we collect
 
@@ -24,6 +24,10 @@ Cookies and similar technologies are small files or identifiers that sites and s
 ## Analytics
 
 Uptick may use Google Analytics to understand which explainers are read and how people find them. Google Analytics uses cookies or similar identifiers to collect usage data, such as pages viewed, approximate location and device information. You can opt out with Google's [Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
+
+## Live visitor count
+
+Uptick may show how many people visited the site in the past hour. To count visits, each page sends a short request to a small counting service we run on Cloudflare. The service mixes your IP address and browser type with a secret key to make a scrambled code, keeps that code for about an hour so each visitor is counted only once, and then deletes it. It doesn't store your IP address, set cookies or save anything on your device. Cloudflare handles these requests for us under its [privacy policy](https://www.cloudflare.com/privacypolicy/).
 
 ## Advertising
 

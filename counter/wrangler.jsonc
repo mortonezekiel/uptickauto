@@ -1,0 +1,14 @@
+{
+  "name": "uptick-visitor-counter",
+  "main": "src/index.js",
+  "compatibility_date": "2025-09-01",
+  "workers_dev": true,
+  "durable_objects": {
+    "bindings": [{ "name": "VISITORS", "class_name": "VisitorWindow" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["VisitorWindow"] }],
+  "vars": {
+    "ALLOWED_ORIGINS": "https://upticktrends.com,https://www.upticktrends.com"
+  },
+  "observability": { "enabled": false }
+}

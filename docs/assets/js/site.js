@@ -142,3 +142,61 @@
   });
   update();
 })();
+
+// Live visitor count. Every page view is reported to the site's visitor counter (see counter/README.md), which
+// counts each person once per rolling hour. On the first page of a visit, if at least the minimum number of people
+// set in site.yaml visited in the past hour, a small notice shows that exact number for a few seconds. The number
+// always comes straight from the counter, and nothing is stored in the browser.
+(function () {
+  var box = document.querySelector("[data-livecount]");
+  if (!box || !window.fetch) return;
+  var base = (box.getAttribute("data-livecount") || "").replace(/\/+$/, "");
+  if (!/^https:\/\//.test(base)) return;
+  var min = parseInt(box.getAttribute("data-min"), 10);
+  if (!(min >= 1)) min = 25;
+  var site = box.getAttribute("data-site") || "this site";
+  var text = box.querySelector(".livecount__text");
+  var close = box.querySelector(".livecount__close");
+  var firstPage = true;
+  try { firstPage = !document.referrer || new URL(document.referrer).host !== window.location.host; } catch (e) {}
+  var timer = 0;
+
+  function overlapsAd() {
+    if (document.querySelector('ins.adsbygoogle[data-anchor-status="displayed"], ins.adsbygoogle[data-vignette-loaded="true"]')) return true;
+    var b = box.getBoundingClientRect();
+    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle");
+    for (var i = 0; i < slots.length; i++) {
+      var r = slots[i].getBoundingClientRect();
+      if (r.width && r.height && r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top) return true;
+    }
+    return false;
+  }
+  function onScroll() { if (overlapsAd()) hide(); }
+  function hide() {
+    window.clearTimeout(timer);
+    window.removeEventListener("scroll", onScroll);
+    box.classList.remove("is-on");
+    window.setTimeout(function () { box.hidden = true; }, 300);
+  }
+  function show(n) {
+    var strong = document.createElement("strong");
+    strong.textContent = n.toLocaleString("en-US") + (n === 1 ? " person" : " people");
+    text.textContent = "";
+    text.appendChild(strong);
+    text.appendChild(document.createTextNode(" visited " + site + " in the past hour"));
+    box.hidden = false;
+    if (overlapsAd()) { box.hidden = true; return; }
+    window.requestAnimationFrame(function () { window.requestAnimationFrame(function () { box.classList.add("is-on"); }); });
+    window.addEventListener("scroll", onScroll, { passive: true });
+    timer = window.setTimeout(hide, 9000);
+  }
+  close.addEventListener("click", hide);
+
+  fetch(base + "/hit", { method: "POST", mode: "cors", credentials: "omit" })
+    .then(function (res) { return res.ok ? res.json() : null; })
+    .then(function (data) {
+      var n = data ? Math.floor(Number(data.visitors)) : 0;
+      if (firstPage && n >= min) window.setTimeout(function () { show(n); }, 2500);
+    })
+    .catch(function () {});
+})();

@@ -2,3 +2,5 @@ work/
 __pycache__/
 *.pyc
 .DS_Store
+counter/node_modules/
+counter/.wrangler/
