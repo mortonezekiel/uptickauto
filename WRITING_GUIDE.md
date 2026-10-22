@@ -23,6 +23,28 @@ Every explainer answers three questions for someone who just saw a topic trendin
 Add something the sources don't spell out: a timeline, a comparison, simple arithmetic
 ("about $67 more a month"), or a plain explanation of a technical term. That's the value.
 
+## Sports roundup shape (500 to 1,200 words)
+
+Daily roundups (`AUTOPILOT.md` step 6b) cover every final game in one league on one date. Same voice,
+sourcing and originality rules as explainers.
+
+```
+## <League> scores for <Mon. D>     the 1-2 results that mattered most, in 2 short paragraphs
+## All final scores                 a table of every game: winner, score, loser, one-line note
+                                    (top scorer, streak, overtime); combined posts use one table per league
+## <2-3 short game sections>        the biggest games: how it was decided and why it matters, 80-150 words each
+## What it means                    standings, streaks, playoff or table picture, with simple arithmetic
+                                    ("three games back with 10 to play"); this is the added value
+## What's next                      the next day's notable games with times in ET
+```
+
+- **Title:** `"NBA Scores, Oct. 21: <Headline Result in a Few Words>"`, the league and date first,
+  then the headline result, 45-65 characters.
+- **Slug:** `<league>-scores-<mon>-<d>-<yyyy>`, like `nba-scores-oct-21-2026`. The combined post uses
+  `sports-scores-<mon>-<d>-<yyyy>-other-results`.
+- **Description:** name the league, the date and the top results, 120-160 characters.
+- Keep game notes factual. No odds, spreads, picks, fantasy advice or injury speculation.
+
 ## Front matter template
 
 Copy this to `content/posts/YYYY-MM-DD-<slug>.md` (date = today in UTC):
