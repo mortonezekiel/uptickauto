@@ -60,7 +60,8 @@ Cloudflare Workers. It counts each person once per rolling hour, without cookies
 2. Copy the address Cloudflare shows, like `https://uptick-visitor-counter.NAME.workers.dev`, into
    `visitor_counter_url` in `site.yaml`. Rebuild and push.
 3. `visitor_counter_min` (default 25) hides the notice whenever fewer people than that visited in the past hour.
-   Every visit is still counted. See the live number anytime at `<counter address>/count`.
+   Every visit is still counted. See the live number anytime at `<counter address>/count`, or add `?showcount`
+   to any page address (like `https://upticktrends.com/?showcount`) to see the notice with the current number.
 
 ## Getting approved for AdSense
 

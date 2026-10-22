@@ -146,7 +146,8 @@
 // Live visitor count. Every page view is reported to the site's visitor counter (see counter/README.md), which
 // counts each person once per rolling hour. On the first page of a visit, if at least the minimum number of people
 // set in site.yaml visited in the past hour, a small notice shows that exact number for a few seconds. The number
-// always comes straight from the counter, and nothing is stored in the browser.
+// always comes straight from the counter, and nothing is stored in the browser. Add ?showcount to any address to
+// see the notice with the current number even when it's below the minimum.
 (function () {
   var box = document.querySelector("[data-livecount]");
   if (!box || !window.fetch) return;
@@ -159,6 +160,9 @@
   var close = box.querySelector(".livecount__close");
   var firstPage = true;
   try { firstPage = !document.referrer || new URL(document.referrer).host !== window.location.host; } catch (e) {}
+  // Owner check: add ?showcount to any address to see the notice with the real number, even below the minimum.
+  var preview = /[?&]showcount\b/.test(window.location.search);
+  if (preview) { firstPage = true; min = 1; }
   var timer = 0;
 
   function overlapsAd() {

@@ -34,7 +34,7 @@ publisher_location: "Gainesville, Florida, USA"       # city and country, e.g. "
 
 # Live visitor count. Paste the address of your Cloudflare visitor counter here (see counter/README.md),
 # e.g. https://uptick-visitor-counter.yourname.workers.dev. Leave blank to switch the notice off.
-visitor_counter_url: ""
+visitor_counter_url: "https://uptick-visitor-counter.mortonezekiel68.workers.dev"
 # Only show "N people visited Uptick in the past hour" when N is at least this. Every visit is counted either way.
 visitor_counter_min: 25
 
