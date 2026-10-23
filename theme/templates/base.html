@@ -59,6 +59,9 @@
 {% if site.adsense_client and not preview %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_client }}" crossorigin="anonymous"></script>
 {% endif %}
+{% if site.tinyadz_site_id and not preview %}
+<script src="https://cdn.apitiny.net/scripts/v2.0/main.js" data-site-id="{{ site.tinyadz_site_id }}" data-test-mode="false" async></script>
+{% endif %}
 {% if not bare %}
 </head>
 <body>

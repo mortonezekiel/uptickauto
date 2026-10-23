@@ -105,7 +105,7 @@
 
   function adOnScreen() {
     var vh = window.innerHeight;
-    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle");
+    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle, .tinyadz-iframe");
     for (var i = 0; i < slots.length; i++) {
       var r = slots[i].getBoundingClientRect();
       if (r.bottom > 0 && r.top < vh && r.height > 0) return true;
@@ -136,6 +136,8 @@
   window.addEventListener("scroll", request, { passive: true });
   window.addEventListener("resize", request);
   window.addEventListener("load", request);
+  // TinyAdz adds its corner ad (bottom-right, where this ring sits) straight to the page root, so re-check then.
+  if (window.MutationObserver) new MutationObserver(request).observe(document.documentElement, { childList: true });
   ring.addEventListener("click", function () {
     var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     window.scrollTo({ top: 0, behavior: calm ? "auto" : "smooth" });
@@ -163,12 +165,12 @@
   // Owner check: add ?showcount to any address to see the notice with the real number, even below the minimum.
   var preview = /[?&]showcount\b/.test(window.location.search);
   if (preview) { firstPage = true; min = 1; }
-  var timer = 0;
+  var timer = 0, watch = 0;
 
   function overlapsAd() {
     if (document.querySelector('ins.adsbygoogle[data-anchor-status="displayed"], ins.adsbygoogle[data-vignette-loaded="true"]')) return true;
     var b = box.getBoundingClientRect();
-    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle");
+    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle, .tinyadz-iframe");
     for (var i = 0; i < slots.length; i++) {
       var r = slots[i].getBoundingClientRect();
       if (r.width && r.height && r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top) return true;
@@ -178,6 +180,7 @@
   function onScroll() { if (overlapsAd()) hide(); }
   function hide() {
     window.clearTimeout(timer);
+    window.clearInterval(watch);
     window.removeEventListener("scroll", onScroll);
     box.classList.remove("is-on");
     window.setTimeout(function () { box.hidden = true; }, 300);
@@ -192,6 +195,7 @@
     if (overlapsAd()) { box.hidden = true; return; }
     window.requestAnimationFrame(function () { window.requestAnimationFrame(function () { box.classList.add("is-on"); }); });
     window.addEventListener("scroll", onScroll, { passive: true });
+    watch = window.setInterval(onScroll, 400); // a corner ad can slide in while the notice is up
     timer = window.setTimeout(hide, 9000);
   }
   close.addEventListener("click", hide);

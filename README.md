@@ -48,7 +48,8 @@ python3 tools/check_site.py   # should report 0 errors
 - **Posting frequency:** edit the scheduled task's schedule, or the "Pick the top 2" line in `AUTOPILOT.md`.
 - **Remove a post:** delete its file in `content/posts/` (and its folder in `media/`), rebuild, push.
 - **Rename the blog:** change `name` in `site.yaml`; the artwork redraws itself on the next build.
-- **Ads:** see "Getting approved for AdSense" below.
+- **Ads:** TinyAdz runs the ads now. Its site ID is `tinyadz_site_id` in `site.yaml` (blank turns it off).
+  The AdSense code is off (`adsense_client` is blank); the AdSense section below applies if you go back to it.
 
 ## Live visitor count
 
