@@ -31,8 +31,32 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&amp;family=Schibsted+Grotesk:wght@500..900&amp;display=swap">
-<link rel="stylesheet" href="https://upticktrends.com/assets/css/site.css?v=db66d7371f">
-<script src="https://cdn.apitiny.net/scripts/v2.0/main.js" data-site-id="6adb66cb9c211e67eb9ae916" data-test-mode="false" async></script>
+<link rel="stylesheet" href="https://upticktrends.com/assets/css/site.css?v=2135c1c686">
+<script type="text/plain" data-consent="ads" src="https://cdn.apitiny.net/scripts/v2.0/main.js" data-site-id="6adb66cb9c211e67eb9ae916" data-test-mode="false" async></script>
+<script>
+/* Ads consent. TinyAdz loads right away unless the visitor turned ads off, or their device is set to a time zone in
+   the EEA, the UK or Switzerland and they haven't chosen "Allow ads" yet. The choice is saved in local storage. */
+(function () {
+  var choice = null, tz = "";
+  try { choice = localStorage.getItem("uptick-ads-consent"); } catch (e) {}
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+  var europe = !tz || /^(Europe\/.+|Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)|Arctic\/Longyearbyen|Africa\/Ceuta|Asia\/(Nicosia|Famagusta)|America\/(Guadeloupe|Martinique|Cayenne|St_Barthelemy|Marigot)|Indian\/(Reunion|Mayotte))$/.test(tz);
+  var allowed = choice === "granted" || (choice !== "denied" && !europe);
+  window.upticktrendsConsent = { europe: europe, choice: choice, allowed: allowed };
+  window.upticktrendsLoadAds = function () {
+    var held = document.querySelector('script[type="text/plain"][data-consent="ads"]');
+    if (!held || held.hasAttribute("data-loaded")) return;
+    held.setAttribute("data-loaded", "");
+    var s = document.createElement("script");
+    for (var i = 0; i < held.attributes.length; i++) {
+      var a = held.attributes[i];
+      if (a.name !== "type" && a.name !== "data-consent" && a.name !== "data-loaded") s.setAttribute(a.name, a.value);
+    }
+    document.head.appendChild(s);
+  };
+  if (allowed) window.upticktrendsLoadAds();
+})();
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -122,7 +146,7 @@
         <li><a href="https://upticktrends.com/contact/">Contact</a></li>
         <li><a href="https://upticktrends.com/terms/">Terms</a></li>
         <li><a href="https://upticktrends.com/feed.xml">RSS feed</a></li>
-      </ul>
+<li><a href="https://upticktrends.com/privacy/#your-ad-choices" data-consent-open>Privacy choices</a></li>      </ul>
     </nav>
     <p class="footer__small">Explainers are researched across multiple sources and written with AI assistance. &copy; 2026 Uptick.</p>
   </div>
@@ -131,6 +155,16 @@
   <p class="livecount__text"></p>
   <button class="livecount__close" type="button" aria-label="Dismiss"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
 </div>
-<script src="https://upticktrends.com/assets/js/site.js?v=0c53873367" defer></script>
+<section class="consent" id="consent" aria-labelledby="consent-h" hidden>
+  <div class="consent__inner">
+    <h2 class="consent__h" id="consent-h">Your privacy choices</h2>
+    <p class="consent__text">Our ad partner, TinyAdz, uses how you browse this site and saves data on your device to show and measure ads. Do you allow this?<span data-consent-first hidden> No ads load until you choose.</span> You can change your choice anytime with Privacy choices at the bottom of every page. <a href="https://upticktrends.com/privacy/#your-ad-choices">Privacy policy</a></p>
+    <div class="consent__actions">
+      <button type="button" class="consent__btn" id="consent-deny" data-consent-deny>No thanks</button>
+      <button type="button" class="consent__btn" id="consent-allow" data-consent-allow>Allow ads</button>
+    </div>
+  </div>
+</section>
+<script src="https://upticktrends.com/assets/js/site.js?v=6a20f20640" defer></script>
 </body>
 </html>

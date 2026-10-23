@@ -10,6 +10,7 @@
         <li><a href="{{ u(pg.path) }}">{{ pg.nav_label }}</a></li>
         {% endfor %}
         <li><a href="{{ u('feed.xml') }}">RSS feed</a></li>
+        {% if site.tinyadz_site_id %}<li><a href="{{ u('privacy/') }}#your-ad-choices" data-consent-open>Privacy choices</a></li>{% endif %}
       </ul>
     </nav>
     <p class="footer__small">Explainers are researched across multiple sources and written with AI assistance. &copy; {{ year }} {{ site.name }}.</p>

@@ -49,6 +49,8 @@ python3 tools/check_site.py   # should report 0 errors
 - **Remove a post:** delete its file in `content/posts/` (and its folder in `media/`), rebuild, push.
 - **Rename the blog:** change `name` in `site.yaml`; the artwork redraws itself on the next build.
 - **Ads:** TinyAdz runs the ads now. Its site ID is `tinyadz_site_id` in `site.yaml` (blank turns it off).
+  Visitors on European time zones are asked first ("Allow ads" / "No thanks"), and everyone can change their
+  choice from **Privacy choices** in the footer.
   The AdSense code is off (`adsense_client` is blank); the AdSense section below applies if you go back to it.
 
 ## Live visitor count

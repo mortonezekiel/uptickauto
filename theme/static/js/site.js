@@ -208,3 +208,41 @@
     })
     .catch(function () {});
 })();
+
+// Privacy choices banner for ads. Visitors whose device is set to a European time zone are asked before any ads
+// load (the loader in the page head waits for "Allow ads"). Everyone can open the banner again from the footer to
+// change their choice. Turning ads off on a page where they were already running reloads the page without them.
+(function () {
+  var state = window.upticktrendsConsent;
+  var banner = document.getElementById("consent");
+  if (!state || !banner) return;
+  var root = document.documentElement;
+  function save(value) { try { localStorage.setItem("uptick-ads-consent", value); } catch (e) {} }
+  function open(first) {
+    banner.querySelector("[data-consent-first]").hidden = !first;
+    banner.hidden = false;
+    root.classList.add("consent-open");
+  }
+  function close() {
+    banner.hidden = true;
+    root.classList.remove("consent-open");
+  }
+  banner.querySelector("[data-consent-allow]").addEventListener("click", function () {
+    save("granted");
+    state.choice = "granted";
+    close();
+    if (window.upticktrendsLoadAds) window.upticktrendsLoadAds();
+  });
+  banner.querySelector("[data-consent-deny]").addEventListener("click", function () {
+    var running = !!document.querySelector('script[data-consent="ads"][data-loaded]');
+    save("denied");
+    state.choice = "denied";
+    close();
+    if (running) window.location.reload();
+  });
+  var links = document.querySelectorAll("[data-consent-open]");
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function (e) { e.preventDefault(); open(false); });
+  }
+  if (state.europe && !state.choice) open(true);
+})();

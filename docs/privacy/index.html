@@ -31,8 +31,32 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&amp;family=Schibsted+Grotesk:wght@500..900&amp;display=swap">
-<link rel="stylesheet" href="../assets/css/site.css?v=db66d7371f">
-<script src="https://cdn.apitiny.net/scripts/v2.0/main.js" data-site-id="6adb66cb9c211e67eb9ae916" data-test-mode="false" async></script>
+<link rel="stylesheet" href="../assets/css/site.css?v=2135c1c686">
+<script type="text/plain" data-consent="ads" src="https://cdn.apitiny.net/scripts/v2.0/main.js" data-site-id="6adb66cb9c211e67eb9ae916" data-test-mode="false" async></script>
+<script>
+/* Ads consent. TinyAdz loads right away unless the visitor turned ads off, or their device is set to a time zone in
+   the EEA, the UK or Switzerland and they haven't chosen "Allow ads" yet. The choice is saved in local storage. */
+(function () {
+  var choice = null, tz = "";
+  try { choice = localStorage.getItem("uptick-ads-consent"); } catch (e) {}
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+  var europe = !tz || /^(Europe\/.+|Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)|Arctic\/Longyearbyen|Africa\/Ceuta|Asia\/(Nicosia|Famagusta)|America\/(Guadeloupe|Martinique|Cayenne|St_Barthelemy|Marigot)|Indian\/(Reunion|Mayotte))$/.test(tz);
+  var allowed = choice === "granted" || (choice !== "denied" && !europe);
+  window.upticktrendsConsent = { europe: europe, choice: choice, allowed: allowed };
+  window.upticktrendsLoadAds = function () {
+    var held = document.querySelector('script[type="text/plain"][data-consent="ads"]');
+    if (!held || held.hasAttribute("data-loaded")) return;
+    held.setAttribute("data-loaded", "");
+    var s = document.createElement("script");
+    for (var i = 0; i < held.attributes.length; i++) {
+      var a = held.attributes[i];
+      if (a.name !== "type" && a.name !== "data-consent" && a.name !== "data-loaded") s.setAttribute(a.name, a.value);
+    }
+    document.head.appendChild(s);
+  };
+  if (allowed) window.upticktrendsLoadAds();
+})();
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -80,8 +104,10 @@
 <p>Uptick may show how many people visited the site in the past hour. To count visits, each page sends a short request to a small counting service we run on Cloudflare. The service mixes your IP address and browser type with a secret key to make a scrambled code, keeps that code for about an hour so each visitor is counted only once, and then deletes it. It doesn&rsquo;t store your IP address, set cookies or save anything on your device. Cloudflare handles these requests for us under its <a href="https://www.cloudflare.com/privacypolicy/">privacy policy</a>.</p>
 <h2 id="advertising">Advertising</h2>
 <p>Uptick shows ads from TinyAdz, an advertising network. Ads can appear within pages, in a corner of the screen or, occasionally, as a full-screen ad. To choose and measure ads, TinyAdz&rsquo;s script receives the address of the page you&rsquo;re reading, the page you came from, your screen size and time zone, and how you use the page, such as scrolling, pointer movement and clicks. It also saves the times ads were shown in your browser&rsquo;s local storage. TinyAdz handles this information under its own privacy policy, which we don&rsquo;t control. You can clear this site&rsquo;s stored data in your browser settings at any time.</p>
-<h2 id="visitors-in-the-eea-the-united-kingdom-and-switzerland">Visitors in the EEA, the United Kingdom and Switzerland</h2>
-<p>If you visit from the European Economic Area, the United Kingdom or Switzerland, data protection law gives you extra rights over your personal data, including the right to object to its use for advertising. You can block or clear this site&rsquo;s stored data in your browser settings, and you can <a href="../contact/">contact us</a> to exercise your rights.</p>
+<h2 id="your-ad-choices">Your ad choices</h2>
+<p>If your device is set to a time zone in the European Economic Area, the United Kingdom or Switzerland, we ask before TinyAdz loads. Until you choose <strong>Allow ads</strong>, no ads load and TinyAdz receives nothing from your visit. Visitors elsewhere see ads by default and can turn them off the same way.</p>
+<p>You can change your choice at any time with the <strong>Privacy choices</strong> link at the bottom of every page. We save your choice in your browser&rsquo;s local storage so we don&rsquo;t ask on every page. Clearing your browser data resets it.</p>
+<p>If you&rsquo;re in the EEA, the UK or Switzerland, data protection law gives you extra rights over your personal data, including the right to object to its use for advertising. You can <a href="../contact/">contact us</a> to exercise them.</p>
 <h2 id="fonts">Fonts</h2>
 <p>Our pages load typefaces from Google Fonts, which means your browser contacts Google&rsquo;s servers and Google receives your IP address. Google describes how it handles that data in its <a href="https://policies.google.com/privacy">privacy policy</a>.</p>
 <h2 id="links-to-other-sites">Links to other sites</h2>
@@ -109,7 +135,7 @@
         <li><a href="../contact/">Contact</a></li>
         <li><a href="../terms/">Terms</a></li>
         <li><a href="../feed.xml">RSS feed</a></li>
-      </ul>
+<li><a href="./#your-ad-choices" data-consent-open>Privacy choices</a></li>      </ul>
     </nav>
     <p class="footer__small">Explainers are researched across multiple sources and written with AI assistance. &copy; 2026 Uptick.</p>
   </div>
@@ -118,6 +144,16 @@
   <p class="livecount__text"></p>
   <button class="livecount__close" type="button" aria-label="Dismiss"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
 </div>
-<script src="../assets/js/site.js?v=0c53873367" defer></script>
+<section class="consent" id="consent" aria-labelledby="consent-h" hidden>
+  <div class="consent__inner">
+    <h2 class="consent__h" id="consent-h">Your privacy choices</h2>
+    <p class="consent__text">Our ad partner, TinyAdz, uses how you browse this site and saves data on your device to show and measure ads. Do you allow this?<span data-consent-first hidden> No ads load until you choose.</span> You can change your choice anytime with Privacy choices at the bottom of every page. <a href="./#your-ad-choices">Privacy policy</a></p>
+    <div class="consent__actions">
+      <button type="button" class="consent__btn" id="consent-deny" data-consent-deny>No thanks</button>
+      <button type="button" class="consent__btn" id="consent-allow" data-consent-allow>Allow ads</button>
+    </div>
+  </div>
+</section>
+<script src="../assets/js/site.js?v=6a20f20640" defer></script>
 </body>
 </html>

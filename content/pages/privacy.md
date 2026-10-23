@@ -33,9 +33,13 @@ Uptick may show how many people visited the site in the past hour. To count visi
 
 Uptick shows ads from TinyAdz, an advertising network. Ads can appear within pages, in a corner of the screen or, occasionally, as a full-screen ad. To choose and measure ads, TinyAdz's script receives the address of the page you're reading, the page you came from, your screen size and time zone, and how you use the page, such as scrolling, pointer movement and clicks. It also saves the times ads were shown in your browser's local storage. TinyAdz handles this information under its own privacy policy, which we don't control. You can clear this site's stored data in your browser settings at any time.
 
-## Visitors in the EEA, the United Kingdom and Switzerland
+## Your ad choices
 
-If you visit from the European Economic Area, the United Kingdom or Switzerland, data protection law gives you extra rights over your personal data, including the right to object to its use for advertising. You can block or clear this site's stored data in your browser settings, and you can [contact us](/contact/) to exercise your rights.
+If your device is set to a time zone in the European Economic Area, the United Kingdom or Switzerland, we ask before TinyAdz loads. Until you choose **Allow ads**, no ads load and TinyAdz receives nothing from your visit. Visitors elsewhere see ads by default and can turn them off the same way.
+
+You can change your choice at any time with the **Privacy choices** link at the bottom of every page. We save your choice in your browser's local storage so we don't ask on every page. Clearing your browser data resets it.
+
+If you're in the EEA, the UK or Switzerland, data protection law gives you extra rights over your personal data, including the right to object to its use for advertising. You can [contact us](/contact/) to exercise them.
 
 ## Fonts
 
