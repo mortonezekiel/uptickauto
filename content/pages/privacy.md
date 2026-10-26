@@ -7,7 +7,7 @@ description: What information Uptick collects when you visit, how cookies, analy
 dek: "Short version: we don't ask for your name, email or an account to read anything."
 ---
 
-*Last updated October 23, 2026.*
+*Last updated October 26, 2026.*
 
 ## What we collect
 
@@ -31,15 +31,17 @@ Uptick may show how many people visited the site in the past hour. To count visi
 
 ## Advertising
 
-Uptick shows ads from TinyAdz, an advertising network. Ads can appear within pages, in a corner of the screen or, occasionally, as a full-screen ad. To choose and measure ads, TinyAdz's script receives the address of the page you're reading, the page you came from, your screen size and time zone, and how you use the page, such as scrolling, pointer movement and clicks. It also saves the times ads were shown in your browser's local storage. TinyAdz handles this information under its own privacy policy, which we don't control. You can clear this site's stored data in your browser settings at any time.
+Uptick may show ads provided by Google AdSense. Google and other third-party vendors use cookies and similar technologies to serve ads based on your visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to Uptick and other sites on the internet.
 
-## Your ad choices
+You can choose how ads are personalized for you:
 
-If your device is set to a time zone in the European Economic Area, the United Kingdom or Switzerland, we ask before TinyAdz loads. Until you choose **Allow ads**, no ads load and TinyAdz receives nothing from your visit. Visitors elsewhere see ads by default and can turn them off the same way.
+- Manage or turn off personalized ads in your [Google Ad Settings](https://adssettings.google.com).
+- Opt out of some third-party vendors' use of cookies for personalized ads at [aboutads.info](https://www.aboutads.info).
+- Learn how Google uses data from sites that use its services at [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
 
-You can change your choice at any time with the **Privacy choices** link at the bottom of every page. We save your choice in your browser's local storage so we don't ask on every page. Clearing your browser data resets it.
+## Visitors in the EEA, the United Kingdom and Switzerland
 
-If you're in the EEA, the UK or Switzerland, data protection law gives you extra rights over your personal data, including the right to object to its use for advertising. You can [contact us](/contact/) to exercise them.
+If you visit from the European Economic Area, the United Kingdom or Switzerland, we ask for your consent before analytics or advertising services use cookies, local storage or your personal data for ad personalization. You can decline, and you can change or withdraw your choice at any time using the privacy settings link or message on the site. Records of your choice are kept by our consent tool so we can respect it.
 
 ## Fonts
 

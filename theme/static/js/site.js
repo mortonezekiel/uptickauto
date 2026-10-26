@@ -105,7 +105,7 @@
 
   function adOnScreen() {
     var vh = window.innerHeight;
-    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle, .tinyadz-iframe");
+    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle");
     for (var i = 0; i < slots.length; i++) {
       var r = slots[i].getBoundingClientRect();
       if (r.bottom > 0 && r.top < vh && r.height > 0) return true;
@@ -136,7 +136,7 @@
   window.addEventListener("scroll", request, { passive: true });
   window.addEventListener("resize", request);
   window.addEventListener("load", request);
-  // TinyAdz adds its corner ad (bottom-right, where this ring sits) straight to the page root, so re-check then.
+  // Google can add anchor ads straight to the page root, so re-check whenever something is added there.
   if (window.MutationObserver) new MutationObserver(request).observe(document.documentElement, { childList: true });
   ring.addEventListener("click", function () {
     var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -170,7 +170,7 @@
   function overlapsAd() {
     if (document.querySelector('ins.adsbygoogle[data-anchor-status="displayed"], ins.adsbygoogle[data-vignette-loaded="true"]')) return true;
     var b = box.getBoundingClientRect();
-    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle, .tinyadz-iframe");
+    var slots = document.querySelectorAll(".adslot, ins.adsbygoogle");
     for (var i = 0; i < slots.length; i++) {
       var r = slots[i].getBoundingClientRect();
       if (r.width && r.height && r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top) return true;
@@ -207,42 +207,4 @@
       if (firstPage && n >= min) window.setTimeout(function () { show(n); }, 2500);
     })
     .catch(function () {});
-})();
-
-// Privacy choices banner for ads. Visitors whose device is set to a European time zone are asked before any ads
-// load (the loader in the page head waits for "Allow ads"). Everyone can open the banner again from the footer to
-// change their choice. Turning ads off on a page where they were already running reloads the page without them.
-(function () {
-  var state = window.upticktrendsConsent;
-  var banner = document.getElementById("consent");
-  if (!state || !banner) return;
-  var root = document.documentElement;
-  function save(value) { try { localStorage.setItem("uptick-ads-consent", value); } catch (e) {} }
-  function open(first) {
-    banner.querySelector("[data-consent-first]").hidden = !first;
-    banner.hidden = false;
-    root.classList.add("consent-open");
-  }
-  function close() {
-    banner.hidden = true;
-    root.classList.remove("consent-open");
-  }
-  banner.querySelector("[data-consent-allow]").addEventListener("click", function () {
-    save("granted");
-    state.choice = "granted";
-    close();
-    if (window.upticktrendsLoadAds) window.upticktrendsLoadAds();
-  });
-  banner.querySelector("[data-consent-deny]").addEventListener("click", function () {
-    var running = !!document.querySelector('script[data-consent="ads"][data-loaded]');
-    save("denied");
-    state.choice = "denied";
-    close();
-    if (running) window.location.reload();
-  });
-  var links = document.querySelectorAll("[data-consent-open]");
-  for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", function (e) { e.preventDefault(); open(false); });
-  }
-  if (state.europe && !state.choice) open(true);
 })();
