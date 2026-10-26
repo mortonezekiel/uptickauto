@@ -6,7 +6,7 @@ dek: "Kimi Antonelli stretched his F1 lead to 123 points, Inter scored twice in 
 category: Sports
 tags: [Formula 1, Kimi Antonelli, Serie A, Bundesliga, Ligue 1, Pakistan cricket, ATP, WTA]
 published: 2026-10-25T22:20:00Z
-updated: 2026-10-25T22:20:00Z
+updated: 2026-10-26T13:20:00Z
 trend_score: 50
 format: roundup
 roundup_league: Other
@@ -18,6 +18,22 @@ key_points:
   - "Inter beat Fiorentina 2-1 with two stoppage-time goals to join Lazio on 22 points; Bayern won 3-1 at Freiburg to go top of the Bundesliga on goal difference."
   - "Elena Rybakina, Daniil Medvedev, Lorenzo Musetti, Tallon Griekspoor and Katerina Siniakova won tour titles."
 sources:
+  - title: "Match Report: Paintsil Bags a Brace, LA Galaxy Battle LAFC to 2-2 Draw at BMO Stadium"
+    publisher: LA Galaxy
+    url: "https://www.lagalaxy.com/news/match-report-paintsil-bags-a-brace-la-galaxy-battle-lafc-to-2-2-draw-at-bmo-stadium"
+    date: 2026-10-25
+  - title: "LAFC's furious El Tráfico comeback sparks playoff hopes"
+    publisher: MLSsoccer.com
+    url: "https://www.mlssoccer.com/news/lafc-s-furious-el-trafico-comeback-sparks-confidence-boost-ahead-of-playoffs"
+    date: 2026-10-26
+  - title: "LAFC 2-2 LA Galaxy: Bouanga denied dramatic Tráfico winner"
+    publisher: VAVEL USA
+    url: "https://www.vavel.com/en-us/soccer/2026/10/26/mls/1276886-lafc-2-2-la-galaxy-bouanga-denied-dramatic-trafico-winner.html"
+    date: 2026-10-26
+  - title: "LAFC battles back from two-goal deficit to clinch playoff berth in El Tráfico"
+    publisher: The Sporting Tribune
+    url: "https://www.thesportingtribune.com/2026/10/25/lafc-battles-back-from-two-goal-deficit-to-clinch-playoff-berth-in-el-trfico"
+    date: 2026-10-25
   - title: "2026 United States Grand Prix race result and championship points"
     publisher: RaceFans
     url: "https://www.racefans.net/2026/10/25/2026-united-states-grand-prix-race-result-and-championship-points/"
@@ -201,6 +217,12 @@ In Lahore, Shadab Khan rescued Pakistan from 154-9 with an unbeaten 113 to beat 
 | Angers | 0-0 | Lorient | Draw |
 | Toulouse | 0-0 | Troyes | Draw |
 
+**MLS:**
+
+| Home | Score | Away | Note |
+|---|---|---|---|
+| LAFC | 2-2 | LA Galaxy | Draw; Joseph Paintsil scored twice, LAFC clinched a playoff spot |
+
 **Tennis finals:**
 
 | Event | Champion | Score | Runner-up |
@@ -210,6 +232,10 @@ In Lahore, Shadab Khan rescued Pakistan from 154-9 with an unbeaten 113 to beat 
 | ATP Almaty | Daniil Medvedev | 6-7 (6), 6-1, 6-3 | Nikoloz Basilashvili |
 | ATP Lyon | Lorenzo Musetti | 6-3, 6-4 | Taylor Fritz |
 | ATP Brussels | Tallon Griekspoor | 4-6, 6-3, 6-4 | Jan-Lennard Struff |
+
+## El Tráfico ends level
+
+The only MLS game of the day, played Sunday night at BMO Stadium in Los Angeles, swung twice in about half an hour. Paintsil put the Galaxy ahead in the 34th minute and doubled the lead early in the second half by following up a save from Hugo Lloris, according to [the Galaxy's match report](https://www.lagalaxy.com/news/match-report-paintsil-bags-a-brace-la-galaxy-battle-lafc-to-2-2-draw-at-bmo-stadium). Two minutes later Denis Bouanga pounced on a spilled long-range shot, and Leo Walta tied it in the 63rd minute with a cross that took a deflection. Bouanga thought he had won it deep in stoppage time, but the goal was ruled out for offside after a video review, [VAVEL](https://www.vavel.com/en-us/soccer/2026/10/26/mls/1276886-lafc-2-2-la-galaxy-bouanga-denied-dramatic-trafico-winner.html) and [The Sporting Tribune](https://www.thesportingtribune.com/2026/10/25/lafc-battles-back-from-two-goal-deficit-to-clinch-playoff-berth-in-el-trfico) reported.
 
 ## Antonelli's title has to wait
 
@@ -231,6 +257,7 @@ In France, Marseille nearly threw away a four-goal lead, conceding three times f
 
 ## What it means
 
+- **MLS:** The point was enough for LAFC to clinch a playoff berth, its fifth straight, [MLSsoccer.com reported](https://www.mlssoccer.com/news/lafc-s-furious-el-trafico-comeback-sparks-confidence-boost-ahead-of-playoffs). LAFC sit sixth in the West with 47 points and two games left. The Galaxy, on 41, hold ninth, the last playoff place, two points ahead of Real Salt Lake, which has a game in hand.
 - **F1:** Antonelli has 365 points to Russell's 242 after 18 of 23 rounds, RaceFans reported. His lead grew from 102 to 123 points in one afternoon, with five rounds left.
 - **Serie A:** Inter and Lazio share first on 22 points. Roma and Milan have 18, one ahead of Como.
 - **Bundesliga:** Bayern and Borussia Dortmund both have 17 points after seven games; Bayern lead on goal difference.
@@ -244,6 +271,7 @@ In France, Marseille nearly threw away a four-goal lead, conceding three times f
 - **Cricket:** New Zealand and India play the third T20I in Wellington on Tuesday, Oct. 27, and South Africa and Australia start their third Test in Cape Town the same day, according to [Wikipedia's 2026-27 calendar](https://en.wikipedia.org/wiki/International_cricket_in_2026%E2%80%9327).
 - **Tennis:** ATP Vienna and Basel and WTA Tokyo and Guangzhou run Oct. 26 to Nov. 1, [Tennis Connected reported](https://tennisconnected.com/atp-vienna-basel-wta-tokyo-guangzhou-2026-live-streaming-how-to-watch-tennis-online-and-on-tv/). The Paris Masters starts Saturday, Oct. 31, [the venue's site says](https://www.parisladefense.com/en/news/events/rolex-paris-masters-back-october-31-november-8-2026).
 - **Bundesliga:** Bayern host Dortmund on Saturday, Oct. 31, beIN Sports reported.
+- **MLS:** The Galaxy host Austin FC on Saturday, Oct. 31, at 5 p.m. ET, per the club. LAFC host Minnesota United on Sunday, Nov. 1, at 8:30 p.m. ET, MLSsoccer.com said.
 - **F1:** The next race is the Mexico City Grand Prix, where Antonelli can clinch the title, the AP said.
 
-Sunday's NFL, NBA and NHL games will be covered in separate roundups once all are final.
+Sunday's NFL, NBA and NHL games have their own roundups: [NFL scores for Oct. 25](/nfl-scores-oct-25-2026/), [NBA scores for Oct. 25](/nba-scores-oct-25-2026/) and [NHL scores for Oct. 25](/nhl-scores-oct-25-2026/).

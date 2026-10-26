@@ -1,24 +1,49 @@
 ---
-title: "Brazil Runoff 2026: Lula and Flávio Bolsonaro in a Dead Heat"
+title: "Brazil Runoff Results: Lula Wins a 4th Term With 51.8%"
 slug: brazil-runoff-2026-lula-flavio-bolsonaro
-description: "Brazil's Oct. 25 runoff pits President Lula against Sen. Flávio Bolsonaro. See the final polls, the first-round math, voting hours in ET and what's at stake."
-dek: "Final surveys put the two within a point or two of each other, and the 2.2 million-vote first-round gap is small next to the 33 million Brazilians who skipped that vote."
+description: "Brazil runoff results: Lula beat Flávio Bolsonaro 51.8% to 48.2% on Oct. 25. See the vote math, why Bolsonaro wants the vote annulled and what comes next."
+dek: "Lula turned a 2.2 million-vote first-round deficit into a lead of about 4.4 million, the first comeback of its kind in Brazil's modern elections. His opponent says he will go to court."
 category: World
 tags: [Brazil election, Lula, Flávio Bolsonaro, Jair Bolsonaro, Latin America]
 published: 2026-10-24T22:20:00Z
-updated: 2026-10-24T22:20:00Z
-trend_score: 72
-why_trending: "Brazilians vote Sunday, Oct. 25, in a presidential runoff that final polls show is too close to call."
+updated: 2026-10-26T13:20:00Z
+trend_score: 78
+signal: "Google Trends, U.K., India and Canada"
+why_trending: "Brazil's electoral court declared President Lula the winner of the Oct. 25 runoff, and Flávio Bolsonaro refused to accept the result."
 key_points:
-  - "Flávio Bolsonaro led the Oct. 4 first round with about 47% of valid votes to Lula's roughly 45%, a gap of more than 2.2 million votes."
-  - "Datafolha's final runoff poll, released Oct. 22, had the two tied at 50% each of valid votes."
-  - "Almost 160 million Brazilians are eligible to vote, and voting is compulsory; polls close at 5 p.m. Brasília time, which is 4 p.m. ET."
-  - "Governors in five states and the Federal District are also on Sunday's runoff ballot."
+  - "With all votes counted, Lula won 51.8% of valid votes to Flávio Bolsonaro's 48.2%, a margin of nearly 4.4 million votes, according to the electoral court figures reported by the AP."
+  - "Lula is the first candidate since Brazil's return to direct presidential elections to win after finishing second in the first round."
+  - "Bolsonaro said he will seek to have the vote annulled over a two-hour extension of voting hours; the electoral court's president said the extension did not change the result."
+  - "Lula's fourth term begins Jan. 5, 2027."
 sources:
-  - title: "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday"
-    publisher: Associated Press via LA NACION
-    url: "https://www.lanacion.com.ar/usa/what-to-know-as-brazilians-choose-between-lula-and-flavio-bolsonaro-on-sunday-nid24102026/"
-    date: 2026-10-24
+  - title: "Lula is declared winner of Brazil's election as Bolsonaro rejects results"
+    publisher: Associated Press via WTVR
+    url: "https://www.wtvr.com/world/south-america/lula-is-declared-winner-of-brazils-election-as-bolsonaro-rejects-results"
+    date: 2026-10-26
+  - title: "Flavio Bolsonaro calls for annulment of election after loss to Lula"
+    publisher: Bloomberg via Business Standard
+    url: "https://www.business-standard.com/amp/world-news/flavio-bolsonaro-calls-for-annulment-of-election-after-loss-to-lula-126102600068_1.html"
+    date: 2026-10-26
+  - title: "Lula wins record fourth term in Brazil, defeats Bolsonaro in runoff vote"
+    publisher: Bloomberg via Business Standard
+    url: "https://www.business-standard.com/amp/world-news/lula-wins-record-fourth-term-in-brazil-defeats-bolsonaro-in-runoff-vote-126102600055_1.html"
+    date: 2026-10-26
+  - title: "Brazil's President Lula da Silva wins historic 4th term after defeating Flavio Bolsonaro"
+    publisher: Anadolu Agency
+    url: "https://www.aa.com.tr/en/americas/brazils-president-lula-da-silva-wins-historic-4th-term-after-defeating-flavio-bolsonaro/4100537"
+    date: 2026-10-26
+  - title: "Flávio Bolsonaro diz que não reconhece vitória de Lula"
+    publisher: O Povo
+    url: "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/25/flavio-bolsonaro-diz-que-nao-reconhece-vitoria-de-lula.html"
+    date: 2026-10-25
+  - title: "BREAKING: Lula Wins Brazil's Runoff in a Historic Comeback — What His Record Fourth Term Means for the Country"
+    publisher: Latin Times
+    url: "https://www.latintimes.com/lula-defeats-flavio-bolsonaro-brazil-runoff-600552"
+    date: 2026-10-25
+  - title: "Lula 51.8%, Flavio Bolsonaro 48.2%: Brazil Runoff Results 2026"
+    publisher: Poliwave
+    url: "https://www.poliwave.com/br/live/presidente-2026"
+    date: 2026-10-25
   - title: "Brazil's presidential race: Three key takeaways from the first round"
     publisher: Al Jazeera
     url: "https://www.aljazeera.com/news/2026/10/5/brazils-presidential-race-three-key-takeaways-from-the-first-round"
@@ -27,75 +52,75 @@ sources:
     publisher: Al Jazeera
     url: "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off"
     date: 2026-10-16
-  - title: "Brazil Votes Sunday in Dead-Heat Runoff: Lula vs. Flávio Bolsonaro"
-    publisher: HNGN
-    url: "https://www.hngn.com/articles/273581/20261023/brazil-votes-sunday-dead-heat-runoff-lula-vs-flavio-bolsonaro.htm"
-    date: 2026-10-23
   - title: "Brazil Election Polls: Datafolha Tie 50–50, Average 51–49"
     publisher: The Rio Times
     url: "https://www.riotimesonline.com/brazil-runoff-polls-2026/"
     date: 2026-10-24
 ---
 
+*Updated Oct. 26 with the runoff results. This post first ran Oct. 24 as a preview of the vote.*
+
 ## What happened
 
-Brazil picks its next president on Sunday, Oct. 25, in a **runoff between President Luiz Inácio Lula da Silva and Sen. Flávio Bolsonaro**, and the last round of polling suggests nobody can call it in advance. Datafolha's final survey, released Thursday, showed the two tied at 50% each of valid votes, [according to The Rio Times' poll tracker](https://www.riotimesonline.com/brazil-runoff-polls-2026/), which put the average of 20 pollsters' latest numbers at 51% for Bolsonaro and 49% for Lula.
+President Luiz Inácio Lula da Silva won Brazil's presidential runoff on Sunday, Oct. 25, taking **51.8% of valid votes to 48.2% for Sen. Flávio Bolsonaro**. With every vote counted, the Superior Electoral Court declared Lula the winner by nearly 4.4 million votes, [the Associated Press reported](https://www.wtvr.com/world/south-america/lula-is-declared-winner-of-brazils-election-as-bolsonaro-rejects-results). At 80, he now heads into a fourth, non-consecutive term.
 
-The runoff was needed because neither man cleared 50% in the Oct. 4 first round. Bolsonaro, the son of former President Jair Bolsonaro, finished first with about 47% of valid votes to Lula's roughly 45%, [Al Jazeera reported](https://www.aljazeera.com/news/2026/10/5/brazils-presidential-race-three-key-takeaways-from-the-first-round). Most polls had expected Lula to come out ahead in that round.
+Bolsonaro did not concede. Speaking Sunday night, he said the result could not be recognized and that his side would go to court to have the election annulled, [Bloomberg reported](https://www.business-standard.com/amp/world-news/flavio-bolsonaro-calls-for-annulment-of-election-after-loss-to-lula-126102600068_1.html). His complaint centers on a Supreme Court justice's order to keep some polls open two extra hours. The head of the electoral court said that extension did not affect the outcome.
 
-## Why everyone is watching
+## How Lula came back
 
-Latin America's largest country is choosing between two very different directions. Lula, 80, is a former union worker who led Brazil from 2003 to 2010 and returned in 2023; he is seeking a fourth, non-consecutive term, [the Associated Press notes](https://www.lanacion.com.ar/usa/what-to-know-as-brazilians-choose-between-lula-and-flavio-bolsonaro-on-sunday-nid24102026/). Bolsonaro, 45, became a candidate in December after his father named him, according to [HNGN](https://www.hngn.com/articles/273581/20261023/brazil-votes-sunday-dead-heat-runoff-lula-vs-flavio-bolsonaro.htm), and the AP describes him as a Trump ally who carries on his father's hard-right agenda in a softer tone.
+Two weeks earlier, Lula looked like the underdog. Bolsonaro, the eldest son of former President Jair Bolsonaro, won the Oct. 4 first round with 47.03% to Lula's 45.16%, [Anadolu Agency noted](https://www.aa.com.tr/en/americas/brazils-president-lula-da-silva-wins-historic-4th-term-after-defeating-flavio-bolsonaro/4100537). Final polls called the runoff a toss-up; Datafolha had it at 50% each, [The Rio Times' tracker showed](https://www.riotimesonline.com/brazil-runoff-polls-2026/).
 
-The father is not on the ballot. Jair Bolsonaro is barred from running and is confined at home while serving 27 years for a coup attempt that followed his 2022 loss to Lula, the AP reports. Flávio has pledged to seek an amnesty for his father, Al Jazeera reported.
+No one had won the presidency from second place in the first round since Brazil returned to direct presidential elections, according to the AP and Anadolu. Lula did it by going after people who skipped the first round and voters who hadn't decided, and by leaning on his Northeast stronghold, Bloomberg [wrote in its results story](https://www.business-standard.com/amp/world-news/lula-wins-record-fourth-term-in-brazil-defeats-bolsonaro-in-runoff-vote-126102600055_1.html). In the campaign's last stretch he raised Bolsa Família payments, banned online gambling and announced a plan to refinance consumer debt through private banks.
 
-There is a U.S. angle too. The Trump administration hit Brazilian goods with 50% tariffs last year and pointed to Jair Bolsonaro's trial as one reason, and Lula has made national sovereignty a campaign theme, the AP says. A Bolsonaro win would add Brazil to a list of Trump-friendly governments in the region that includes Argentina, Chile, Colombia, Costa Rica and Peru.
+The count itself was a seesaw. Bolsonaro led for part of the night and peaked at 50.30% with about 37% of ballots counted, [Latin Times reported](https://www.latintimes.com/lula-defeats-flavio-bolsonaro-brazil-runoff-600552) from court updates. Lula retook the lead once returns from the Northeast and big cities came in and never gave it back.
 
 ## The numbers
 
-| Measure | Flávio Bolsonaro | Lula |
+| Measure | Lula | Flávio Bolsonaro |
 |---|---|---|
-| First round, Oct. 4 (votes) | 56,104,503 | 53,879,538 |
-| First round, share of valid votes | about 47% | about 45% |
-| Datafolha final poll, valid votes (Oct. 22) | 50% | 50% |
-| CNT/MDA poll, valid votes (Oct. 24) | 50.7% | 49.3% |
-| Vox Brasil poll, valid votes (Oct. 23) | 49.4% | 50.6% |
-| Average of 20 pollsters (Oct. 24) | 51.0% | 49.0% |
+| First round, Oct. 4 (votes) | 53,879,538 | 56,104,503 |
+| First round, share of valid votes | 45.16% | 47.03% |
+| Runoff, Oct. 25 (votes) | 64,256,232 | 59,826,041 |
+| Runoff, share of valid votes | 51.8% | 48.2% |
+| Votes gained between rounds | about 10.38 million | about 3.72 million |
 
-Vote counts are from [Al Jazeera's Oct. 16 report](https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off); the newer polls are from The Rio Times' tracker.
+First-round totals are from [Al Jazeera](https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off). Runoff vote counts are from [Poliwave's tally](https://www.poliwave.com/br/live/presidente-2026) of court data, which it labels unofficial; the AP's "nearly 4.4 million" margin matches it.
 
 ### What the math says
 
-Subtract the first-round totals and Bolsonaro's lead comes to about **2.22 million votes**. That sounds like a lot, but three other figures put it in perspective:
+- **The swing:** Bolsonaro went from a lead of about 2.22 million votes to a deficit of about 4.43 million. That is a turnaround of roughly 6.65 million votes in three weeks.
+- **Where it came from:** Lula added about 10.4 million votes between rounds, nearly three times Bolsonaro's gain of 3.7 million. His campaign's push to bring first-round no-shows to the polls appears to have paid off: O Povo reported that runoff abstention fell to 19%, the lowest in 20 years.
+- **The map:** Each man carried 14 of the 28 voting units counted by Poliwave, which include the 26 states, the Federal District and votes cast abroad. Bolsonaro won São Paulo, Rio de Janeiro and the South; Lula swept the Northeast, winning Bahia by about 43 points. The closest state was Minas Gerais, which Lula won by less than a point.
 
-- **The also-rans:** Ronaldo Caiado and Renan Santos together drew about 5.3 million votes, more than twice the gap, and both have said they won't endorse either finalist, according to Al Jazeera.
-- **The no-shows:** voting is compulsory in Brazil, yet more than 33 million people, about 21% of the electorate, skipped the first round, the AP reports. They can still vote Sunday. That pool is roughly 15 times the size of Bolsonaro's lead.
-- **The polling miss:** surveys underestimated Bolsonaro by about five points in the first round, HNGN noted, so a one- or two-point poll lead is well inside the range of error.
+## Why Bolsonaro wants the vote annulled
 
-For comparison, Lula beat Jair Bolsonaro by 1.8 points in 2022, HNGN noted, so another finish this close would not be new.
+The dispute is over the last hour of voting. Lula's campaign asked for more time after bus shortages in Salvador and São Paulo kept people from reaching polls, and Bolsonaro's campaign asked for more time in states hit by heavy rain, according to the AP and [O Povo](https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/25/flavio-bolsonaro-diz-que-nao-reconhece-vitoria-de-lula.html). With the 5 p.m. closing time almost at hand, Justice Cristiano Zanin ordered them kept open until 7 p.m. He later clarified that the order covered only polling places still open, and many had already closed, Bloomberg reported.
 
-## Who says what
+Bolsonaro accused Zanin, who once worked as Lula's lawyer, of changing the rules mid-game. "It's impossible to recognize the results," he said, per the AP.
 
-**Bolsonaro's pitch** centers on crime. His platform includes building El Salvador-style mega-prisons, labeling transnational gangs as terrorist groups and trying defendants as young as 16 as adults, the AP reports. He also promises lower taxes. He has acknowledged that banker Daniel Vorcaro gave millions of dollars toward a movie about Jair Bolsonaro, and he is under investigation for corruption, money laundering and tax evasion tied to that case, according to the AP.
+**What officials say:** Electoral court president Kassio Nunes Marques, who was appointed by Jair Bolsonaro, congratulated both candidates and said the extension delayed the count but did not change the result, and that there was no outside interference, Bloomberg reported. He said the transport problems would be investigated.
 
-**Lula's pitch** leans on his economic record: a 15% increase in Bolsa Família payments, cuts to fuel taxes and an income tax exemption for people earning up to 5,000 reais a month. The Senate also approved government-backed rules cutting the maximum workweek from 44 to 40 hours with two rest days and no pay cut. His approval rating fell as low as 24% at one point this term amid worries about crime and the cost of living, the AP says.
+**What the law allows:** A candidate can request a recount with evidence of fraud, the AP noted. Law professor João Pedro Pádua told the AP there is little legal basis for annulment unless the extension can be shown to have kept voters from freely expressing their will.
+
+The episode echoes 2022, when Jair Bolsonaro did not accept his narrow loss to Lula. He is now serving 27 years for a coup attempt that followed that election, the AP said.
 
 ## What happens next
 
-Polls are open from 8 a.m. to 5 p.m. Brasília time Sunday, which is **7 a.m. to 4 p.m. ET**. Brazil votes on electronic machines, so the Superior Electoral Court typically names a winner a few hours after voting ends, HNGN reports. Almost 160 million people are eligible.
-
-States to watch, based on Datafolha's state polls cited by HNGN: São Paulo (Bolsonaro 48%, Lula 45%), Rio de Janeiro (Bolsonaro 51%, Lula 42%) and Minas Gerais (Lula 48%, Bolsonaro 44%). Minas Gerais has sided with the eventual winner in each presidential vote since 1989. Governors in five states and the Federal District are also on Sunday's runoff ballot.
+- **Jan. 5, 2027:** Lula's fourth term begins, according to the AP, Bloomberg and Anadolu.
+- **The court fight:** Bolsonaro said he will file a legal challenge. Watch for the electoral court's response.
+- **Markets:** Investors had hoped a Bolsonaro win would bring tighter public finances. An exchange-traded fund tracking Brazilian stocks fell 13% in Japan after the result, Bloomberg reported, and analysts said investors want a credible plan to rein in debt.
+- **Governing:** Lula has promised to bring the budget in line without cutting his social programs. Analyst Creomar de Souza told Bloomberg he "will need to be able to build a coalition."
 
 ## Quick answers
 
-### When will Brazil's runoff results be known?
+### Who won Brazil's 2026 presidential election?
 
-Polls close at 4 p.m. ET Sunday, and because the count is electronic, a winner is usually clear within a few hours.
+Luiz Inácio Lula da Silva, with 51.8% of valid votes in the Oct. 25 runoff against Flávio Bolsonaro, who received 48.2%.
 
-### Why isn't Jair Bolsonaro running?
+### Did Flávio Bolsonaro concede?
 
-He is barred from office and is confined at home, serving 27 years for trying to overturn his 2022 defeat. His son Flávio is running in his place.
+No. He said he would seek to annul the runoff over the extension of voting hours. The electoral court's president said the extension did not affect the result.
 
-### Who is ahead in the Brazil runoff polls?
+### When does Lula's new term start?
 
-No one clearly. Most recent polls give Flávio Bolsonaro a narrow lead, Datafolha shows a tie and at least one poll has Lula slightly ahead, all within the margins of error.
+Jan. 5, 2027. It will be his fourth term; he also served from 2003 to 2010 and since 2023.
