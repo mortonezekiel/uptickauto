@@ -7,6 +7,7 @@ category: Sports
 tags: [NBA, Detroit Pistons, Boston Celtics, Paul George, New York Knicks, NBA season]
 published: 2026-10-20T22:12:00Z
 updated: 2026-10-20T22:12:00Z
+reviewed: 2026-10-27
 trend_score: 66
 why_trending: "The 2026-27 NBA season tipped off on Oct. 20 with a tripleheader on NBC, starting with a Pistons comeback over the Celtics."
 key_points:

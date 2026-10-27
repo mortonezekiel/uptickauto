@@ -7,6 +7,7 @@ category: World
 tags: [Dammam, King Fahd International Airport, Saudi Arabia, Houthis, Yemen, Aramco]
 published: 2026-10-22T13:07:00Z
 updated: 2026-10-22T13:07:00Z
+reviewed: 2026-10-27
 trend_score: 80
 signal: "Google Trends, U.S., U.K. and Australia"
 why_trending: "An attack on King Fahd International Airport in Dammam on the evening of Oct. 21 killed two people, hours before the U.S. ordered nonemergency staff to leave Saudi Arabia."

@@ -7,6 +7,7 @@ category: Politics
 tags: [Venezuela, María Corina Machado, Delcy Rodríguez, Edmundo González, Latin America]
 published: 2026-10-26T22:10:00Z
 updated: 2026-10-26T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 68
 why_trending: "Venezuelan opposition leader María Corina Machado reappeared in Venezuela on Sunday, Oct. 25, after more than 10 months abroad."
 key_points:

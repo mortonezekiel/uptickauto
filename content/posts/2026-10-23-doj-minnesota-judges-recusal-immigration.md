@@ -7,6 +7,7 @@ category: US
 tags: [Justice Department, recusal, Minnesota, Patrick Schiltz, John Tunheim, immigration]
 published: 2026-10-23T13:21:00Z
 updated: 2026-10-23T13:21:00Z
+reviewed: 2026-10-27
 trend_score: 68
 signal: "Google Trends, U.S."
 why_trending: "News that the Justice Department filed motions to push two Minnesota federal judges off immigration-related cases spread on Oct. 21-22."

@@ -7,6 +7,7 @@ category: World
 tags: [Pope Leo XIV, Vatican, lung cancer, Gemelli Hospital, general audience, Peru]
 published: 2026-10-21T13:10:00Z
 updated: 2026-10-21T13:10:00Z
+reviewed: 2026-10-27
 trend_score: 72
 why_trending: "Pope Leo XIV made his first general audience appearance in St. Peter's Square on Oct. 21, eight days after surgery for lung cancer."
 key_points:

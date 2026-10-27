@@ -7,6 +7,7 @@ category: World
 tags: [Hurricane Trudy, Mexico, hurricane, Jalisco, Puerto Vallarta, weather]
 published: 2026-10-16T13:17:00Z
 updated: 2026-10-18T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 62
 why_trending: "Trudy brushed Mexico's Pacific coast on Oct. 18 as a Category 2 hurricane, closing ports and prompting flood and mudslide warnings."
 key_points:

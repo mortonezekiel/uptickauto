@@ -7,6 +7,7 @@ category: World
 tags: [France protests, Emmanuel Macron, Parcoursup, cost of living, Laurent Nuñez, Paris]
 published: 2026-10-19T13:08:00Z
 updated: 2026-10-25T13:32:00Z
+reviewed: 2026-10-27
 trend_score: 78
 why_trending: "A second Saturday of nationwide marches on Oct. 24 drew hundreds of thousands of people and nearly 1,000 arrests, a week after protests ended in looting and arson."
 key_points:

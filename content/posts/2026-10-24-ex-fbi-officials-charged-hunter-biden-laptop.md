@@ -7,6 +7,7 @@ category: Politics
 tags: [Hunter Biden laptop, FBI, Foreign Influence Task Force, Jeanine Pirro, Kash Patel, Congress]
 published: 2026-10-24T13:24:00Z
 updated: 2026-10-24T13:24:00Z
+reviewed: 2026-10-27
 trend_score: 66
 why_trending: "Federal prosecutors in Washington charged two former FBI officials on Friday, Oct. 23, with lying to Congress about the bureau's Hunter Biden investigations."
 key_points:

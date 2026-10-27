@@ -7,6 +7,7 @@ category: Business
 tags: [Elon Musk, SpaceX, Trump Accounts, SPCX stock, Anthropic, philanthropy]
 published: 2026-10-19T22:10:00Z
 updated: 2026-10-19T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 74
 why_trending: "Musk posted on X on Monday, Oct. 19, that he will give one of his own SpaceX shares to every child in the U.S. next year."
 key_points:

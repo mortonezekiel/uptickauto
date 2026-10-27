@@ -7,6 +7,7 @@ category: Business
 tags: [inflation, CPI, gas prices, Federal Reserve, economy, energy]
 published: 2026-10-16T04:35:00Z
 updated: 2026-10-16T04:35:00Z
+reviewed: 2026-10-27
 trend_score: 80
 why_trending: "The Bureau of Labor Statistics released September's consumer price index on Oct. 14, and the numbers came in hotter than economists expected."
 key_points:

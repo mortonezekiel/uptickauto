@@ -7,6 +7,7 @@ category: World
 tags: [Alberta referendum, Alberta separation, Canada, Danielle Smith, Mark Carney, Clarity Act]
 published: 2026-10-19T22:10:00Z
 updated: 2026-10-20T13:10:00Z
+reviewed: 2026-10-27
 trend_score: 78
 why_trending: "Early results overnight on Oct. 20 showed Albertans rejecting a move toward separation from Canada by roughly three to one."
 key_points:

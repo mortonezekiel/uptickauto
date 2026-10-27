@@ -7,6 +7,7 @@ category: Health
 tags: [measles, Pennsylvania, MMR vaccine, public health, outbreak]
 published: 2026-10-16T04:45:00Z
 updated: 2026-10-16T04:45:00Z
+reviewed: 2026-10-27
 trend_score: 72
 why_trending: "Pennsylvania's case count passed 1,200 this week, and the outbreak was featured on PBS NewsHour on Oct. 15."
 key_points:

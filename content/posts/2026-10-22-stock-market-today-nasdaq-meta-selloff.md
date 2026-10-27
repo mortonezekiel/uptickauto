@@ -7,6 +7,7 @@ category: Business
 tags: [stock market, Nasdaq, Meta, AI stocks, oil prices, Treasury yields]
 published: 2026-10-22T22:15:00Z
 updated: 2026-10-22T22:15:00Z
+reviewed: 2026-10-27
 trend_score: 70
 signal: "Google Trends, India"
 why_trending: "U.S. tech stocks fell sharply on Oct. 22 after Meta's quarterly report revived doubts about AI spending, sending the Nasdaq to its steepest one-day drop since early June."

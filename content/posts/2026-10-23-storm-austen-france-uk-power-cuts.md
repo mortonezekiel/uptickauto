@@ -7,6 +7,7 @@ category: World
 tags: [Storm Austen, Storm Boelo, UK weather, France weather, Met Office, power cuts]
 published: 2026-10-23T13:21:00Z
 updated: 2026-10-23T13:21:00Z
+reviewed: 2026-10-27
 trend_score: 66
 signal: "Google Trends, U.K."
 why_trending: "Storm Austen swept across southwest England, Ireland and northern France overnight on Oct. 22-23, knocking out power and halting trains, and weather searches spiked across Europe."

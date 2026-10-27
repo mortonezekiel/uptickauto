@@ -7,6 +7,7 @@ category: US
 tags: [Typhoon Champi, Guam, super typhoon, typhoon, FEMA, weather]
 published: 2026-10-18T22:10:00Z
 updated: 2026-10-18T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 68
 why_trending: "Champi became a super typhoon as its eye passed just south of Guam early Oct. 18, knocking out power to about half the island."
 key_points:

@@ -7,6 +7,7 @@ category: World
 tags: [Brazil election, Lula, Flávio Bolsonaro, Jair Bolsonaro, Latin America]
 published: 2026-10-24T22:20:00Z
 updated: 2026-10-26T13:20:00Z
+reviewed: 2026-10-27
 trend_score: 78
 signal: "Google Trends, U.K., India and Canada"
 why_trending: "Brazil's electoral court declared President Lula the winner of the Oct. 25 runoff, and Flávio Bolsonaro refused to accept the result."

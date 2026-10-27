@@ -7,6 +7,7 @@ category: Politics
 tags: [James Comey, Justice Department, Espionage Act, statute of limitations, FBI]
 published: 2026-10-27T14:11:00Z
 updated: 2026-10-27T14:11:00Z
+reviewed: 2026-10-27
 trend_score: 72
 why_trending: "A two-count case accusing James Comey of leaking national defense information in 2016 was unsealed on Oct. 26, 2026, the third time the Justice Department has charged him in about 13 months."
 key_points:

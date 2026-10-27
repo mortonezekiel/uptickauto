@@ -7,6 +7,7 @@ category: Sports
 tags: [MLB, Milwaukee Brewers, Los Angeles Dodgers, World Series, NLCS, postseason]
 published: 2026-10-16T04:25:00Z
 updated: 2026-10-16T04:25:00Z
+reviewed: 2026-10-27
 trend_score: 88
 why_trending: "Milwaukee clinched the National League pennant late Thursday with a 6-4 comeback win at Dodger Stadium."
 key_points:

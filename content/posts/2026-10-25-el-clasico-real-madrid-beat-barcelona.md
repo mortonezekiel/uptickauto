@@ -7,6 +7,7 @@ category: Sports
 tags: [El Clasico, Real Madrid, Barcelona, Kylian Mbappe, Jose Mourinho, La Liga]
 published: 2026-10-25T22:20:00Z
 updated: 2026-10-25T22:20:00Z
+reviewed: 2026-10-27
 trend_score: 74
 why_trending: "Real Madrid won 2-1 at Camp Nou on Sunday, Oct. 25, handing league leaders Barcelona their first La Liga loss of the season."
 key_points:

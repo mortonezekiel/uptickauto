@@ -7,6 +7,7 @@ category: US
 tags: [DV lottery, green card, immigration, State Department, courts]
 published: 2026-10-16T04:20:00Z
 updated: 2026-10-16T04:20:00Z
+reviewed: 2026-10-27
 trend_score: 90
 signal: "Google Trends, U.S."
 why_trending: "A federal judge ruled on Oct. 14 that the State Department must open DV-2027 registration, and \"dv lottery 2027\" jumped onto Google's list of trending searches."

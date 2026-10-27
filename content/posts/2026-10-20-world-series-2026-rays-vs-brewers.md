@@ -7,6 +7,7 @@ category: Sports
 tags: [World Series, MLB, Tampa Bay Rays, Milwaukee Brewers, ALCS, postseason]
 published: 2026-10-20T13:10:00Z
 updated: 2026-10-20T13:10:00Z
+reviewed: 2026-10-27
 trend_score: 82
 why_trending: "The Rays beat the Guardians 7-3 in Game 6 of the ALCS on Oct. 19 to set up a World Series against the Brewers."
 key_points:

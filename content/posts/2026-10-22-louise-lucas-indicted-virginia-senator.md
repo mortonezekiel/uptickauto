@@ -7,6 +7,7 @@ category: Politics
 tags: [Louise Lucas, Virginia Senate, Justice Department, marijuana, racketeering]
 published: 2026-10-22T22:15:00Z
 updated: 2026-10-22T22:15:00Z
+reviewed: 2026-10-27
 trend_score: 64
 signal: "Google Trends, Canada"
 why_trending: "The Justice Department unsealed an eight-count federal indictment on Oct. 22 that accuses Virginia Senate President Pro Tempore Louise Lucas of leading a marijuana distribution enterprise."

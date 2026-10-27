@@ -7,6 +7,7 @@ category: World
 tags: [Eagle's Nest, Kehlsteinhaus, Berchtesgaden, Bavaria, Germany, fire]
 published: 2026-10-24T13:24:00Z
 updated: 2026-10-24T13:24:00Z
+reviewed: 2026-10-27
 trend_score: 74
 why_trending: "A fire that broke out late Friday, Oct. 23, left the Eagle's Nest above Berchtesgaden almost completely burned, and a suspect was detained."
 key_points:

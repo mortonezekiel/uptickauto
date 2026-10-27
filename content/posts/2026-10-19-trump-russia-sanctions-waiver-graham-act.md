@@ -7,6 +7,7 @@ category: Politics
 tags: [Russia sanctions, Graham Act, Donald Trump, Ukraine, Zelenskyy, diesel]
 published: 2026-10-19T13:08:00Z
 updated: 2026-10-19T13:08:00Z
+reviewed: 2026-10-27
 trend_score: 72
 why_trending: "President Trump signed an order late Friday, Oct. 16, waiving new Russia sanctions and tariffs that were due to take effect Oct. 18, drawing criticism from senators of both parties."
 key_points:

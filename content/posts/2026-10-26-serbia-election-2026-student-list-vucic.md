@@ -7,6 +7,7 @@ category: World
 tags: [Serbia election, Aleksandar Vučić, Student List, Ilija Srdanović, Balkans, European Union]
 published: 2026-10-26T22:10:00Z
 updated: 2026-10-26T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 74
 why_trending: "Aleksandar Vučić conceded Serbia's Oct. 25 snap parliamentary election to the student-led Student List, which preliminary results put above 52%."
 key_points:

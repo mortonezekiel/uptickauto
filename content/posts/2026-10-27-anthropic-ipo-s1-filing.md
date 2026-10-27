@@ -7,6 +7,7 @@ category: Tech
 tags: [Anthropic, IPO, S-1, Nasdaq, artificial intelligence, Claude]
 published: 2026-10-27T14:11:00Z
 updated: 2026-10-27T14:11:00Z
+reviewed: 2026-10-27
 trend_score: 78
 why_trending: "Anthropic made its IPO paperwork public on Oct. 26, 2026, revealing its finances and a planned Nasdaq listing under the symbol ANT."
 key_points:

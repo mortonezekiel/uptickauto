@@ -7,6 +7,7 @@ category: Science
 tags: [Hunter's Moon, full moon, Harvest Moon, supermoon, stargazing]
 published: 2026-10-26T13:20:00Z
 updated: 2026-10-26T13:20:00Z
+reviewed: 2026-10-27
 trend_score: 74
 signal: "Google Trends, U.S. and U.K."
 why_trending: "October's full moon, known as the Hunter's Moon, reached its peak in the early hours of Monday, Oct. 26, and remains visible near full on Monday evening."

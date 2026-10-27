@@ -7,6 +7,7 @@ category: World
 tags: [Israel election, Benjamin Netanyahu, Gadi Eisenkot, Knesset, exit polls, coalition]
 published: 2026-10-27T22:10:00Z
 updated: 2026-10-27T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 82
 why_trending: "Polls closed in Israel's general election at 10 p.m. local time on Oct. 27, 2026, and TV exit polls showed no clear winner."
 key_points:

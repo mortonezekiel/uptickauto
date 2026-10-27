@@ -7,6 +7,7 @@ category: Sports
 tags: [Champions League, Manchester United, Como, Nico Paz, Michael Carrick, Cesc Fabregas]
 published: 2026-10-21T22:10:00Z
 updated: 2026-10-21T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 78
 signal: "Google Trends, India"
 why_trending: "Como beat Manchester United 4-1 on Wednesday, Oct. 21, in the third round of the Champions League league phase, and searches for the score and standings spiked."

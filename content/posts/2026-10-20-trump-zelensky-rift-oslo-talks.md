@@ -7,6 +7,7 @@ category: World
 tags: [Ukraine, Volodymyr Zelenskyy, Donald Trump, Steve Witkoff, Oslo talks, Patriot missiles]
 published: 2026-10-20T22:12:00Z
 updated: 2026-10-20T22:12:00Z
+reviewed: 2026-10-27
 trend_score: 74
 why_trending: "On Oct. 19 Trump said it was time for someone else to negotiate for Ukraine, a day before Zelenskyy met U.S. envoy Steve Witkoff in Oslo."
 key_points:

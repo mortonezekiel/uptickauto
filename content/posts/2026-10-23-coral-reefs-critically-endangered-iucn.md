@@ -7,6 +7,7 @@ category: Science
 tags: [coral reefs, IUCN Red List, climate change, Great Barrier Reef, coral bleaching, COP17]
 published: 2026-10-23T22:20:00Z
 updated: 2026-10-23T22:20:00Z
+reviewed: 2026-10-27
 trend_score: 64
 why_trending: "The IUCN released its first global Red List assessment of coral reef ecosystems on Oct. 22 at the COP17 biodiversity summit in Yerevan, Armenia."
 key_points:

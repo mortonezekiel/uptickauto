@@ -7,6 +7,7 @@ category: Sports
 tags: [NZ vs IND, India cricket, New Zealand cricket, T20I, Sanju Samson, Naman Dhir]
 published: 2026-10-22T13:07:00Z
 updated: 2026-10-22T13:07:00Z
+reviewed: 2026-10-27
 trend_score: 68
 signal: "Google Trends, U.S. and U.K."
 why_trending: "India beat New Zealand by four wickets in the opening match of a five-game T20 International series at Hagley Oval on Oct. 22, chasing a record 226."

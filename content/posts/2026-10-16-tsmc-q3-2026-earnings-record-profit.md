@@ -7,6 +7,7 @@ category: Tech
 tags: [TSMC, semiconductors, AI, earnings, chips, Taiwan]
 published: 2026-10-16T04:30:00Z
 updated: 2026-10-16T04:30:00Z
+reviewed: 2026-10-27
 trend_score: 76
 signal: "Google Trends, U.S."
 why_trending: "TSMC reported third-quarter results on Oct. 15, and \"tsmc stock\" climbed Google's trending searches as investors parsed the numbers."

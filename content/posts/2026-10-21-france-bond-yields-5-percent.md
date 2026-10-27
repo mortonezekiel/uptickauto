@@ -7,6 +7,7 @@ category: Business
 tags: [France bond yields, OAT, French debt, Sébastien Lecornu, Moody's, eurozone]
 published: 2026-10-21T13:10:00Z
 updated: 2026-10-21T13:10:00Z
+reviewed: 2026-10-27
 trend_score: 70
 why_trending: "France's benchmark 10-year government bond yield reached 5% on Oct. 21, 2026, for the first time since 2002."
 key_points:

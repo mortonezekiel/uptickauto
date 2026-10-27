@@ -7,6 +7,7 @@ category: Business
 tags: [oil prices, Brent crude, WTI, Iran war, gas prices, Saudi Arabia]
 published: 2026-10-23T22:20:00Z
 updated: 2026-10-23T22:20:00Z
+reviewed: 2026-10-27
 trend_score: 72
 why_trending: "Brent crude rose above $116 a barrel on Friday, Oct. 23, after a report that the U.S. and Israel have plans for renewed strikes on Iran after the midterm elections."
 key_points:

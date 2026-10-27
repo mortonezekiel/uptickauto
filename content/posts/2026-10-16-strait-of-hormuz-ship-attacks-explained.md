@@ -7,6 +7,7 @@ category: World
 tags: [Iran, Strait of Hormuz, shipping, oil prices, Middle East]
 published: 2026-10-16T04:40:00Z
 updated: 2026-10-16T04:40:00Z
+reviewed: 2026-10-27
 trend_score: 86
 why_trending: "The container ship GFS Pride sank after being struck on Oct. 13, and a damaged bulk carrier went down the next day, the latest in a sharp run of attacks."
 key_points:

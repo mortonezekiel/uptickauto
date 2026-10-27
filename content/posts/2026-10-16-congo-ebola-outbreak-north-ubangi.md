@@ -7,6 +7,7 @@ category: Health
 tags: [Ebola, Congo, Bundibugyo virus, WHO, Kenya, outbreak]
 published: 2026-10-16T13:17:00Z
 updated: 2026-10-16T13:17:00Z
+reviewed: 2026-10-27
 trend_score: 74
 why_trending: "Health officials told Reuters on Oct. 15 that Ebola had been confirmed in North Ubangi, the eighth Congolese province hit, days after Kenya reported a second case."
 key_points:

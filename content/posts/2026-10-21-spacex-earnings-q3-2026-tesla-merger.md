@@ -7,6 +7,7 @@ category: Business
 tags: [SpaceX, SPCX stock, Tesla, Elon Musk, earnings, mergers]
 published: 2026-10-21T22:10:00Z
 updated: 2026-10-21T22:10:00Z
+reviewed: 2026-10-27
 trend_score: 76
 signal: "Google Trends, Canada"
 why_trending: "SpaceX reported third-quarter results on Tuesday, Oct. 20, and Musk said Tesla and SpaceX have formed committees to study a merger, sending the stock up about 10% on Oct. 21."
