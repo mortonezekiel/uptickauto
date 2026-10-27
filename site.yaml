@@ -40,6 +40,10 @@ visitor_counter_min: 25
 
 posts_per_page: 12
 
+# Sports score roundups. true hides every roundup (format: roundup) from the site without deleting it.
+# Turned on 2026-10-27 while Google AdSense reviews the site. Set to false when roundups resume (AUTOPILOT.md 6b).
+hide_roundups: true
+
 # Topics. Posts must use one of these names in their `category:` field.
 # `color` tints each post's artwork and topic marker.
 categories:

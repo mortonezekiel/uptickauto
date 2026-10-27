@@ -51,6 +51,12 @@ python3 tools/check_site.py   # should report 0 errors
 - **Ads:** Google AdSense runs the ads. The publisher ID is `adsense_client` in `site.yaml` (blank turns ads off and
   skips `ads.txt`). See "Getting approved for AdSense" below, including the European consent message.
 
+## Sports roundups (paused)
+
+Daily score roundups are paused while Google AdSense reviews the site, and `hide_roundups: true` in `site.yaml`
+hides the existing ones without deleting them. To bring them back, follow "Resuming" in `AUTOPILOT.md` step 6b,
+which also posts every result missed during the pause.
+
 ## Live visitor count
 
 The notice "2,970 people visited Uptick in the past hour" comes from a small counter in `counter/` that runs free on

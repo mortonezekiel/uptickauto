@@ -81,7 +81,19 @@ run's limit.
 ## 6b. Daily sports roundups
 
 **Paused since 2026-10-27 while Google AdSense reviews the site. Don't publish new roundups or add scores to
-existing ones until the owner turns this step back on.** The rules below are kept for when it resumes.
+existing ones until the owner turns this step back on.** The existing roundups are hidden from the site by
+`hide_roundups: true` in `site.yaml` (nothing is deleted). The rules below are kept for when it resumes.
+
+**Resuming, only when the owner says so.** The owner wants the site fully caught up on the day roundups return:
+
+1. Set `hide_roundups: false` in `site.yaml` so the hidden roundups come back.
+2. Backfill the same day, before anything new: publish a roundup for every league and game date missed during
+   the pause, oldest first, following the rules below. Start each league the day after its last roundup:
+   NBA, NHL and the combined "other results" after Oct. 26; NFL, Premier League and La Liga after Oct. 25;
+   Bundesliga, Serie A, MLS and college football after Oct. 24; cricket after Oct. 27; Champions League after
+   Oct. 21; Europa League after Oct. 22 (all 2026). Cover every final game through yesterday. The 8-a-day cap
+   doesn't apply to the backfill; if one run can't finish it, the next runs that day continue until it's done.
+3. Delete this paused note and the cap note in step 1, then carry on with the normal daily routine.
 
 Every run also covers each completed game in the leagues below with **one roundup per league per game
 date**, not one post per game. A separate post for every game would be the thin, mass-produced content that

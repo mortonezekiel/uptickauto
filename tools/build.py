@@ -48,6 +48,7 @@ FONTS_HREF = ("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500"
 MONTHS = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 WARNINGS: list[str] = []
+HIDDEN: set[str] = set()  # slugs of posts hidden by a site.yaml switch (links to them become plain text)
 
 
 def die(msg: str):
@@ -168,6 +169,9 @@ def load_posts(cfg, now: dt.datetime, include_future: bool = False):
                 die(f"{src}: missing '{field}'")
         if meta.get("draft"):
             continue
+        if cfg.get("hide_roundups") and str(meta.get("format", "")).lower() == "roundup":
+            HIDDEN.add(str(meta["slug"]))
+            continue
         slug = str(meta["slug"])
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
             die(f"{src}: slug must be lowercase words joined by hyphens")
@@ -268,7 +272,35 @@ class Linker:
         return f"{self.base}/{target}"
 
 
+def unlink_hidden(html: str) -> str:
+    """Handle links to posts that are hidden right now (see hide_roundups in site.yaml).
+
+    A sentence that only exists to point at a hidden post is dropped, so readers aren't sent looking for a page
+    they can't reach; any other link to a hidden post keeps its words as plain text. Nothing changes on disk, so
+    the links come back by themselves when the posts are unhidden."""
+    if not HIDDEN:
+        return html
+    link = re.compile(r'<a href="/([^"]*)"[^>]*>(.*?)</a>', re.S)
+
+    def hidden(href: str) -> bool:
+        return href.split("#")[0].strip("/").split("/")[0] in HIDDEN
+
+    def block(m):
+        tag, inner = m.group(1), m.group(2)
+        if not any(hidden(h) for h, _ in link.findall(inner)):
+            return m.group(0)
+        sentences = re.split(r"(?<=[.!?])\s+(?=[A-Z<“\"])", inner)
+        kept = [x for x in sentences if not any(hidden(h) for h, _ in link.findall(x))]
+        if not kept:
+            return ""
+        return f"<{tag}>" + " ".join(kept) + f"</{tag}>"
+
+    html = re.sub(r"<(p|li)>(.*?)</\1>", block, html, flags=re.S)
+    return link.sub(lambda m: m.group(2) if hidden(m.group(1)) else m.group(0), html)
+
+
 def rewrite_internal(html: str, linker: Linker, cur_dir: str) -> str:
+    html = unlink_hidden(html)
     return re.sub(r'href="/(?!/)([^"]*)"', lambda m: f'href="{linker.rel(m.group(1), cur_dir)}"', html)
 
 
