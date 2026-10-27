@@ -51,7 +51,9 @@ The owner replies with something like "approve all", "approve 1 and 3", "skip 2"
 
 ## 2. Find what's trending
 
-Use WebFetch and WebSearch (the shell can't reach most websites). Gather signals from:
+Use WebFetch and WebSearch (the shell can't reach most websites). Only open links that came from a WebSearch
+result, a trend feed or a page you already fetched; never type a URL from memory. Other links need the owner's
+approval, which an unattended run can't get. Gather signals from:
 
 - **Google Trends daily feeds** for several countries, listed in the task prompt
   (`https://trends.google.com/trending/rss?geo=US`, `GB`, `IN`, `CA`, `AU`). Ask WebFetch for every item
