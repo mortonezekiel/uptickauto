@@ -2,7 +2,7 @@
 
 Read this before every autopilot run and before every site change. It summarizes Google's AdSense Program
 policies, Google Publisher Policies and Publisher Restrictions, plus Google Search's guidance on AI content,
-as read on 2026-10-20. Google can change these at any time, so re-check the sources at the bottom when
+as read on 2026-10-20 and re-checked in full on 2026-10-27. Google can change these at any time, so re-check the sources at the bottom when
 something looks different. Where this file says "(not in the policy pages)", it is a practical rule of thumb,
 not an official requirement.
 
@@ -14,6 +14,13 @@ not an official requirement.
   embedded content from others unless the page adds commentary, curation or other value.
 - **Real content on every page that carries ads.** No ads on screens with little or no publisher content, on
   pages under construction, or on alert/navigation/utility pages.
+- **Manual review of automated content.** Google's "screens without publisher-content" policy says, word for
+  word: "Don't place ads on automatically generated content without manual review or curation." Uptick's
+  explainers are written by an automated run, so the owner must review them before ads appear on them.
+  See the publishing workflow in `AUTOPILOT.md`.
+- **No ad code on utility screens.** Error, search, contact, privacy and terms pages carry no ad code
+  ("screens without publisher-content" and "used for alerts, navigation, or other behavioral purposes").
+  The homepage keeps the code because site review looks for it there.
 - **Easy navigation.** Clear menus, working links, no dead ends, no links to content that doesn't exist.
 - **A site you control.** (not in the policy pages) Use your own domain, not a free `github.io` address.
   `ads.txt` must sit at the domain root, which a project path on `github.io` cannot do.
@@ -62,6 +69,14 @@ out what that entails, so expect lower ad fill on breaking tragedies.
 - **Paid or bought traffic** must be real people who can easily find what was promised: no click farms,
   autosurf, paid-to-click, unsolicited mass email.
 - **Don't modify ad code** in a way that inflates performance.
+- **Required privacy policy disclosures** (Google's "Required content" page): third-party vendors, including
+  Google, use cookies to serve ads based on prior visits; Google's advertising cookies let it and its partners
+  serve ads based on visits to this and other sites; users can opt out at Google's Ads Settings and
+  aboutads.info; other vendors and ad networks serving ads must be named or linked, with how to opt out; and
+  third parties may use cookies, web beacons or IP addresses through ad serving. Keep all of this in
+  `content/pages/privacy.md`, and update it whenever an ad vendor is added or removed.
+- **Accurate declarations.** Payment details, ads.txt and anything else given to Google must be accurate and
+  complete ("Dishonest declarations" policy). `ads.txt` must list only sellers you actually authorize.
 - **Privacy and consent.** Visitors from the European Economic Area, the UK and Switzerland must give
   consent before cookies, local storage or personal data are used for ad personalization. Keep records of
   consent and let people withdraw it. Use Google's free "Privacy & messaging" consent tool in the AdSense

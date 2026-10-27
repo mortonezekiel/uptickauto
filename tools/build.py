@@ -527,19 +527,21 @@ def build(out: Path, mode: str, now: dt.datetime, include_future: bool = False):
             continue
         render("page.html", f"{pg['path']}index.html", {
             "meta": meta(f"{pg['title']} | {cfg['name']}", pg["description"] or cfg["description"], pg["path"]),
-            "active": "", "page": pg, "body": Markup(rewrite_internal(pg["html"], linker, pg["slug"]))})
+            "active": "", "page": pg, "body": Markup(rewrite_internal(pg["html"], linker, pg["slug"])),
+            # AdSense: no ad code on utility and legal screens ("screens without publisher-content")
+            "no_ads": pg["slug"] in ("contact", "privacy", "terms")})
 
     # on-site search (client-side, no third party; kept out of search results and the sitemap)
     render("search.html", "search/index.html", {
         "meta": meta(f"Search | {cfg['name']}", f"Search every {cfg['name']} explainer by topic, name or keyword.",
                      "search/", robots="noindex, follow"),
-        "active": "", "items": posts})
+        "active": "", "items": posts, "no_ads": True})
 
     if not preview:
         render("404.html", "404.html", {
             "meta": meta(f"Page not found | {cfg['name']}", "This page doesn't exist. Find the latest explainers here.",
                          "404.html", robots="noindex, follow"),
-            "active": "", "latest": posts[:6]}, link_mode="absolute")
+            "active": "", "latest": posts[:6], "no_ads": True}, link_mode="absolute")
 
     # sitemaps, feed, robots
     urls = [(linker.abs(""), iso(updated_at))]

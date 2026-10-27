@@ -132,6 +132,14 @@ def adsense_checks(site: Path, errors: list, warns: list):
         warns.append("custom_domain is empty; GitHub Pages needs it to keep a CNAME for your own domain")
     if ads_on and not (site / "ads.txt").exists():
         errors.append("AdSense: ads.txt was not written")
+    if ads_on:
+        home = site / "index.html"
+        if home.exists() and "pagead2.googlesyndication.com" not in home.read_text(encoding="utf-8"):
+            errors.append("AdSense: the homepage is missing the AdSense code that site review looks for")
+        for rel in ("404.html", "search/index.html", "contact/index.html", "privacy/index.html", "terms/index.html"):
+            f = site / rel
+            if f.exists() and "pagead2.googlesyndication.com" in f.read_text(encoding="utf-8"):
+                errors.append(f"AdSense: {rel} has ad code, but it's a screen without publisher content")
 
     # content depth (advisory, always a warning)
     posts = sorted((ROOT / "content" / "posts").glob("*.md"))

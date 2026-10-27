@@ -31,7 +31,9 @@ Uptick may show how many people visited the site in the past hour. To count visi
 
 ## Advertising
 
-Uptick may show ads provided by Google AdSense. Google and other third-party vendors use cookies and similar technologies to serve ads based on your visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to Uptick and other sites on the internet.
+Uptick may show ads provided by Google AdSense. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to Uptick and other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to Uptick and other sites on the internet. Google and other vendors may also place and read cookies in your browser, or use web beacons or your IP address, to collect information as a result of ad serving on Uptick.
+
+Other third-party vendors and ad networks may also serve ads on Uptick through Google AdSense. Google lists the [vendors it has certified for third-party ads](https://support.google.com/adsense/answer/94149), and you can opt out of these vendors' use of cookies for personalized advertising at [aboutads.info](https://www.aboutads.info).
 
 You can choose how ads are personalized for you:
 
