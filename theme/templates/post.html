@@ -17,6 +17,7 @@
         <li>By <a href="{{ u('about/') }}">{{ site.author_name }}</a></li>
         <li>{% if post.updated > post.published %}Updated{% else %}Published{% endif %} <time datetime="{{ iso(post.updated) }}">{{ ap_date(post.updated) }}, {{ ap_time(post.updated) }}</time></li>
         <li><span class="byline__read">About {{ post.minutes }} min read</span></li>
+        {% if post.reviewed %}<li>Reviewed by {{ site.reviewer_label or 'the site owner' }} on <time datetime="{{ post.reviewed.isoformat() }}">{{ ap_date(post.reviewed) }}</time></li>{% endif %}
         {% if post.sources %}<li><a href="#sources">{{ post.sources|length }} sources</a></li>{% endif %}
       </ul>
     </header>
@@ -90,7 +91,7 @@
         {% endif %}
 
         <aside class="made" aria-label="How this explainer was made">
-          <p><strong>How this was made.</strong> {{ site.name }} tracks what people are searching for and reading, researches each story across independent sources, and writes it from scratch with AI assistance. Every draft is checked against its sources for accuracy and copied wording before it's published. <a href="{{ u('editorial-standards/') }}">Read our standards</a>.</p>
+          <p><strong>How this was made.</strong> {{ site.name }} tracks what people are searching for and reading, researches each story across independent sources, and writes it from scratch with AI assistance. Every draft is checked against its sources for accuracy and copied wording before it's published.{% if post.reviewed %} {{ (site.reviewer_label or 'the site owner')|capitalize }} reviewed this explainer on {{ ap_date(post.reviewed) }}.{% endif %} <a href="{{ u('editorial-standards/') }}">Read our standards</a>.</p>
         </aside>
 
         {% if post.tags %}

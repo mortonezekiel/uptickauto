@@ -29,7 +29,7 @@ dek: The rules every Uptick explainer follows, from sourcing to corrections.
 
 ## How we use AI
 
-Uptick explainers are researched and drafted with the help of AI tools, under the editorial rules on this page. AI helps us track trends, gather and compare sources, and write clearly and quickly. Every explainer still has to pass the sourcing, originality and accuracy checks above before it's published. We disclose this on every article.
+Uptick explainers are researched and drafted with the help of AI tools, under the editorial rules on this page. AI helps us track trends, gather and compare sources, and write clearly and quickly. Every explainer still has to pass the sourcing, originality and accuracy checks above before it's published. Starting Oct. 28, 2026, the site owner also reads and approves every new explainer before it goes live, and each reviewed explainer shows the date it was reviewed. We disclose all of this on every article.
 
 ## Corrections and updates
 

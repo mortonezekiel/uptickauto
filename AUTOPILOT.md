@@ -8,6 +8,32 @@ before writing. The site is working toward Google AdSense approval, so every pos
 world is searching for right now. Quality beats volume. Publishing nothing is better than
 publishing something thin, unverified or copied.
 
+## 0. The owner reviews every post before it goes live (since 2026-10-28)
+
+Google's AdSense rules say: "Don't place ads on automatically generated content without manual review or
+curation." So a run never publishes anything by itself:
+
+- Every new explainer is saved as a **draft**: put `draft: true` in its front matter. Drafts are committed and
+  pushed like any post, but the build leaves them off the site.
+- **Never add `reviewed:` yourself.** Only the owner's approval in a conversation adds it (see below). Ads
+  appear only on the homepage and on explainers that have `reviewed:`.
+- If **6 or more drafts** are already waiting (`grep -l "^draft: true" content/posts/*.md | wc -l`), write no
+  new ones this run; remind the owner in the report instead.
+- Updating a live post (step 6): make the edit, then **delete its `reviewed:` line** so ads come off until the
+  owner reads it again, and list it in the report.
+
+### Approving drafts (only when the owner says so in a conversation)
+
+The owner replies with something like "approve all", "approve 1 and 3", "skip 2" or a change request.
+
+1. Each approved draft: delete the `draft: true` line, add `reviewed: YYYY-MM-DD` (today, New York time), and
+   set `published:` and `updated:` to the current UTC time.
+2. Each skipped draft: delete its file in `content/posts/` and its folder in `media/` if there is one.
+3. A change request: make the change, show the owner, and publish only once they approve.
+4. Live posts the owner says they've read: add `reviewed: YYYY-MM-DD` with the day they read them.
+5. Run `python3 tools/build.py` and `python3 tools/check_site.py` (0 errors), then commit
+   "Publish (owner-approved): <titles>" and push.
+
 ## 1. Get ready
 
 1. Work from the repository root. Run `git pull --rebase` first.
@@ -16,7 +42,7 @@ publishing something thin, unverified or copied.
 3. **Daily cap.** Count what's already published today (UTC), explainers and sports roundups separately:
    `grep -L "^format: roundup" $(grep -l "^published: $(date -u +%F)" content/posts/*.md) 2>/dev/null | wc -l`  (explainers)
    `grep -l "^format: roundup" $(grep -l "^published: $(date -u +%F)" content/posts/*.md) 2>/dev/null | wc -l`  (roundups)
-   **While Google AdSense reviews the site (since 2026-10-27), the site publishes at most 3 new explainers per
+   **While Google AdSense reviews the site (since 2026-10-27), runs write at most 3 new explainer drafts per
    day**, spread over the day's runs. If today's count plus what you plan would pass 3, publish fewer or nothing.
    Updates to existing posts don't count toward the cap. Daily sports roundups (step 6b) are **paused**: publish
    none until the owner turns them back on.
@@ -71,12 +97,14 @@ the same story already went out earlier today unless something important changed
 Create `content/posts/YYYY-MM-DD-<slug>.md` using the template and rules in `WRITING_GUIDE.md`.
 Set `published` and `updated` to the current UTC time, like `2026-10-16T13:05:00Z`. Every fact must be
 in your research notes from this run.
+Add `draft: true` so it waits for the owner's review (step 0).
 
 ## 6. Update instead of duplicating
 
 If a topic already has a post from the last 14 days and there's a real development, edit that post:
 update the facts, add the new sources, keep the slug, set `updated:` to now. An update counts toward the
 run's limit.
+Then delete its `reviewed:` line so ads come off until the owner reads it again (step 0).
 
 ## 6b. Daily sports roundups
 
@@ -153,7 +181,7 @@ injuries that a team or league has announced.
 
 ```
 git add -A
-git commit -m "Publish: <short titles>"
+git commit -m "Drafts for owner review: <short titles>"
 git push
 ```
 
@@ -162,21 +190,15 @@ Never force-push.
 
 ## 9. Report
 
-Finish with a short summary for the owner: the titles you published or updated with their live links,
-and the strongest topics you skipped and why. List the sports roundups separately (league, game date, link),
-and say which completed game dates are still waiting for a roundup and why. If you published nothing, say why. Mention any
-`check_site.py` warning that still stands, and if the site is still short of 30 explainers, say how many
-remain before the AdSense application.
+Finish with a short message for the owner. Number each new draft with its title and a review link,
+`https://github.com/mortonezekiel/uptickauto/blob/main/content/posts/<file>.md`, and list any live post you
+updated with its link on upticktrends.com. Then tell them how to answer: reply in Claude with "approve all",
+"approve 1 and 3", "skip 2" or what to change. Mention any older drafts still waiting, the strongest topics you
+skipped and why, and any `check_site.py` warning that still stands. If you wrote no drafts, say why.
 
 ---
 
 ## The scheduled task's prompt
 
-The scheduled task sends this prompt each time (OWNER/REPO is filled in when the task is created):
-
-> Run the Uptick autopilot. Attach the GitHub repository OWNER/REPO with push access, clone it, read
-> AUTOPILOT.md and WRITING_GUIDE.md, and follow AUTOPILOT.md exactly, including the daily sports roundups
-> in step 6b. Trend feeds to check:
-> https://trends.google.com/trending/rss?geo=US https://trends.google.com/trending/rss?geo=GB
-> https://trends.google.com/trending/rss?geo=IN https://trends.google.com/trending/rss?geo=CA
-> https://trends.google.com/trending/rss?geo=AU
+The "Uptick autopilot" scheduled task runs at 8:59 a.m. and 5:59 p.m. New York time. Its prompt tells each run
+to clone this repository, follow this file, write drafts only (step 0), and end with the review list (step 9).

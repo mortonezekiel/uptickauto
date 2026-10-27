@@ -136,10 +136,18 @@ def adsense_checks(site: Path, errors: list, warns: list):
         home = site / "index.html"
         if home.exists() and "pagead2.googlesyndication.com" not in home.read_text(encoding="utf-8"):
             errors.append("AdSense: the homepage is missing the AdSense code that site review looks for")
-        for rel in ("404.html", "search/index.html", "contact/index.html", "privacy/index.html", "terms/index.html"):
-            f = site / rel
-            if f.exists() and "pagead2.googlesyndication.com" in f.read_text(encoding="utf-8"):
-                errors.append(f"AdSense: {rel} has ad code, but it's a screen without publisher content")
+        reviewed = set()
+        for f in (ROOT / "content" / "posts").glob("*.md"):
+            meta, _ = front_matter(f)
+            if meta.get("reviewed") and not meta.get("draft"):
+                reviewed.add(str(meta.get("slug")))
+        for f in sorted(site.rglob("*.html")):
+            rel = f.relative_to(site).as_posix()
+            if rel == "index.html" or "pagead2.googlesyndication.com" not in f.read_text(encoding="utf-8"):
+                continue
+            slug = rel.split("/")[0]
+            if not (rel == f"{slug}/index.html" and slug in reviewed):
+                errors.append(f"AdSense: {rel} has ad code but isn't an owner-reviewed explainer (manual review rule)")
 
     # content depth (advisory, always a warning)
     posts = sorted((ROOT / "content" / "posts").glob("*.md"))

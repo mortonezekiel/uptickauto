@@ -158,6 +158,20 @@ def load_config():
     return cfg
 
 
+def review_date(value, src: str):
+    """The day the site owner reviewed a post (front matter `reviewed:`), or None if they haven't yet."""
+    if value in (None, ""):
+        return None
+    if isinstance(value, dt.datetime):
+        return value.date()
+    if isinstance(value, dt.date):
+        return value
+    try:
+        return dt.date.fromisoformat(str(value).strip()[:10])
+    except ValueError:
+        die(f"{src}: 'reviewed' must be a date like 2026-10-28")
+
+
 def load_posts(cfg, now: dt.datetime, include_future: bool = False):
     cats = {c["name"].lower(): c for c in cfg["categories"]}
     posts, seen = [], set()
@@ -204,6 +218,7 @@ def load_posts(cfg, now: dt.datetime, include_future: bool = False):
             "key_points": [smart(k) for k in (meta.get("key_points") or [])],
             "sources": sources, "corrections": meta.get("corrections") or [],
             "trend_score": float(meta.get("trend_score", 50)), "featured": bool(meta.get("featured")),
+            "reviewed": review_date(meta.get("reviewed"), src),
             "html": html, "toc": toc, "words": words, "minutes": max(1, math.ceil(words / 200)),
             "path": f"{slug}/",
         })
@@ -450,7 +465,8 @@ def build(out: Path, mode: str, now: dt.datetime, include_future: bool = False):
                "description": home_desc, "publisher": {"@id": org_id}, "inLanguage": "en-US"}
     render("home.html", "index.html", {
         "meta": meta(cfg["name"] if preview else f"{cfg['name']}: {cfg['tagline']}", home_desc, "", graph=[website, org]),
-        "active": "home", "lead": lead, "rail": rail, "grid": grid, "page_num": 1, "total_pages": total_pages})
+        "active": "home", "lead": lead, "rail": rail, "grid": grid, "page_num": 1, "total_pages": total_pages,
+        "ads_ok": True})  # AdSense site review looks for the code on the homepage
     for i, chunk in enumerate(older_pages, start=2):
         render("home.html", f"page/{i}/index.html", {
             "meta": meta(f"Latest explainers, page {i} | {cfg['name']}", f"More explainers from {cfg['name']}, page {i}.",
@@ -486,7 +502,9 @@ def build(out: Path, mode: str, now: dt.datetime, include_future: bool = False):
             "og_title": p["title"], "active": p["category"]["slug"], "post": p,
             "body": Markup(rewrite_internal(p["html"], linker, cur_dir)),
             "related": related_for(p, posts), "side": [q for q in trending if q is not p][:5],
-            "share_url": url})
+            "share_url": url,
+            # AdSense: "Don't place ads on automatically generated content without manual review or curation."
+            "ads_ok": bool(p["reviewed"])})
 
     # categories
     for c in cats_used:
@@ -527,21 +545,19 @@ def build(out: Path, mode: str, now: dt.datetime, include_future: bool = False):
             continue
         render("page.html", f"{pg['path']}index.html", {
             "meta": meta(f"{pg['title']} | {cfg['name']}", pg["description"] or cfg["description"], pg["path"]),
-            "active": "", "page": pg, "body": Markup(rewrite_internal(pg["html"], linker, pg["slug"])),
-            # AdSense: no ad code on utility and legal screens ("screens without publisher-content")
-            "no_ads": pg["slug"] in ("contact", "privacy", "terms")})
+            "active": "", "page": pg, "body": Markup(rewrite_internal(pg["html"], linker, pg["slug"]))})
 
     # on-site search (client-side, no third party; kept out of search results and the sitemap)
     render("search.html", "search/index.html", {
         "meta": meta(f"Search | {cfg['name']}", f"Search every {cfg['name']} explainer by topic, name or keyword.",
                      "search/", robots="noindex, follow"),
-        "active": "", "items": posts, "no_ads": True})
+        "active": "", "items": posts})
 
     if not preview:
         render("404.html", "404.html", {
             "meta": meta(f"Page not found | {cfg['name']}", "This page doesn't exist. Find the latest explainers here.",
                          "404.html", robots="noindex, follow"),
-            "active": "", "latest": posts[:6], "no_ads": True}, link_mode="absolute")
+            "active": "", "latest": posts[:6]}, link_mode="absolute")
 
     # sitemaps, feed, robots
     urls = [(linker.abs(""), iso(updated_at))]

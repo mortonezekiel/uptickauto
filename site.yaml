@@ -44,6 +44,9 @@ posts_per_page: 12
 # Turned on 2026-10-27 while Google AdSense reviews the site. Set to false when roundups resume (AUTOPILOT.md 6b).
 hide_roundups: true
 
+# Shown on explainers the owner has reviewed: "Reviewed by <this> on <date>". Use your name here if you'd like it shown.
+reviewer_label: "the site owner"
+
 # Topics. Posts must use one of these names in their `category:` field.
 # `color` tints each post's artwork and topic marker.
 categories:

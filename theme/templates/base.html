@@ -56,7 +56,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga4_id }}');</script>
 {% endif %}
-{% if site.adsense_client and not preview and not no_ads %}
+{# AdSense code only where a page sets ads_ok: the homepage and owner-reviewed explainers (see ADSENSE_POLICY.md) #}
+{% if site.adsense_client and not preview and ads_ok %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_client }}" crossorigin="anonymous"></script>
 {% endif %}
 {% if not bare %}

@@ -22,8 +22,9 @@ Several times a day we check what people are searching for and reading, using so
 1. **Research.** Every explainer draws on at least three independent sources, favoring original reporting, official statements and primary documents.
 2. **Writing.** Explainers are written from scratch with AI assistance, in plain language, following our [editorial standards](/editorial-standards/).
 3. **Checks.** Before publishing, each draft is checked against its sources for accuracy and for copied wording.
-4. **Sources, always.** Every explainer lists the sources it relied on, so you can read further and check our work.
-5. **Updates.** When a story changes, we update the explainer and its timestamp rather than publishing a duplicate.
+4. **Owner review.** Starting Oct. 28, 2026, the site owner reads and approves every new explainer before it's published. Explainers the owner has reviewed show the date.
+5. **Sources, always.** Every explainer lists the sources it relied on, so you can read further and check our work.
+6. **Updates.** When a story changes, we update the explainer and its timestamp rather than publishing a duplicate.
 
 ## Who writes Uptick
 

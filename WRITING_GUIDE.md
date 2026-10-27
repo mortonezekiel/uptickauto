@@ -59,6 +59,7 @@ category: World          # World, US, Politics, Business, Tech, Sports, Health, 
 tags: [3-6, specific, tags]
 published: 2026-10-16T13:05:00Z
 updated: 2026-10-16T13:05:00Z
+draft: true            # new posts wait for the owner's review; never add `reviewed:` yourself
 trend_score: 75          # 0-100 from the autopilot scoring (higher = leads the homepage)
 signal: "Google Trends, U.S."   # only if it really appeared there; otherwise delete this line
 why_trending: "One sentence: the event that made it trend."

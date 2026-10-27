@@ -117,6 +117,9 @@ Before publishing, each new or edited post must pass all of these:
 7. 500 words or more, with at least one section that adds something the sources don't spell out.
 8. Nothing in the post asks readers to click, support or visit anything, and nothing mentions ads.
 
+9. It is saved as a draft (`draft: true`). Only the owner's approval adds `reviewed:`, and only reviewed
+   explainers (plus the homepage) carry ad code.
+
 If a post can't pass, publish nothing. A missed run is better than a risky post.
 
 ## 8. Sources
