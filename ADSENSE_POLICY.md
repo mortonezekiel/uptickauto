@@ -51,7 +51,9 @@ out what that entails, so expect lower ad fill on breaking tragedies.
 - **Label ads accurately**: "Advertisement" or "Sponsored links". Never "Top offers" or similar.
 - **Ads must not look like content or navigation**, and content must not look like ads. Never put an ad in a
   menu, in the header, or where users expect a navigation link.
-- **No ads in pop-ups, pop-unders, emails or floating boxes.** No interstitials that block reading.
+- **No ads in pop-ups, pop-unders, emails or floating boxes.** No interstitials that block reading. This covers every ad network on the site, not
+  only Google's: while AdSense is active, never add another network's pop-up, full-screen or pop-under ads
+  (AdSense's Site behavior policy bans pop-ups that interfere with navigation).
 - **No more ads than content** on any page. Ads must not cover content, and content must not cover ads.
 - **No floating element may cover an ad.** The reading-progress ring hides itself while any ad is on screen.
   Keep it that way, and apply the same rule to any future sticky or floating element.

@@ -7,7 +7,7 @@ description: What information Uptick collects when you visit, how cookies, analy
 dek: "Short version: we don't ask for your name, email or an account to read anything."
 ---
 
-*Last updated October 26, 2026.*
+*Last updated October 27, 2026.*
 
 ## What we collect
 
@@ -41,7 +41,7 @@ You can choose how ads are personalized for you:
 
 ## Visitors in the EEA, the United Kingdom and Switzerland
 
-If you visit from the European Economic Area, the United Kingdom or Switzerland, we ask for your consent before analytics or advertising services use cookies, local storage or your personal data for ad personalization. You can decline, and you can change or withdraw your choice at any time using the privacy settings link or message on the site. Records of your choice are kept by our consent tool so we can respect it.
+If you visit from the European Economic Area, the United Kingdom or Switzerland, Google's consent message asks for your consent before ads use cookies, local storage or your personal data for ad personalization. You can decline, and you can change or withdraw your choice at any time using the privacy settings link that the message adds to the site.
 
 ## Fonts
 

@@ -484,7 +484,7 @@ def build(out: Path, mode: str, now: dt.datetime, include_future: bool = False):
         thin = len(entry["items"]) < 3
         render("list.html", f"{path}index.html", {
             "meta": meta(f"{entry['name']}: latest explainers | {cfg['name']}",
-                         f"Every {cfg['name']} explainer about {entry['name']}, newest first.", path,
+                         f"Every {cfg['name']} explainer about {entry['name']}, newest first: what happened, why people are searching for it and what comes next, with sources.", path,
                          robots="noindex, follow" if thin else None),
             "active": "", "kind": "Tag", "heading": entry["name"], "blurb": "",
             "items": entry["items"], "color": None, "page_num": 1, "total_pages": 1, "base_path": path})

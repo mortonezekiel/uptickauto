@@ -16,9 +16,10 @@ publishing something thin, unverified or copied.
 3. **Daily cap.** Count what's already published today (UTC), explainers and sports roundups separately:
    `grep -L "^format: roundup" $(grep -l "^published: $(date -u +%F)" content/posts/*.md) 2>/dev/null | wc -l`  (explainers)
    `grep -l "^format: roundup" $(grep -l "^published: $(date -u +%F)" content/posts/*.md) 2>/dev/null | wc -l`  (roundups)
-   The site publishes at most **6 new explainers per day**, spread over the day's runs. If today's count plus
-   what you plan would pass 6, publish fewer or nothing. Updates to existing posts don't count toward the cap.
-   Daily sports roundups (step 6b) have their own cap of **8 per day** and don't count toward the 6.
+   **While Google AdSense reviews the site (since 2026-10-27), the site publishes at most 3 new explainers per
+   day**, spread over the day's runs. If today's count plus what you plan would pass 3, publish fewer or nothing.
+   Updates to existing posts don't count toward the cap. Daily sports roundups (step 6b) are **paused**: publish
+   none until the owner turns them back on.
 4. Check what's already covered in the last 14 days:
    `grep -h "^title:\|^published:" content/posts/*.md | paste - - | sort -k4 | tail -40`
 
@@ -78,6 +79,9 @@ update the facts, add the new sources, keep the slug, set `updated:` to now. An 
 run's limit.
 
 ## 6b. Daily sports roundups
+
+**Paused since 2026-10-27 while Google AdSense reviews the site. Don't publish new roundups or add scores to
+existing ones until the owner turns this step back on.** The rules below are kept for when it resumes.
 
 Every run also covers each completed game in the leagues below with **one roundup per league per game
 date**, not one post per game. A separate post for every game would be the thin, mass-produced content that
