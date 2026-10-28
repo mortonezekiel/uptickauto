@@ -5,9 +5,9 @@ description: "The UK's Be Ready campaign asks households to keep three days of s
 dek: "Ministers say there is no specific threat behind the advice, but the rush on tinned food and torches shows how quickly a calm government message can turn into empty shelves."
 category: World
 tags: [Be Ready, United Kingdom, emergency preparedness, stockpiling, Cabinet Office]
-published: 2026-10-28T14:03:00Z
-updated: 2026-10-28T14:03:00Z
-draft: true
+published: 2026-10-28T15:52:00Z
+updated: 2026-10-28T15:52:00Z
+reviewed: 2026-10-28
 trend_score: 68
 signal: "Google Trends, U.K."
 why_trending: "Retailers reported tinned food, bottled water and radios selling out after the UK government's Be Ready guidance asked households to prepare for three days without help."

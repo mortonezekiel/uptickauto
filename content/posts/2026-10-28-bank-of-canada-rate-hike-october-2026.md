@@ -5,9 +5,9 @@ description: "The Bank of Canada raised its key rate to 2.5% on Oct. 28 to keep 
 dek: "The central bank is worried less about gas prices themselves than about businesses passing those costs on to everything else, and it left the door open to another increase in December."
 category: Business
 tags: [Bank of Canada, interest rates, inflation, mortgages, Tiff Macklem, Canada]
-published: 2026-10-28T14:03:00Z
-updated: 2026-10-28T14:03:00Z
-draft: true
+published: 2026-10-28T15:52:00Z
+updated: 2026-10-28T15:52:00Z
+reviewed: 2026-10-28
 trend_score: 70
 signal: "Google Trends, Canada"
 why_trending: "Canadians searched for the Bank of Canada's rate decision (\"taux directeur\") ahead of the Oct. 28, 2026, announcement, when the bank raised rates for the first time in more than three years."
