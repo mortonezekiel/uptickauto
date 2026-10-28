@@ -5,9 +5,9 @@ description: "The Federal Reserve held its rate at 3.75% to 4% on Oct. 28, with 
 dek: "A month after its first hike in three years, the Fed chose to wait for more inflation data, but two dissents and a sunnier view of the economy suggest the pause may be short."
 category: Business
 tags: [Federal Reserve, interest rates, inflation, Kevin Warsh, Lisa Cook, FOMC]
-published: 2026-10-28T22:40:00Z
-updated: 2026-10-28T22:40:00Z
-draft: true
+published: 2026-10-28T22:12:00Z
+updated: 2026-10-28T22:12:00Z
+reviewed: 2026-10-28
 trend_score: 72
 why_trending: "The Federal Reserve announced its October rate decision on Oct. 28, 2026, six days before the U.S. midterm elections, and two officials broke ranks to vote for a hike."
 key_points:
