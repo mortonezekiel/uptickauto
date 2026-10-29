@@ -5,9 +5,9 @@ description: "Alphabet stock fell nearly 13% on Oct. 29 after Q3 results showed 
 dek: "Google's cloud business more than doubled, but investors focused on a search miss and AI spending that now outruns the cash the company brings in."
 category: Business
 tags: [Alphabet, Google, earnings, stock market, AI spending, Google Cloud]
-published: 2026-10-29T22:20:00Z
-updated: 2026-10-29T22:20:00Z
-draft: true
+published: 2026-10-29T22:07:00Z
+updated: 2026-10-29T22:07:00Z
+reviewed: 2026-10-29
 trend_score: 74
 why_trending: "Alphabet shares had their steepest one-day fall since the 2004 IPO on Oct. 29, 2026, the day after its third-quarter report."
 key_points:

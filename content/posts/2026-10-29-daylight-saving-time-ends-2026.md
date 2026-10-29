@@ -5,9 +5,9 @@ description: "Daylight saving time 2026 ends at 2 a.m. Sunday, Nov. 1, when cloc
 dek: "The House voted in July to make daylight saving time permanent, but the bill is stuck in the Senate, so most Americans change their clocks again this weekend."
 category: US
 tags: [daylight saving time, Sunshine Protection Act, time change, Congress, sleep]
-published: 2026-10-29T22:20:00Z
-updated: 2026-10-29T22:20:00Z
-draft: true
+published: 2026-10-29T22:07:00Z
+updated: 2026-10-29T22:07:00Z
+reviewed: 2026-10-29
 trend_score: 62
 signal: "Google Trends, India"
 why_trending: "Daylight saving time ends in most of the U.S. on Sunday, Nov. 1, 2026, while a bill to make it permanent sits stalled in the Senate."
