@@ -6,8 +6,7 @@ dek: "Lula turned a 2.2 million-vote first-round deficit into a lead of about 4.
 category: World
 tags: [Brazil election, Lula, Flávio Bolsonaro, Jair Bolsonaro, Latin America]
 published: 2026-10-24T22:20:00Z
-updated: 2026-10-26T13:20:00Z
-reviewed: 2026-10-27
+updated: 2026-10-29T14:20:00Z
 trend_score: 78
 signal: "Google Trends, U.K., India and Canada"
 why_trending: "Brazil's electoral court declared President Lula the winner of the Oct. 25 runoff, and Flávio Bolsonaro refused to accept the result."
@@ -16,7 +15,24 @@ key_points:
   - "Lula is the first candidate since Brazil's return to direct presidential elections to win after finishing second in the first round."
   - "Bolsonaro said he will seek to have the vote annulled over a two-hour extension of voting hours; the electoral court's president said the extension did not change the result."
   - "Lula's fourth term begins Jan. 5, 2027."
+  - "Bolsonaro left Brazil despite a Supreme Court order to hand over his passports and reached Miami on Oct. 28; his wife and daughters were granted U.S. humanitarian parole."
 sources:
+  - title: "How Bolsonaro Fled Brazil: Decoys, a Private Jet and a Friend in the White House"
+    publisher: The Wall Street Journal via To Vima
+    url: "https://www.tovima.com/wsj/how-bolsonaro-fled-brazil-decoys-a-private-jet-and-a-friend-in-the-white-house/"
+    date: 2026-10-29
+  - title: "Bolsonaro arrives in Miami with his family"
+    publisher: Bloomberg via Antelope Valley Press
+    url: "https://www.avpress.com/news/newsline/bolsonaro-arrives-in-miami-with-his-family/article_8f395e64-3e3f-4d5f-8c0c-d7a99a6cfd08.html"
+    date: 2026-10-29
+  - title: "Flavio Bolsonaro lands in Miami after losing Brazil's presidential election"
+    publisher: Al Jazeera
+    url: "https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election"
+    date: 2026-10-28
+  - title: "Flávio Bolsonaro Flees to Miami After Brazil Election Loss, Defying Court Order"
+    publisher: TIME
+    url: "https://time.com/article/2026/10/27/brazil-flavio-bolsonaro-money-laundering-supreme-court-lula/"
+    date: 2026-10-28
   - title: "Lula is declared winner of Brazil's election as Bolsonaro rejects results"
     publisher: Associated Press via WTVR
     url: "https://www.wtvr.com/world/south-america/lula-is-declared-winner-of-brazils-election-as-bolsonaro-rejects-results"
@@ -59,7 +75,28 @@ sources:
     date: 2026-10-24
 ---
 
-*Updated Oct. 26 with the runoff results. This post first ran Oct. 24 as a preview of the vote.*
+*Updated Oct. 29 with Flávio Bolsonaro's departure for Miami. Updated Oct. 26 with the runoff results. This post first ran Oct. 24 as a preview of the vote.*
+
+## Latest: Bolsonaro leaves Brazil for Miami
+
+Three days after losing the runoff, Flávio Bolsonaro was in Florida. He, his wife and their two daughters landed at Miami-Opa Locka Executive Airport at about 9:30 a.m. local time on Wednesday, Oct. 28, [Al Jazeera reported](https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election).
+
+He left despite a court order. Shortly after the election, Justice Alexandre de Moraes of Brazil's Supreme Court told him to surrender his passports within 24 hours and not to leave the country, citing flight risk, [TIME reported](https://time.com/article/2026/10/27/brazil-flavio-bolsonaro-money-laundering-supreme-court-lula/). The order is tied to a money laundering investigation that grew out of a federal probe into unauthorized deductions from pensioners' payments. Bolsonaro denies wrongdoing and called the order an attempt to intimidate him. The deadline passed, and both his ordinary and his diplomatic passports were then canceled by Brazilian authorities, [Bloomberg reported](https://www.avpress.com/news/newsline/bolsonaro-arrives-in-miami-with-his-family/article_8f395e64-3e3f-4d5f-8c0c-d7a99a6cfd08.html).
+
+**The route,** as reconstructed by [The Wall Street Journal](https://www.tovima.com/wsj/how-bolsonaro-fled-brazil-decoys-a-private-jet-and-a-friend-in-the-white-house/):
+
+| When (local time) | What happened |
+|---|---|
+| Mon., Oct. 26, evening | A convoy of four cars leaves his Brasília home and splits up |
+| Tue., Oct. 27, 10:50 p.m. | The family crosses a bridge into Puerto Iguazú, Argentina |
+| Wed., Oct. 28, 12:21 a.m. | A chartered jet takes off, refueling in Guayaquil, Ecuador |
+| Wed., Oct. 28, about 9:30 a.m. | The plane lands near Miami |
+
+**The U.S. role:** President Trump personally approved letting the family in, the Journal reported. The State Department said it would issue visas, but his wife and children entered under humanitarian parole, Bloomberg reported, a status the Journal says allows a one-year stay. U.S. border records show he used his canceled diplomatic passport, according to Bloomberg. Trump called the family "fine people," per Al Jazeera, and said he "won't get involved," per the Journal.
+
+**Brazil's reaction:** Lula called the flight "a shameful act," TIME reported. Bolsonaro said "the system won" and that he would organize opposition in Congress. More than 50 countries have recognized Lula's victory, the Journal reported; Trump has not, and has suggested without evidence that the result was rigged.
+
+This mirrors his father's path. After losing in 2022, Jair Bolsonaro also went to Florida, staying about three months. Flávio now plans to run a political operation from the U.S., the Journal reported.
 
 ## What happened
 
@@ -108,6 +145,7 @@ The episode echoes 2022, when Jair Bolsonaro did not accept his narrow loss to L
 ## What happens next
 
 - **Jan. 5, 2027:** Lula's fourth term begins, according to the AP, Bloomberg and Anadolu.
+- **Jan. 31, 2027:** Flávio Bolsonaro's Senate term ends, and with it certain protections from prosecution, TIME reported. Brazil and the U.S. have an extradition treaty, Al Jazeera noted, but its reporter said a quick handover is unlikely.
 - **The court fight:** Bolsonaro said he will file a legal challenge. Watch for the electoral court's response.
 - **Markets:** Investors had hoped a Bolsonaro win would bring tighter public finances. An exchange-traded fund tracking Brazilian stocks fell 13% in Japan after the result, Bloomberg reported, and analysts said investors want a credible plan to rein in debt.
 - **Governing:** Lula has promised to bring the budget in line without cutting his social programs. Analyst Creomar de Souza told Bloomberg he "will need to be able to build a coalition."
@@ -121,6 +159,10 @@ Luiz Inácio Lula da Silva, with 51.8% of valid votes in the Oct. 25 runoff agai
 ### Did Flávio Bolsonaro concede?
 
 No. He said he would seek to annul the runoff over the extension of voting hours. The electoral court's president said the extension did not affect the result.
+
+### Where is Flávio Bolsonaro now?
+
+In the Miami area. He arrived Oct. 28 after leaving Brazil through Argentina and Ecuador, despite a Supreme Court order to surrender his passports.
 
 ### When does Lula's new term start?
 
