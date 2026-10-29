@@ -5,9 +5,9 @@ description: "Christine Lagarde will leave the ECB on Feb. 7, 2027, almost nine 
 dek: "The euro zone's top central banker is leaving in the middle of an inflation fight, and two more seats on the ECB's six-person board open up within months. Europe's leaders now have a hiring problem."
 category: Business
 tags: [Christine Lagarde, European Central Bank, ECB, interest rates, euro zone, Klaas Knot]
-published: 2026-10-29T14:20:00Z
-updated: 2026-10-29T14:20:00Z
-draft: true
+published: 2026-10-29T14:37:00Z
+updated: 2026-10-29T14:37:00Z
+reviewed: 2026-10-29
 trend_score: 70
 why_trending: "On Oct. 29, 2026, hours before an ECB rate decision, Christine Lagarde announced she will step down as European Central Bank president on Feb. 7, 2027."
 key_points:
