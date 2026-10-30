@@ -5,9 +5,9 @@ description: "The Binance hack drained about $6.3 billion in roughly 20 minutes,
 dek: "About half the money was frozen within hours and Binance says it will cover every loss, but the heist is roughly four times the size of the previous record."
 category: Tech
 tags: [Binance, crypto hack, North Korea, TraderTraitor, bitcoin, cybersecurity]
-published: 2026-10-30T14:05:00Z
-updated: 2026-10-30T14:05:00Z
-draft: true
+published: 2026-10-30T15:50:00Z
+updated: 2026-10-30T15:50:00Z
+reviewed: 2026-10-30
 trend_score: 84
 why_trending: "Binance halted withdrawals late Oct. 29 after attackers moved about $6.3 billion out of its wallets, and blockchain analysts blamed North Korea on Oct. 30."
 key_points:
