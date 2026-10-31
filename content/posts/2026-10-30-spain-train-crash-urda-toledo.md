@@ -5,9 +5,9 @@ description: "The Spain train crash near Urda, Toledo, killed at least 69 on the
 dek: "It is the second deadly collision this year between the same two operators on the same high-speed line, a month before a national election."
 category: World
 tags: [Spain train crash, Renfe, Iryo, Madrid-Seville high-speed line, Óscar Puente, rail safety]
-published: 2026-10-30T22:15:00Z
-updated: 2026-10-30T22:15:00Z
-draft: true
+published: 2026-10-31T05:45:00Z
+updated: 2026-10-31T05:45:00Z
+reviewed: 2026-10-31
 trend_score: 72
 why_trending: "A Renfe high-speed train struck a stopped Iryo train near Urda, Spain, on Oct. 28, 2026, killing at least 69 people, and Spain's transport minister is resisting calls to resign."
 key_points:

@@ -5,9 +5,9 @@ description: "Patrick Stewart, Star Trek's Captain Picard and X-Men's Professor 
 dek: "His family named two brain diseases in its announcement. Together they are an example of mixed dementia, a pairing doctors say is often hard to tell apart early on."
 category: Entertainment
 tags: [Patrick Stewart, Star Trek, X-Men, Lewy body dementia, Alzheimer's disease]
-published: 2026-10-30T22:15:00Z
-updated: 2026-10-30T22:15:00Z
-draft: true
+published: 2026-10-31T05:45:00Z
+updated: 2026-10-31T05:45:00Z
+reviewed: 2026-10-31
 trend_score: 82
 why_trending: "Patrick Stewart's family announced on Oct. 28, 2026, that the actor had died at 86 at his Los Angeles home, and tributes poured in from co-stars and fans."
 key_points:
