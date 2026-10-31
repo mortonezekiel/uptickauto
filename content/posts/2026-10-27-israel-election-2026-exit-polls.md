@@ -1,21 +1,44 @@
 ---
-title: "Israel Election Exit Polls: Likud Leads, but No Bloc Reaches 61"
+title: "Israel Election Results: Netanyahu Bloc Wins 53, No Side Has 61"
 slug: israel-election-2026-exit-polls
-description: "Israel election 2026 exit polls put Netanyahu's Likud first with 24-25 seats, but neither his bloc nor Eisenkot's reaches a 61-seat majority. What comes next."
-dek: "Winning the most seats is not the same as winning power in Israel. The coalition math, record turnout and a Nov. 4 count will decide who governs."
+description: "Final Israel election 2026 results give Likud 27 seats and Netanyahu's bloc 53 of 120. The coalition math, record Arab turnout and what happens before Nov. 10."
+dek: "Netanyahu's bloc lost 15 seats, and the parties opposed to him hold 67. But that majority only works if Eisenkot leans on Arab-led parties, which several of his own partners refuse to do."
 category: World
-tags: [Israel election, Benjamin Netanyahu, Gadi Eisenkot, Knesset, exit polls, coalition]
+tags: [Israel election, Benjamin Netanyahu, Gadi Eisenkot, Knesset, coalition, Arab parties]
 published: 2026-10-27T22:10:00Z
-updated: 2026-10-27T22:10:00Z
-reviewed: 2026-10-27
+updated: 2026-10-31T22:45:00Z
 trend_score: 82
-why_trending: "Polls closed in Israel's general election at 10 p.m. local time on Oct. 27, 2026, and TV exit polls showed no clear winner."
+why_trending: "Israel's Central Elections Committee published final results on Oct. 30, confirming that no bloc won a majority, and coalition talks began."
 key_points:
-  - "Exit polls on Kan, Channel 12 and Channel 13 give Likud 24 to 25 seats and Gadi Eisenkot's Yashar 21 to 23 of the Knesset's 120 seats."
-  - "Neither Benjamin Netanyahu's bloc (about 50 seats) nor the opposition bloc (50 to 53) reaches the 61 needed for a majority, while Arab-led parties are projected at 17 to 18."
-  - "About 74.3% of roughly 7.3 million eligible voters had voted by 8 p.m., the highest turnout in decades, according to the Central Elections Committee."
-  - "Final results are due Nov. 4, and President Isaac Herzog has until Nov. 11 to ask a lawmaker to try to form a government."
+  - "Final results give Likud 27 seats and Gadi Eisenkot's Yashar 21; Netanyahu's bloc has 53 of 120, down from 68."
+  - "Eisenkot's bloc has 48 seats and Arab-led parties a record 19, so the parties opposed to Netanyahu total 67."
+  - "Turnout was 77.9%, with 5,716,665 votes cast, the highest in decades, according to the Times of Israel."
+  - "Official results go to President Isaac Herzog on Nov. 4, and the new Knesset is sworn in on Nov. 10."
 sources:
+  - title: "With all votes counted, Netanyahu's bloc has 53 seats, Eisenkot's 48, Arab parties 19"
+    publisher: The Times of Israel
+    url: "https://www.timesofisrael.com/with-all-votes-counted-netanyahus-bloc-at-53-seats-eisenkots-48-arab-parties-19/"
+    date: 2026-10-30
+  - title: "How can Israel break its election deadlock?"
+    publisher: Al Jazeera
+    url: "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+    date: 2026-10-30
+  - title: "Israel's 2026 election results released"
+    publisher: Israel Hayom
+    url: "https://www.israelhayom.com/2026/10/29/israels-2026-election-results-released/"
+    date: 2026-10-29
+  - title: "Eisenkot faces coalition trap as Netanyahu keeps unity question open"
+    publisher: Ynet News
+    url: "https://www.ynetnews.com/article/byjzm7ztmx"
+    date: 2026-10-30
+  - title: "'Show courage, Eisenkot': Arab parties offer support but face silence"
+    publisher: Ynet News
+    url: "https://www.ynetnews.com/article/hkiugzltzg"
+    date: 2026-10-29
+  - title: "Veteran Arab MK Tibi pledges Joint List's support from outside for a potential Eisenkot-led government"
+    publisher: The Times of Israel
+    url: "https://www.timesofisrael.com/liveblog_entry/veteran-mk-tibi-pledges-arab-parties-support-from-outside-for-a-potential-eisenkot-led-government-i-dont-want-a-ministry-we-want-change"
+    date: 2026-10-31
   - title: "Israel election 2026 exit polls: Full results"
     publisher: Israel Hayom
     url: "https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/"
@@ -23,14 +46,6 @@ sources:
   - title: "Netanyahu leads in exit polls, but Eisenkot's change bloc has more seats"
     publisher: Jewish Telegraphic Agency
     url: "https://www.jta.org/2026/10/27/israel/netanyahu-leads-in-exit-polls-but-change-bloc-by-eisenkot-has-more-seats"
-    date: 2026-10-27
-  - title: "Channel 12 exit poll shows no clear victor: Netanyahu's Likud is largest party but his opponents have bigger bloc"
-    publisher: The Times of Israel
-    url: "https://www.timesofisrael.com/liveblog_entry/channel-12-exit-poll-shows-no-clear-victor-netanyahus-likud-is-largest-party-but-his-opponents-have-bigger-bloc/"
-    date: 2026-10-27
-  - title: "Israel election exit polls: Benjamin Netanyahu, Gadi Eisenkot both fail to win majority"
-    publisher: The Jerusalem Post
-    url: "https://www.jpost.com/israel-election-2026/article-913053"
     date: 2026-10-27
   - title: "Israel's elections 2026 explained in maps and charts"
     publisher: Al Jazeera
@@ -40,71 +55,74 @@ sources:
 
 ## What happened
 
-Israel's general election ended without a clear winner, at least according to the first exit polls. When voting closed at 10 p.m. local time on Tuesday, Oct. 27, the main TV channels projected that Prime Minister Benjamin Netanyahu's Likud would again be the largest party, with 24 or 25 seats, [Israel Hayom reported](https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/). Yashar, the party led by former army chief Gadi Eisenkot, came second with 21 to 23.
+Israel's election results are final, and they confirm what the exit polls suggested: nobody won a majority. With every vote counted, Prime Minister Benjamin Netanyahu's Likud is the largest party with 27 of the Knesset's 120 seats, and Gadi Eisenkot's Yashar is second with 21, [the Times of Israel reports](https://www.timesofisrael.com/with-all-votes-counted-netanyahus-bloc-at-53-seats-eisenkots-48-arab-parties-19/). The Central Elections Committee published the count early on Friday, Oct. 30.
 
-Being first is not enough. A government needs the backing of 61 of the Knesset's 120 members, and the exit polls show neither camp getting there. Netanyahu's bloc sits at about 50 seats, while the parties trying to replace him total 50 to 53, [according to The Jerusalem Post](https://www.jpost.com/israel-election-2026/article-913053). Arab-led parties, which neither camp has embraced as a partner, are projected to win 17 or 18.
+By bloc, Netanyahu's right-wing and religious allies hold 53 seats, down from 68 in the outgoing Knesset. Eisenkot's camp holds 48. The two Arab-led parties, the Joint List and Ra'am, won 19, the most Arab-led parties have ever held. A government needs 61.
 
-Exit polls are projections, not results. The Central Elections Committee started counting after polls closed, and [The Times of Israel notes](https://www.timesofisrael.com/liveblog_entry/channel-12-exit-poll-shows-no-clear-victor-netanyahus-likud-is-largest-party-but-his-opponents-have-bigger-bloc/) that official tallies often differ from the early numbers. Certified results are due Nov. 4.
+Turnout was 77.9%, with 5,716,665 votes cast, the highest in decades. The committee also rejected claims of widespread voter fraud. Its acting director, Dean Livne, called the reports "entirely unfounded."
 
-## The Israel election exit polls, channel by channel
+## Final results, party by party
 
-Four channels released polls. Three broadly agree; Channel 14 is the outlier and gives Likud and its allies far more.
+| Party (leader) | Exit polls, Oct. 27 | Final seats | Bloc |
+|---|---|---|---|
+| Likud (Netanyahu) | 24-25 | 27 | Netanyahu |
+| Yashar (Eisenkot) | 21-23 | 21 | Anti-Netanyahu |
+| B'Yachad (Bennett) | 12-14 | 12 | Anti-Netanyahu |
+| Joint List | 10-11 | 11 | Arab-led |
+| The Democrats (Golan) | 9-10 | 8 | Anti-Netanyahu |
+| Ra'am (Abbas) | 7 | 8 | Arab-led |
+| Yisrael Beytenu (Liberman) | 7-9 | 7 | Anti-Netanyahu |
+| United Torah Judaism | 6-7 | 7 | Netanyahu |
+| Otzma Yehudit (Ben-Gvir) | 6-7 | 7 | Netanyahu |
+| Shas | 6-8 | 6 | Netanyahu |
+| Religious Zionism (Smotrich) | 6 | 6 | Netanyahu |
 
-| Party (leader) | Kan 11 | Channel 12 | Channel 13 | Channel 14 |
-|---|---|---|---|---|
-| Likud (Netanyahu) | 25 | 24 | 25 | 30 |
-| Yashar (Eisenkot) | 21 | 22 | 23 | 19 |
-| B'Yachad (Bennett) | 14 | 12 | 14 | 11 |
-| Democrats (Golan) | 10 | 9 | 9 | 9 |
-| Yisrael Beytenu (Liberman) | 8 | 9 | 7 | 4 |
-| Shas | 6 | 8 | 6 | 9 |
-| United Torah Judaism | 6 | 6 | 7 | 7 |
-| Otzma Yehudit (Ben-Gvir) | 7 | 6 | 6 | 7 |
-| Religious Zionism (Smotrich) | 6 | 6 | 6 | 7 |
-| Joint List | 10 | 11 | 10 | — |
-| Ra'am | 7 | 7 | 7 | 7 |
+*Exit poll ranges are from Kan, Channel 12 and Channel 13, as reported by [Israel Hayom](https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/) on election night. Final seats are from the Central Elections Committee via the Times of Israel.*
 
-*Source: [Israel Hayom](https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/). Channel 14 listed Hadash at 10 instead of the Joint List.*
+The exit polls held up well. Likud did two to three seats better than projected, and the Democrats slightly worse. Three lists fell below the 3.25% threshold and won nothing: the Reservists-Economic alliance led by Yoaz Hendel (about 2.6%), People of Israel led by Ofer Winter (1.7%) and the Charedi Public (0.2%).
 
-Kan's bloc totals were 53 for Eisenkot's side, 50 for Netanyahu's and 17 for Arab parties. Channel 12 had 52, 50 and 18, which The Times of Israel called a record for Arab-led parties. Channel 14 put the right-wing bloc at 60, still one short.
+## Why 67 isn't a majority yet
 
-## Why the math is so hard
+On paper, the parties that want Netanyahu out hold 67 seats: Eisenkot's 48 plus the Arab-led parties' 19, [Al Jazeera notes](https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock). The trouble is getting them to work together.
 
-Israel elects parties, not candidates. Seats are split in proportion to the national vote, and any list under 3.25% gets nothing, [Al Jazeera explains](https://www.aljazeera.com/news/2026/10/20/israels-elections-2026-explained-in-maps-and-charts). That is why a few small parties matter so much tonight. Channel 12 projected that two of them, the Reservists and People of Israel, would miss the threshold. If a party just under the line gets over it in the real count, it takes roughly three or four seats from everyone else.
+Here is the arithmetic for the main paths:
 
-Here is the simple arithmetic. On the Kan numbers, Netanyahu's bloc needs 11 more seats and the opposition needs eight. The only large group outside both blocs is the Arab-led parties, and most opposition leaders have ruled out a government with them; the Democrats' Yair Golan is the exception, The Jerusalem Post reports. Eisenkot has also refused to serve under Netanyahu, even in a rotation deal. That leaves a few paths: a deal nobody has promised, a minority government that survives with outside support, or another election.
+- **Eisenkot with Ra'am inside and the Joint List outside:** 48 + 8 = 56 in the coalition, with the Joint List's 11 votes keeping it alive from outside. Most analysts Al Jazeera spoke to expect this shape if an Eisenkot government forms. Ra'am sat in a coalition once before, in the 2021-22 Bennett government.
+- **The Liberman problem:** Avigdor Liberman's Yisrael Beytenu (7 seats) says it won't join a government with Arab or ultra-Orthodox parties, Ynet reports. "Neither Bibi nor Tibi," he said, according to Al Jazeera. Without him, Eisenkot's bloc drops to 41.
+- **Netanyahu adding a defector:** his 53 plus Liberman's 7 would be 60, one short. Adding Bennett's 12 would give 65, but one analyst told Al Jazeera a switch by either looks unlikely for now.
+- **A unity government:** Netanyahu plus Eisenkot would easily pass 61. Figures in both camps have started discussing it, Ynet reports, but Eisenkot has refused to serve under Netanyahu, and Netanyahu hasn't said whether he would consider it.
 
-Likud's slide is also worth noticing. It won 32 seats in 2022, according to Al Jazeera. The exit polls put it seven or eight seats lower, though still in first place.
+The ultra-Orthodox parties add another twist. They have offered to negotiate entry into a coalition led by Eisenkot, but their main condition is a law exempting ultra-Orthodox men from military service, which Eisenkot's partners campaigned against.
 
-## Record turnout and a tense night
+## Who says what
 
-Turnout reached its highest level in decades. About 74.3% of roughly 7.3 million eligible voters had cast ballots by 8 p.m., [the Jewish Telegraphic Agency reported](https://www.jta.org/2026/10/27/israel/netanyahu-leads-in-exit-polls-but-change-bloc-by-eisenkot-has-more-seats), citing the Central Elections Committee; JTA compared that with 66.3% in 2022. Lines at some polling places stretched past an hour.
-
-This is the first national vote since Hamas's Oct. 7, 2023, attack, and the opposition has cast it as a verdict on how Netanyahu handled the wars that followed in Gaza, Lebanon and with Iran. It is also the first vote in 38 years held at the natural end of a full Knesset term, according to Al Jazeera. Netanyahu, who is on trial on corruption charges that he denies, told supporters the fight could not be left "in the hands of the left and the Arab parties," JTA reported. Eisenkot said his side was "setting Israel on a new path."
-
-The night also brought accusations. Netanyahu accused the left and Arab parties of trying to steal the election, while Eisenkot accused him of preparing to contest the result, The Times of Israel reported. Likud filed 775 fraud complaints with the elections committee, according to a Jerusalem Post headline, and the committee turned down its request to keep polls open longer. A rights group for Arab citizens, Adalah, separately complained about officials it said were inciting against Arab voters, JTA reported.
+- **Netanyahu** has ruled out any government that depends on Arab-led parties. "It is forbidden to form a government with them," he posted on X on Oct. 30, and Likud accuses those parties of "stealing" the election, Al Jazeera reports.
+- **Eisenkot** has vowed to use the anti-Netanyahu majority quickly. His stated priorities include a state commission of inquiry into the Oct. 7, 2023, Hamas attack, national service for all Israelis and repealing the judicial overhaul laws, according to the Times of Israel. He says partners must recognize Israel as a Jewish and democratic state.
+- **The Joint List** will recommend an anti-Netanyahu candidate to the president and back an Eisenkot government from outside, but won't join it. "I don't want a ministry; we want change," Ahmad Tibi, the party's No. 2, told Channel 12. Tibi rejected claims of illicit foreign funding; the elections committee's chairman has asked the Shin Bet to look into alleged unlawful influence on Arab turnout, Israel Hayom reports.
 
 ## What happens next
 
 | Step | When |
 |---|---|
-| Votes counted, official results certified | By Nov. 4 |
-| President Herzog consults parties and picks a candidate | By Nov. 11 |
-| Candidate tries to build a 61-seat coalition | 28 days, plus up to 14 more |
-| If no one succeeds | Another election |
+| Official results presented to President Herzog | Nov. 4 |
+| Herzog consults party leaders, who each recommend a candidate | Next week, with a deadline of Nov. 11 |
+| New Knesset sworn in | Nov. 10 |
+| Chosen candidate tries to build a 61-seat coalition | About 28 days, which can be extended |
+| If two candidates fail, 61 lawmakers can back a third | 21 days |
+| If all of that fails | Another election |
 
-Herzog does not have to choose the leader of the biggest party, [Israel Hayom notes](https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/). If he names someone by Nov. 11 and the full extension is used, coalition talks could run until about Dec. 23. Netanyahu stays on as caretaker prime minister until a new government is sworn in, Al Jazeera reports.
+The first test may come right after the swearing-in. The anti-Netanyahu parties plan to try to replace the Likud Knesset speaker, Amir Ohana, and the Joint List says it will vote for that. Herzog has said he will do everything he can to avoid another election, and the Times of Israel reports coalition talks could run more than two months. Netanyahu stays on as caretaker prime minister until a new government is sworn in.
 
 ## Quick answers
 
 ### Who won the Israel election?
 
-No one yet. Exit polls show Likud as the largest party, but no bloc has the 61 seats needed to govern. Certified results are due Nov. 4.
+No one won a majority. Likud is the largest party with 27 seats, but Netanyahu's bloc has 53 and Eisenkot's 48, both short of the 61 needed to govern.
 
-### Who is Gadi Eisenkot?
+### How many seats did the Arab parties win?
 
-He is a former Israeli army chief who leads the Yashar party and is the opposition's likeliest candidate for prime minister. He has said he will not serve under Netanyahu.
+Nineteen: 11 for the Joint List and 8 for Ra'am. That is a record, nearly double the 10 they held in the outgoing Knesset.
 
 ### Is Netanyahu still prime minister?
 
-Yes. He remains prime minister, as caretaker, until a new government wins a Knesset vote and is sworn in.
+Yes. He remains caretaker prime minister until a new government wins a Knesset vote and is sworn in.
