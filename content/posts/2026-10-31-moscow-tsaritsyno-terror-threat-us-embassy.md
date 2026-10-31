@@ -5,9 +5,9 @@ description: "The US Embassy in Moscow warned of a credible mass casualty threat
 dek: "Washington passed the warning to Russia's security service, which says it is acting on it. The last time the embassy issued an alert like this, in March 2024, an attack on a concert hall followed about two weeks later."
 category: World
 tags: [Moscow, Tsaritsyno, US Embassy, FSB, Crocus City Hall, security alert]
-published: 2026-10-31T22:25:00Z
-updated: 2026-10-31T22:25:00Z
-draft: true
+published: 2026-10-31T22:22:00Z
+updated: 2026-10-31T22:22:00Z
+reviewed: 2026-10-31
 trend_score: 66
 why_trending: "On Oct. 31 the US Embassy in Moscow posted an unusual alert warning of a credible threat of a mass casualty event that day at the Tsaritsyno Museum Reserve."
 key_points:

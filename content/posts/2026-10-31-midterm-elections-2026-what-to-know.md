@@ -5,9 +5,9 @@ description: "The 2026 midterm elections are Tuesday, Nov. 3. The House and Sena
 dek: "Democrats need a net gain of just three House seats and four Senate seats to take control, and almost 45 million people had voted before the final weekend."
 category: Politics
 tags: [midterm elections, 2026 elections, Senate, House of Representatives, early voting, Election Day]
-published: 2026-10-31T13:06:00Z
-updated: 2026-10-31T13:06:00Z
-draft: true
+published: 2026-10-31T22:22:00Z
+updated: 2026-10-31T22:22:00Z
+reviewed: 2026-10-31
 trend_score: 78
 why_trending: "The 2026 U.S. midterm elections are on Tuesday, Nov. 3, and campaigns are in their final weekend."
 key_points:

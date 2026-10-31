@@ -5,9 +5,9 @@ description: "A judge barred DOJ and DHS from threatening election workers over 
 dek: "The order lands four days before Election Day and caps a week of court losses for the administration's push to set aside ballots from people it says may be noncitizens."
 category: Politics
 tags: [election workers, Trina Thompson, Justice Department, noncitizen voting, Voting Rights Act, 2026 midterms]
-published: 2026-10-31T22:25:00Z
-updated: 2026-10-31T22:25:00Z
-draft: true
+published: 2026-10-31T22:22:00Z
+updated: 2026-10-31T22:22:00Z
+reviewed: 2026-10-31
 trend_score: 70
 why_trending: "On the night of Friday, Oct. 30, a federal judge in California ordered the Trump administration to stop threatening election officials, days before the Nov. 3 midterms."
 key_points:
