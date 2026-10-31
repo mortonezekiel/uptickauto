@@ -1,21 +1,33 @@
 ---
-title: "France Protests: Nearly 1,000 Arrests in a 2nd Weekend of Marches"
+title: "France Protests: 320,000 March on a 3rd Weekend as Unrest Spreads"
 slug: france-protests-riots-october-2026
-description: "France protests drew 410,000 people on Oct. 24 by official count, with nearly 1,000 arrests. What changed since Oct. 17, what students want and what's next."
-dek: "A student movement over crowded classrooms merged with anger over fuel and food prices. A week after one of France's most destructive weekends in years, a bigger police presence kept the second round calmer, though not quiet."
+description: "France protests drew 320,000 people on Oct. 31 by official count, the 3rd straight weekend. Turnout, arrests, the spread to Germany and Spain, and what's next."
+dek: "Turnout has fallen each Saturday by the official count, but the movement is not fading on its own terms. Students now plan school blockades and a union-led march on Nov. 5, and similar youth protests have spread across Europe."
 category: World
-tags: [France protests, Emmanuel Macron, Parcoursup, cost of living, Laurent Nuñez, Paris]
+tags: [France protests, Emmanuel Macron, Sébastien Lecornu, cost of living, Laurent Nuñez, Europe youth protests]
 published: 2026-10-19T13:08:00Z
-updated: 2026-10-25T13:32:00Z
-reviewed: 2026-10-27
+updated: 2026-10-31T22:25:00Z
+reviewed: 2026-10-31
 trend_score: 78
-why_trending: "A second Saturday of nationwide marches on Oct. 24 drew hundreds of thousands of people and nearly 1,000 arrests, a week after protests ended in looting and arson."
+why_trending: "A third straight Saturday of nationwide marches on Oct. 31 drew 320,000 people by official count, with clashes in Paris and Lyon and parallel youth protests in Germany and Spain."
 key_points:
-  - "The Interior Ministry counted 410,000 marchers nationwide on Oct. 24, including 110,000 in Paris; the CGT union said about 800,000."
-  - "The government reported nearly 1,000 arrests on Oct. 24, with 70,000 police and gendarmes deployed, and said the count would rise."
-  - "The Oct. 17 marches drew about 550,000 people by official count and ended in widespread looting, with more than 2,000 people taken into custody."
-  - "Students want an end to the Parcoursup admissions system, 250,000 more university places and a 200-euro monthly increase in grants, AP reports."
+  - "Authorities counted 320,000 marchers nationwide on Oct. 31, including 70,000 in Paris; organizers said nearly half a million."
+  - "The Interior Ministry said at least 290 people had been arrested by Saturday evening, with about 70,000 police and gendarmes deployed."
+  - "Official turnout has fallen from about 550,000 on Oct. 17 to 410,000 on Oct. 24 and 320,000 on Oct. 31."
+  - "Students plan school and university blockades from Tuesday, Nov. 3, and a union-called demonstration on Thursday, Nov. 5."
 sources:
+  - title: "Tension and clashes as hundreds of thousands protest again in France"
+    publisher: Al Jazeera
+    url: "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france"
+    date: 2026-10-31
+  - title: "France heads into weekend protests as youth-led rallies sweep Europe"
+    publisher: Associated Press via ABC News
+    url: "https://abcnews.com/International/wireStory/france-heads-weekend-protests-youth-led-rallies-sweep-137729925"
+    date: 2026-10-31
+  - title: "Police fire tear gas as thousands march in France"
+    publisher: AFP via Hespress English
+    url: "https://en.hespress.com/148331-police-fire-tear-gas-as-thousands-march-in-france.html"
+    date: 2026-10-31
   - title: "More than 400,000 protest across France, challenging Macron as Paris clashes erupt"
     publisher: Associated Press via PBS NewsHour
     url: "https://www.pbs.org/newshour/world/more-than-400000-protest-across-france-challenging-macron-as-paris-clashes-erupt"
@@ -30,72 +42,70 @@ sources:
     date: 2026-10-24
 ---
 
-## What happened on Oct. 24
+## What happened on Oct. 31
 
-The France protests returned for a second straight Saturday on Oct. 24, and this time the state met them with more police on the streets. The Interior Ministry counted 410,000 marchers at 289 protests nationwide, including 110,000 in Paris, [the Associated Press reports](https://www.pbs.org/newshour/world/more-than-400000-protest-across-france-challenging-macron-as-paris-clashes-erupt). The CGT union put the total near 800,000, with 250,000 in the capital.
+The France protests filled the streets for a third straight Saturday on Oct. 31. Authorities counted 320,000 marchers nationwide, including 70,000 in Paris, [Al Jazeera reports](https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france). The coalition of student groups and unions behind the marches said nearly half a million took part, 200,000 of them in the capital.
 
-The government said nearly 1,000 people were arrested, and Interior Minister Laurent Nuñez said that figure would climb as reports came in. About 70,000 police officers and gendarmes were on duty, 20% more than the weekend before, Nuñez said, according to [Al Jazeera](https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert). He credited the heavier deployment with preventing a repeat of the looting of Oct. 17.
+The Interior Ministry said at least 290 people had been arrested by the evening, with about 70,000 police officers and gendarmes on duty. Most marches were calm, but police fired tear gas in Paris and Lyon. In Paris, a peaceful march turned rough near its endpoint, where bins and street furniture were set on fire. On the city's outskirts, masked people dressed in black tore up paving stones and threw them at officers, according to AFP, and police answered with tear gas and baton charges.
 
-Most marches were peaceful. In Paris, the route was pushed to the southeastern edge of the city, from Porte d'Italie toward Porte de Vincennes, after the usual central route was banned. Near the end, masked groups threw objects and fireworks at officers, who answered with tear gas, sound grenades and water cannons. Authorities estimated about 500 people took part in those clashes, fewer than a week earlier. Police also used tear gas in Lyon, Clermont-Ferrand, Strasbourg and Bordeaux, according to AP, and street fires burned in Marseille and Lyon. In Nice, far-right extremists fought with marchers downtown, and regional officials reported 11 arrests there.
+Elsewhere, demonstrators clashed with police in Marseille, and in Toulouse police turned a water cannon on an unauthorized march of several thousand mostly young people, [AFP reports](https://en.hespress.com/148331-police-fire-tear-gas-as-thousands-march-in-france.html). Marches in Nantes and Lille stayed peaceful, and some protesters came in Halloween costumes.
 
-Paris braced for trouble well before the marches began. The Louvre, the Musée d'Orsay and other museums closed for the day, at least 24 metro stations shut, shopkeepers boarded up windows, and Art Basel Paris dropped its weekend program.
+## How Paris prepared
 
-## Two weekends compared
+Interior Minister Laurent Nuñez had warned of a "very high risk" of disorder, especially after dark on Halloween. Paris police kept union and yellow vest marchers out of the city center and allowed one route along the outer boulevards, from Porte de Bagnolet to Porte de Charenton, [the Associated Press reports](https://abcnews.com/International/wireStory/france-heads-weekend-protests-youth-led-rallies-sweep-137729925). Unions and students took the restrictions to court, and the main march ended up on the eastern edge of the city after a last-minute legal fight.
 
-| | Oct. 17 | Oct. 24 |
-|---|---|---|
-| Official turnout | About 550,000 | 410,000 |
-| Police and gendarmes deployed | Not reported | About 70,000 |
-| Arrests | More than 2,000 (official); some reports say 2,400 or more | Nearly 1,000 (first count) |
+Place de la République and Les Halles, both looted on Oct. 17, were closed overnight from 11 p.m. to 6 a.m. on Saturday and Sunday. Unaccompanied minors faced a 9 p.m. curfew around the Champs-Élysées, even though a Paris court had suspended an earlier curfew on minors on Wednesday, finding it an illegal limit on freedom of movement.
 
-By the official count, turnout fell by about 140,000 people, or roughly a quarter. The CGT's count for Oct. 24, about 800,000, is nearly double the ministry's. Gaps like that are normal in France, where the ministry and the unions have long published very different numbers, and they let both sides argue the movement is holding or fading.
+## Three weekends compared
 
-The arrest totals aren't a like-for-like comparison yet. The Oct. 17 tally kept growing for days as reports were filed, and Nuñez has already said the Oct. 24 number will rise.
+| | Oct. 17 | Oct. 24 | Oct. 31 |
+|---|---|---|---|
+| Official turnout | About 550,000 | 410,000 | 320,000 |
+| Organizers' count | Not reported here | About 800,000 (CGT) | Nearly 500,000 |
+| Police and gendarmes | Not reported | About 70,000 | About 70,000 |
+| Arrests | More than 2,000 | More than 1,300 (AP's later count) | At least 290 (first count) |
 
-## What the students want
+By the official numbers, turnout has dropped about 42% in two weeks, from roughly 550,000 to 320,000. Arrests have fallen faster, though the Oct. 31 figure is an early tally and earlier weekends' totals kept rising for days. The organizers' counts run far higher than the government's, a long-standing pattern in France that lets each side tell its own story about whether the movement is growing or shrinking.
 
-The movement began in mid-September with high school students blockading their schools over staff shortages, and it has since drawn in university students, unions, nurses, teachers and veterans of the 2018 yellow vest movement. AP lists the core demands:
+## What the protesters want
 
-- 250,000 more places in higher education
-- An end to Parcoursup, the national online system that sorts students into universities
-- More teachers, and repairs to run-down schools and campuses
-- An extra 200 euros (about $224) a month in student grants
-- A rent freeze in public student housing
+The movement began in September with high school students angry about run-down schools, teacher shortages and a university admissions system they see as unfair to poorer students. Unions, university students and yellow vest veterans have since joined, and fuel and food prices are now as central as classrooms. After the police crackdown and serious injuries to some protesters, the demands have widened to include civil liberties and the right to protest, AFP reports.
 
-President Emmanuel Macron met student representatives for the first time on Friday, Oct. 23. They said he promised more teachers and a deep overhaul of Parcoursup, according to Al Jazeera and AP. The students said that wasn't enough and called for more marches until concrete measures appear. The movement has already called another protest for the following Saturday.
+The government says it has heard them. Prime Minister Sébastien Lecornu met student unions several times this week and is weighing steps to ease the cost of living, according to Al Jazeera. Room to spend is tight: AFP notes France is close to recession and under pressure to cut its debt. Most marchers condemned the violence, Al Jazeera reports, but many said they no longer trust the government to listen.
 
-## Why the anger is about more than schools
+## Not just France
 
-Money is the other half of the story. According to the national statistics agency Insee, prices in September were 3.1% higher than a year earlier, and energy was up 21.3%. (For background on the fuel shock, see [our explainer on the Strait of Hormuz](/strait-of-hormuz-ship-attacks-explained/).) Protesters also point to poverty and wealth inequality under Macron.
+Youth-led protests have spread across Europe, organized largely online:
 
-## The first weekend, Oct. 17
-
-The earlier round was far more destructive. More than half a million people marched, mostly peacefully, but the day was marred by looting, vandalism and clashes, and Al Jazeera reports that thousands of shops and businesses were hit. By the government's count, police detained more than 2,000 people; earlier reporting cited by Fox News put the figure at 2,400 or more. Macron called the violence "political and seditious acts by ultra-left groups."
+- **Germany:** thousands marched on Oct. 31, and police in Cologne used a water cannon. Organizers said 170,000 people had registered for rallies in more than 30 cities over living costs, education cuts and plans for military conscription, Al Jazeera reports.
+- **Spain:** police in Barcelona went to their highest alert level after rioting on Oct. 24 led to about 130 arrests, mostly of minors.
+- **Italy:** police stayed on alert after clashes in Milan, Turin and Bologna.
+- **Elsewhere:** calls to protest circulated on TikTok in Belgium, the Netherlands, Austria, Switzerland and Portugal, according to AP.
 
 ## Who says what
 
-- **The government** blames ultra-left groups for the violence. Macron has also said France is looking at banning protests by people or groups "with no legitimate authority," [Fox News reports](https://www.foxnews.com/live-news/france-protests-paris-rioting-looting-10-24-26).
-- **Unions** said the bans on rallies in Lyon, Nice and Montpellier violate constitutionally protected free expression, according to AP.
-- **The far-right National Rally** accused the government of failing to protect the public and urged voters to back Marine Le Pen, who leads early polls for 2027. The party re-elected Jordan Bardella as its president on Saturday with nearly 99% of the vote, Al Jazeera reports.
-- **Jean-Luc Mélenchon**, the far-left presidential candidate, backed the marchers and criticized the policing.
+- **The government** blames ultra-left groups for the violence. Before the Oct. 31 marches, an aide to Nuñez said police were ready for unrest on the scale of Oct. 17, and Nuñez said authorities had spotted online calls for Halloween gatherings urging a "revolution."
+- **Students and unions** challenged the march bans in court and say they will keep up the pressure until they see concrete measures.
+- **Jean-Luc Mélenchon**, the far-left presidential candidate, joined the Paris march and accused the government of growing more authoritarian, AFP reports.
+- **Business owners** are worried, according to Alain Di Crescenzo, who heads the national chamber of commerce. Shopkeepers in Paris boarded up storefronts again.
 
 ## What happens next
 
-- **Sunday, Oct. 25:** Le Pen and Bardella were expected to launch their presidential campaign before about 10,000 supporters in Orléans, where antifascist groups planned a counter-protest. The NFL game between the Steelers and Saints was still set for the Stade de France, while the Paris Saint-Germain vs. Lyon soccer match moved to Monday, according to Fox News.
-- **Saturday, Oct. 31:** the movement's next called day of protest.
-- **The arrest count** is expected to rise from Saturday's first tally.
-- **The 2027 election:** Macron can't run for a third straight term, and voters choose his successor next spring, so every camp is reading these weekends as a preview of the campaign.
+- **Tuesday, Nov. 3:** students plan to begin blockading high schools and universities.
+- **Thursday, Nov. 5:** a second round of blockades, followed by a demonstration called by workers' unions.
+- **The arrest count** for Oct. 31 is likely to be revised as reports come in.
+- **The 2027 election:** the presidential vote is less than six months away. Macron can't run again, and far-right leader Marine Le Pen leads the polls, so every camp is treating these weekends as part of the campaign.
 
 ## Quick answers
 
 ### Why are people protesting in France?
 
-The movement started with students angry about teacher shortages, crumbling schools and the Parcoursup admissions system. It widened into a protest over the cost of living, with inflation at 3.1% in September and energy prices up 21.3%.
+The movement started with students angry about crumbling schools, teacher shortages and the university admissions system. It has grown into a wider protest over the cost of living and, more recently, over policing and the right to protest.
 
-### How many people were arrested in the France protests?
+### How many people protested in France on Oct. 31?
 
-Nearly 1,000 on Saturday, Oct. 24, by the government's first count. Official figures show more than 2,000 people were taken into custody after the Oct. 17 marches.
+Authorities counted 320,000 nationwide, including 70,000 in Paris. Organizers said nearly half a million took part.
 
-### Are more protests planned?
+### Are more protests planned in France?
 
-Yes. Student groups said they will keep marching until the government announces concrete measures, and another nationwide protest is planned for Saturday, Oct. 31.
+Yes. Students plan school and university blockades starting Tuesday, Nov. 3, and a union-called demonstration on Thursday, Nov. 5.
