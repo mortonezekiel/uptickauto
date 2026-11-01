@@ -1,7 +1,7 @@
 ---
 title: "Israel Election Results: Netanyahu Bloc 53, Short of a Majority"
 slug: israel-election-2026-exit-polls
-description: "Israel election results 2026: with all votes counted, Netanyahu's bloc has 53 seats, Eisenkot's 48 and Arab parties a record 19. How it compared and what comes next."
+description: "Israel election results 2026: with all votes counted, Netanyahu's bloc has 53 seats, Eisenkot's 48 and Arab parties a record 19. What comes next."
 dek: "The final count confirmed what the exit polls hinted: nobody has 61 seats. Netanyahu's camp lost 15 seats, Arab-led parties nearly doubled, and coalition talks could take months."
 category: World
 tags: [Israel election, Benjamin Netanyahu, Gadi Eisenkot, Knesset, exit polls, coalition]
