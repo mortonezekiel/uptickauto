@@ -5,9 +5,9 @@ description: "Canelo vs. Mbilli result: Canelo Alvarez beat Christian Mbilli by 
 dek: "At 36, and 13 months after losing to Terence Crawford, Alvarez handed the previously unbeaten champion his first defeat. The scorecards show how wide the gap was."
 category: Sports
 tags: [Canelo Alvarez, Christian Mbilli, boxing, WBC, super middleweight, Riyadh]
-published: 2026-11-01T14:40:00Z
-updated: 2026-11-01T14:40:00Z
-draft: true
+published: 2026-11-01T15:41:00Z
+updated: 2026-11-01T15:41:00Z
+reviewed: 2026-11-01
 trend_score: 64
 why_trending: "Canelo Alvarez beat Christian Mbilli by unanimous decision in Riyadh on Oct. 31, 2026, to win back the WBC super middleweight title in his first fight since September 2025."
 key_points:

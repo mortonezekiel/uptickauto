@@ -5,9 +5,9 @@ description: "Poland's Constitutional Tribunal crisis: a judge suspended the cou
 dek: "Two camps now each claim to run Poland's top constitutional court, and neither recognizes the other's judges. The fight is 11 years old, but it has never looked like this."
 category: World
 tags: [Poland, Constitutional Tribunal, Karol Nawrocki, Donald Tusk, rule of law, Law and Justice]
-published: 2026-11-01T14:40:00Z
-updated: 2026-11-01T14:40:00Z
-draft: true
+published: 2026-11-01T15:41:00Z
+updated: 2026-11-01T15:41:00Z
+reviewed: 2026-11-01
 trend_score: 68
 why_trending: "A government-backed judge announced on Oct. 30 that she had suspended the chief of Poland's Constitutional Tribunal, and President Karol Nawrocki turned his plane back from Senegal and went to the court overnight."
 key_points:
