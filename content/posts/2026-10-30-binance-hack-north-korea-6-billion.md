@@ -1,20 +1,19 @@
 ---
-title: "Binance Hack: $6.3B Taken in Record Theft Tied to North Korea"
+title: "Binance Hack: FBI Blames North Korea as Withdrawals Resume"
 slug: binance-hack-north-korea-6-billion
-description: "The Binance hack drained about $6.3 billion in roughly 20 minutes, the largest crypto theft on record. How it happened, who's blamed and what users should know."
-dek: "About half the money was frozen within hours and Binance says it will cover every loss, but the heist is roughly four times the size of the previous record."
+description: "The FBI says North Korea's TraderTraitor unit carried out the $6.3 billion Binance hack. Withdrawals reopened Nov. 1. What happened and what users should know."
+dek: "The record theft now has an official culprit, and Binance says it has already replaced most of the stolen crypto with its own money. The hunt for the rest will take months."
 category: Tech
 tags: [Binance, crypto hack, North Korea, TraderTraitor, bitcoin, cybersecurity]
 published: 2026-10-30T15:50:00Z
-updated: 2026-10-30T15:50:00Z
-reviewed: 2026-10-30
+updated: 2026-11-01T15:43:00Z
 trend_score: 84
-why_trending: "Binance halted withdrawals late Oct. 29 after attackers moved about $6.3 billion out of its wallets, and blockchain analysts blamed North Korea on Oct. 30."
+why_trending: "The FBI formally blamed North Korea for the $6.3 billion Binance hack on Oct. 31, and Binance began reopening withdrawals on Nov. 1."
 key_points:
   - "Attackers moved roughly $6.3 billion out of Binance wallets across 10 blockchains starting late Oct. 29, most of it in about 20 minutes, according to TRM Labs."
-  - "TRM Labs and Chainalysis linked the theft to TraderTraitor, a North Korean hacking unit the FBI blamed for the $1.5 billion Bybit hack in 2025."
-  - "About $3 billion was frozen with help from stablecoin issuers such as Tether and Circle, and Binance says it set aside more than $6.34 billion to cover losses."
-  - "Withdrawals were paused, with Binance expecting them back within about 45 hours; bitcoin fell to a six-week low of $76,368."
+  - "On Oct. 31 the FBI said North Korea's TraderTraitor unit was responsible and warned the stolen assets, mostly converted into ether, will likely be laundered further."
+  - "Binance says it has replaced most of the stolen crypto with company money (about 95%, Reuters reported Nov. 1), and about $3 billion had been frozen as of Oct. 30."
+  - "Withdrawals began reopening in stages on Nov. 1, starting with 15 assets including bitcoin, ether, USDT and USDC."
 sources:
   - title: "Hackers steal $6.3 billion from Binance in record heist blamed on North Korea"
     publisher: Reuters (via Yahoo Finance)
@@ -32,13 +31,37 @@ sources:
     publisher: Cointelegraph (via TradingView)
     url: "https://www.tradingview.com/news/cointelegraph:3a8f5c45b094b:0-live-updates-binance-says-6-34b-set-aside-to-cover-hack-losses/"
     date: 2026-10-30
+  - title: "FBI blames North Korea for the Binance crypto hack, expects further laundering of assets"
+    publisher: ABC News (Australia)
+    url: "https://www.abc.net.au/news/2026-11-01/fbi-blames-north-korea-binance-cryptocurrency-exchange-hack/107333446"
+    date: 2026-11-01
+  - title: "Binance to resume withdrawals after covering bulk of stolen $6.3bn"
+    publisher: Reuters (via Dawn)
+    url: "https://www.dawn.com/news/2041364/binance-to-resume-withdrawals-after-covering-bulk-of-stolen-63bn"
+    date: 2026-11-01
+  - title: "Binance Resumes Withdrawals After Record $6.3 Billion Hack, FBI Blames North Korea"
+    publisher: TipRanks
+    url: "https://www.tipranks.com/news/binance-resumes-withdrawals-after-record-6-3-billion-hack-fbi-blames-north-korea"
+    date: 2026-11-01
+  - title: "FBI Blames North Korea for $6 Billion Binance Hack as Exchange Covers Losses"
+    publisher: Blockonomi
+    url: "https://blockonomi.com/fbi-blames-north-korea-for-6-billion-binance-hack-as-exchange-covers-losses"
+    date: 2026-11-01
 ---
+
+## Latest: FBI names North Korea, withdrawals reopen
+
+*Updated Nov. 1.* On Saturday, Oct. 31, the FBI said North Korea was behind the theft. It named the state-backed unit TraderTraitor, the same group it tied to the 2025 Bybit hack, [ABC News reports](https://www.abc.net.au/news/2026-11-01/fbi-blames-north-korea-binance-cryptocurrency-exchange-hack/107333446). Investigators saw the hackers turning most of the loot into ether, and the bureau expects them to keep laundering it through decentralized finance platforms and instant swap services. It asked exchanges and tracing firms to block transactions tied to a list of wallet addresses it published. The Secret Service and IRS Criminal Investigation are working the case with the FBI, according to [Blockonomi](https://blockonomi.com/fbi-blames-north-korea-for-6-billion-binance-hack-as-exchange-covers-losses). North Korea denies using state cyber units to steal, and President Donald Trump said Saturday the U.S. didn't yet know for sure that it was North Korea, Reuters reports.
+
+Binance started letting customers withdraw again on Sunday, Nov. 1, after a freeze of more than two days. The reopening is happening in stages: 15 assets first, including bitcoin, ether, USDT and USDC, with more networks such as XRP and Base added later in the day, [TipRanks reports](https://www.tipranks.com/news/binance-resumes-withdrawals-after-record-6-3-billion-hack-fbi-blames-north-korea).
+
+On Saturday, Binance said it had set aside enough to cover about 90% of the missing assets, with the rest in harder-to-buy tokens. By Sunday, [Reuters put the figure at 95%](https://www.dawn.com/news/2041364/binance-to-resume-withdrawals-after-covering-bulk-of-stolen-63bn), mostly through buying replacement tokens with company money. Co-CEO Yi He said half of Binance's $1 billion emergency user fund would be used and then topped back up.
 
 ## What happened
 
 Binance, the world's largest cryptocurrency exchange, lost about $6.3 billion in a hack that began late Thursday, Oct. 29. Blockchain analytics firm TRM Labs says the money left Binance wallets on 10 different blockchains, and most of it moved within roughly 20 minutes. That makes the Binance hack the biggest crypto theft on record, [Reuters reports](https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html).
 
-By Friday, two of the best-known blockchain tracing firms, TRM Labs and Chainalysis, said they believed a North Korean hacking group called TraderTraitor was behind it. TRM said it reached that view "with high confidence," the [Associated Press reports](https://www.cbsnews.com/news/binance-hack-north-korea/). No government agency had formally attributed the attack as of Friday, and North Korea routinely denies these accusations.
+By Friday, two of the best-known blockchain tracing firms, TRM Labs and Chainalysis, said they believed a North Korean hacking group called TraderTraitor was behind it. TRM said it reached that view "with high confidence," the [Associated Press reports](https://www.cbsnews.com/news/binance-hack-north-korea/). No government agency had formally attributed the attack as of Friday; the FBI did so the next day.
 
 Binance paused withdrawals, said customer money is safe and promised to cover all losses out of its own funds. Deposits were briefly paused too, but Binance said they were running normally again by Friday morning.
 
@@ -92,7 +115,9 @@ The bigger question is trust. Tim Sun of HashKey told Reuters investors may reth
 
 ## What happens next
 
-- **Withdrawals:** Binance said Friday morning it was on track to reopen them in about 45 hours, which points to early Sunday, Nov. 1, UTC.
+- **Withdrawals:** reopened in stages starting Nov. 1. Binance says the remaining assets and networks will follow in phases.
+- **Proof of reserves:** Binance plans to publish a full accounting of its reserves by Nov. 3, Blockonomi reports.
+- **The money trail:** TRM Labs' Ari Redbord told ABC he expects the hackers to split up the funds and push them through smaller exchanges over months, while investigators track them in real time. As TipRanks notes, frozen money isn't the same as recovered money.
 - **Repayment:** Binance says about $5 billion of the money it set aside was already held in the same tokens that were stolen, and it is buying the rest. Its separate emergency fund for users, a $1 billion bitcoin reserve, is far smaller than the loss.
 - **Investigation:** Binance plans a full post-mortem and is working with law enforcement. More frozen funds could turn up as tracing continues.
 
@@ -100,11 +125,11 @@ The bigger question is trust. Tim Sun of HashKey told Reuters investors may reth
 
 ### Is my money on Binance safe?
 
-Binance says all user losses will be covered from company funds and that deposits work normally. Withdrawals were paused, with the exchange expecting to restart them within about two days of its Friday update.
+Binance says all user losses will be covered from company funds. Withdrawals began reopening in stages on Nov. 1, starting with major coins such as bitcoin and ether.
 
 ### Who hacked Binance?
 
-TRM Labs and Chainalysis blame TraderTraitor, a North Korean group. Binance itself hasn't named anyone and says it is working with law enforcement.
+The FBI says TraderTraitor, a North Korean state-backed hacking unit, was responsible. TRM Labs and Chainalysis reached the same conclusion a day earlier. North Korea denies stealing crypto.
 
 ### Is this the biggest crypto hack ever?
 

@@ -1,20 +1,19 @@
 ---
-title: "Israel Election Exit Polls: Likud Leads, but No Bloc Reaches 61"
+title: "Israel Election Results: Netanyahu Bloc 53, Short of a Majority"
 slug: israel-election-2026-exit-polls
-description: "Israel election 2026 exit polls put Netanyahu's Likud first with 24-25 seats, but neither his bloc nor Eisenkot's reaches a 61-seat majority. What comes next."
-dek: "Winning the most seats is not the same as winning power in Israel. The coalition math, record turnout and a Nov. 4 count will decide who governs."
+description: "Israel election results 2026: with all votes counted, Netanyahu's bloc has 53 seats, Eisenkot's 48 and Arab parties a record 19. How it compared and what comes next."
+dek: "The final count confirmed what the exit polls hinted: nobody has 61 seats. Netanyahu's camp lost 15 seats, Arab-led parties nearly doubled, and coalition talks could take months."
 category: World
 tags: [Israel election, Benjamin Netanyahu, Gadi Eisenkot, Knesset, exit polls, coalition]
 published: 2026-10-27T22:10:00Z
-updated: 2026-10-27T22:10:00Z
-reviewed: 2026-10-27
+updated: 2026-11-01T15:44:00Z
 trend_score: 82
-why_trending: "Polls closed in Israel's general election at 10 p.m. local time on Oct. 27, 2026, and TV exit polls showed no clear winner."
+why_trending: "Israel's Central Elections Committee finished counting the Oct. 27 vote on Oct. 30, confirming that no bloc won a majority."
 key_points:
-  - "Exit polls on Kan, Channel 12 and Channel 13 give Likud 24 to 25 seats and Gadi Eisenkot's Yashar 21 to 23 of the Knesset's 120 seats."
-  - "Neither Benjamin Netanyahu's bloc (about 50 seats) nor the opposition bloc (50 to 53) reaches the 61 needed for a majority, while Arab-led parties are projected at 17 to 18."
-  - "About 74.3% of roughly 7.3 million eligible voters had voted by 8 p.m., the highest turnout in decades, according to the Central Elections Committee."
-  - "Final results are due Nov. 4, and President Isaac Herzog has until Nov. 11 to ask a lawmaker to try to form a government."
+  - "With all votes counted, Netanyahu's bloc has 53 of 120 Knesset seats, Gadi Eisenkot's bloc 48 and Arab-led parties a record 19, according to The Times of Israel."
+  - "Likud is the largest party with 27 seats, ahead of Eisenkot's Yashar with 21; the right-wing bloc held 68 seats in the outgoing Knesset."
+  - "Final turnout was 77.9%, with about 5.7 million votes cast, the highest in decades."
+  - "Results go to President Isaac Herzog on Wednesday, Nov. 4, and the new Knesset is due to be sworn in Nov. 10."
 sources:
   - title: "Israel election 2026 exit polls: Full results"
     publisher: Israel Hayom
@@ -36,7 +35,47 @@ sources:
     publisher: Al Jazeera
     url: "https://www.aljazeera.com/news/2026/10/20/israels-elections-2026-explained-in-maps-and-charts"
     date: 2026-10-20
+  - title: "With all votes counted, Netanyahu's bloc has 53 seats, Eisenkot's 48, Arab parties 19"
+    publisher: The Times of Israel
+    url: "https://www.timesofisrael.com/with-all-votes-counted-netanyahus-bloc-at-53-seats-eisenkots-48-arab-parties-19/"
+    date: 2026-10-30
+  - title: "Israel election result shows no overall majority as vote count complete"
+    publisher: Al Jazeera
+    url: "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+    date: 2026-10-29
+  - title: "Difficult negotiations lie ahead in Israel after Netanyahu's bloc lost its parliamentary majority"
+    publisher: PBS NewsHour (AP)
+    url: "https://www.pbs.org/newshour/world/difficult-negotiations-lie-ahead-in-israel-after-netanyahus-bloc-lost-its-parliamentary-majority"
+    date: 2026-10-30
 ---
+
+## Latest: the final count
+
+*Updated Nov. 1.* Counting finished early on Friday, Oct. 30, and the Israel election results match the exit polls' main message: no one has a majority. Netanyahu's bloc won 53 seats, Eisenkot's bloc 48 and Arab-led parties 19, [The Times of Israel reports](https://www.timesofisrael.com/with-all-votes-counted-netanyahus-bloc-at-53-seats-eisenkots-48-arab-parties-19/). Final turnout was 77.9%, with 5,716,665 votes cast.
+
+| Party | Final seats | Exit polls (Kan / Ch. 12 / Ch. 13) |
+|---|---|---|
+| Likud | 27 | 25 / 24 / 25 |
+| Yashar | 21 | 21 / 22 / 23 |
+| B'Yachad | 12 | 14 / 12 / 14 |
+| Joint List | 11 | 10 / 11 / 10 |
+| Democrats | 8 | 10 / 9 / 9 |
+| Ra'am | 8 | 7 / 7 / 7 |
+| Yisrael Beytenu | 7 | 8 / 9 / 7 |
+| United Torah Judaism | 7 | 6 / 6 / 7 |
+| Otzma Yehudit | 7 | 7 / 6 / 6 |
+| Shas | 6 | 6 / 8 / 6 |
+| Religious Zionism | 6 | 6 / 6 / 6 |
+
+Likud ran a few seats ahead of the main exit polls, and the Arab-led parties beat them too. Their 19 seats are an all-time high, up from 10. Two small parties missed the 3.25% threshold, as Channel 12 had projected: Yoaz Hendel's Reservists got 2.63% and Ofer Winter's People of Israel 1.7%.
+
+**The new arithmetic.** Netanyahu's camp held 68 seats in the outgoing Knesset, so it has lost 15. It now needs eight more to reach 61. Eisenkot's side needs 13. Adding the Arab-led parties would give the opposition 67, but every party in that bloc except the Democrats has ruled out working with them, The Times of Israel reports, and Eisenkot has pledged not to partner with them, [according to Al Jazeera](https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete). Eisenkot has met Naftali Bennett and Yair Golan, and Golan also met Ra'am leader Mansour Abbas.
+
+**Fraud claims.** Likud has repeated unsupported claims that Arab-led parties "stole" the vote, possibly with foreign help. Election committee chief Noam Sohlberg said he received "serious suspicions" of foreign interference that he could not verify and asked the Shin Bet security service to look into them. Qatar, which Likud accused, called the allegations "ridiculous and dangerous," [AP reports via PBS](https://www.pbs.org/newshour/world/difficult-negotiations-lie-ahead-in-israel-after-netanyahus-bloc-lost-its-parliamentary-majority). The committee's acting director said the inquiry will not change the final results.
+
+**Next steps.** Official results go to President Isaac Herzog on Wednesday, Nov. 4. He then meets party leaders, who each recommend a candidate for prime minister. The Knesset is due to be sworn in Nov. 10. Options on the table include a unity government, or the opposition teaming up with Arab-led parties just to elect a new Knesset speaker and control the agenda, AP reports. Herzog has said he will do everything he can to avoid another election, which would come early next year if coalition attempts fail.
+
+The original election-night explainer follows.
 
 ## What happened
 
@@ -99,7 +138,7 @@ Herzog does not have to choose the leader of the biggest party, [Israel Hayom no
 
 ### Who won the Israel election?
 
-No one yet. Exit polls show Likud as the largest party, but no bloc has the 61 seats needed to govern. Certified results are due Nov. 4.
+No one has a majority. With all votes counted, Likud is the largest party with 27 seats, but Netanyahu's bloc has 53, short of the 61 needed. Results go to the president Nov. 4.
 
 ### Who is Gadi Eisenkot?
 
