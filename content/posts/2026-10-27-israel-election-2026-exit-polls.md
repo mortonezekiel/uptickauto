@@ -7,6 +7,7 @@ category: World
 tags: [Israel election, Benjamin Netanyahu, Gadi Eisenkot, Knesset, exit polls, coalition]
 published: 2026-10-27T22:10:00Z
 updated: 2026-11-01T15:44:00Z
+reviewed: 2026-11-01
 trend_score: 82
 why_trending: "Israel's Central Elections Committee finished counting the Oct. 27 vote on Oct. 30, confirming that no bloc won a majority."
 key_points:

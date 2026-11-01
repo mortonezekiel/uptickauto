@@ -7,6 +7,7 @@ category: Tech
 tags: [Binance, crypto hack, North Korea, TraderTraitor, bitcoin, cybersecurity]
 published: 2026-10-30T15:50:00Z
 updated: 2026-11-01T15:43:00Z
+reviewed: 2026-11-01
 trend_score: 84
 why_trending: "The FBI formally blamed North Korea for the $6.3 billion Binance hack on Oct. 31, and Binance began reopening withdrawals on Nov. 1."
 key_points:
